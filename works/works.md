@@ -1,42 +1,31 @@
 # Hojun Song [[EN]](works.md) [[KR]](works_KR.md)
 ## Open Source Satellite Initiative
 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018  
-The OSSI-1 satellite was launched by Hojun Song in Apr 2013 at Baikonur, Kazakhstan. It was the first satellite built and launched by an individual person in history. While people have enticed with the fact, Hojun Song turns their attentions to subjects like heroisms and nationalisms in science, a present-day role of an amateur, and sharing sensitive technologies by a series of comedic and sarcastic performances.
-
-## Don't Compress Me
-2009, 2015, 2016, 2017, 2018  
-I felt terrible when my being was compressed efficiently. Don't compress me: in search of anti-compression movements is a project about I versus video encoding algorithms like H.264 codec. At don't compress me competition, participants compete to move fast and random for their large file sizes in 10 seconds. Inefficient compression of you - large file size means you cannot easily be summarized by the highly intelligent technology.
+The OSSI-1 satellite was launched by Hojun Song in Apr 2013 at Baikonur, Kazakhstan. It was the first satellite built and launched by an individual person in history. While people have enticed with the fact, Hojun Song turns their attentions to subjects like heroisms and nationalisms in science, a present-day role of an amateur, and sharing sensitive technologies by a series of comedic and sarcastic performances. 
 
 ## On Off Everything
 2018, 2019  
-On Off Everything project shows repetitive ons and offs of a group of electronic devices donated by the audiences. An electronic device is A SYSTEM that consists of many parts and its on off timings, lights, and sounds are all different for each device. So when all the devices are connected to the installation and its main central power is switched on and off periodically,a very unexpected audio visual combination  
-
-
- combined individual reponses led to
-
-we can experience unexpected audio visual experiences
-
-
-An electronic device is A SYSTEM that consists of many parts.  
-
-In signal processing theory, sudden wake-up of a system with a short electric pulse will reveal the characteristics of a system. 
-
-
-
-So repeatedly turning on and off of a random group of electronics can be led to unexpected audio visual experiences. As all the electronics are collected from the participants of the exhibition, every exhibition presents different experiences. 
-
-By supplying repetitive electric pulses to a randomly collected electronics from the participants, you will experience the responses of individual & combined small systems - small universes.
-
-At On Off Everything Artience 2019, participations from scientific institutions and citizens of Daejeon are needed. Artist supplies the AC power outlets only. Bring your own electronics and connect them and be part of the exhibition! 
-
+On Off Everything project presents repetitive ons and offs of a group of electronic devices donated by the audiences. An electronic device is A SYSTEM that consists of many parts and its on off timings, lights, and sounds are all different for each device. So when all the devices are connected to the installation and its main central power is switched on and off periodically,a very unexpected audio visual combination can occur. 
 
 ## Time To Leave The Land
-2020  
+2020 
+The 'Time To Leave The Land' is zine publishing project examines the possibility of living on the ocean while 
+Near future
+Virtual
+Space
+Solar panel
+magazine style
+colonizaion
+blockchain
 
+
+## Don't Compress Me
+2009, 2015, 2016, 2017, 2018  
+Don't Compress Me: in search of anti-compression movements is a project in which participants do their best to create movements for 10 seconds, so that their movements(existence) are not easily compressed by the video compression algorithm. Participants stand in front of a camera and take 10 seconds video, and the least compressed person, the largest file size after compression, wins. Random movements should interfere with the efficiency of compression codecs such as H.264, but in fact, as soon as they recognized, they fall into irony of not moving randomly. How can we posistion ourselves outside of the A.I.'s predictions?
 
 ## The Great Explosion
 2020  
-The Great Explosion project collects voices from particpants as materials for the explosion simulation. Voices are mapped to exploded fragments’ energies and trajectories and are condensed to explode. A noise like people’s voices played at once, a higly loaded, overdrived computer, and a video of sync and chaos give us chances to think between a simulated disaster and a existing Covid 19 situation.
+The Great Explosion project collects voices from particpants as materials for the explosion simulation. Voices are mapped to exploded fragments’ energies and trajectories and are condensed to explode. A noise like people’s voices played at once, a higly loaded, overdrived computer, and a video of sync and chaos give us chances to think between a simulated disaster and a existing one like Covid 19.
 
 ## ANTI- A.I. Vocalization Techniques
 2018  
@@ -44,7 +33,7 @@ How can we trick A.I.-based speech recognition system while a human can understa
 
 ## gold & silver
 2017, 2018  
-gold & silver is a experimental, improvisational music band of 2 members - Hojun Song and Sangback Choe. gold & silver does a very kind experimental music by actively communicating with an audience about what and why they are trying to do something at the concert. For example, the band shares the improvised song titles and why they come up with them, so that the audience can also imagine while listening. When performed well, the audience can even sing together on a improvised sound. Oh, the band even make the concert fee to minus - giving out some money to the audience, so the band can fail big time without feeling guilty. The current band setup is composed of modular synthesizers and real drums.
+gold & silver is a experimental, improvisational music band of 2 members - Hojun Song and Sangback Choe. gold & silver does a very kind experimental music by actively communicating with audiences about what and why they are trying to do something at the concert. For example, the band shares the improvised song titles and why they come up with them, so that the audiences can also imagine while listening. When performed well, the audiences can even sing together on a improvised sound. Oh, the band even make the concert fee to minus - giving out some money to the audiences, so the band can fail big time without feeling guilty. The current band setup is composed of modular synthesizers and real drums.
 
 ## GODLED Electronics
 2010, 2016  
