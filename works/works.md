@@ -1,4 +1,3 @@
-
 # Hojun Song [[EN]](works.md) [[KR]](works_KR.md)
 ## Open Source Satellite Initiative
 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018  
@@ -10,13 +9,21 @@ I felt terrible when my being was compressed efficiently. Don't compress me: in 
 
 ## On Off Everything
 2018, 2019  
-On Off Everything project shows repetitive ons and offs of a group of electronic devices donated by the audiences. An electronic device is A SYSTEM that consists of many parts.
+On Off Everything project shows repetitive ons and offs of a group of electronic devices donated by the audiences. An electronic device is A SYSTEM that consists of many parts and its on off timings, lights, and sounds are all different for each device. So when all the devices are connected to the installation and its main central power is switched on and off periodically,a very unexpected audio visual combination  
+
+
+ combined individual reponses led to
+
+we can experience unexpected audio visual experiences
+
+
+An electronic device is A SYSTEM that consists of many parts.  
 
 In signal processing theory, sudden wake-up of a system with a short electric pulse will reveal the characteristics of a system. 
 
 
 
-So repeatedly turning on and off of a group of electronics can be lead to unexpected audio visual experiences. As all the electronics are collected from the participants of the exhibition, every exhibition presents different experiences. 
+So repeatedly turning on and off of a random group of electronics can be led to unexpected audio visual experiences. As all the electronics are collected from the participants of the exhibition, every exhibition presents different experiences. 
 
 By supplying repetitive electric pulses to a randomly collected electronics from the participants, you will experience the responses of individual & combined small systems - small universes.
 
