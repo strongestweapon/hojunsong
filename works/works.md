@@ -8,7 +8,7 @@ The OSSI-1 satellite was launched by Hojun Song in Apr 2013 at Baikonur, Kazakhs
 On Off Everything project presents repetitive ons and offs of a group of electronic devices donated by the audiences. An electronic device is A SYSTEM that consists of many parts and its on off timings, lights, and sounds are all different for each device. So when all the devices are connected to the installation and its main central power is switched on and off periodically, a very unexpected audio visual combination can occur. 
 
 ## Time To Leave The Land
-2020, 2021
+2020, 2021  
 'Time to Leave The Land' project uses a sailboat to create a floating and isolated studio for near-future storytelling. The project examines topics on off-grid ocean living in the era of pandemic and virtual reality. Along with scientists, artists, musicians, and writers, the boat sails distant seas and they complete a short science fiction zine together. The converstion on the boat is live streamed for collaobration with audiences. The sailing and the zine publishing is planned quarterly.
 
 ## Don't Compress Me
