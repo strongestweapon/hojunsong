@@ -9,7 +9,7 @@ On Off Everything project presents repetitive ons and offs of a group of electro
 
 ## Time To Leave The Land
 2020, 2021  
-'Time to Leave The Land' project uses a sailboat to create a floating and isolated studio for near-future storytelling. The project examines topics on off-grid ocean living in the era of pandemic and virtual reality. Along with scientists, artists, musicians, and writers, the boat sails distant seas and they complete a short science fiction zine together. The converstion on the boat is live streamed for collaobration with audiences. The sailing and the zine publishing is planned quarterly.
+'Time to Leave The Land' project uses a sailboat to create a floating and isolated near-future storytelling studio. The project examines topics on off-grid ocean living in the era of pandemic and virtual reality. Along with scientists, artists, musicians, and writers, the boat sails distant seas to complete a short science fiction zine together. The converstion on the boat is live streamed for possible collaobration with audiences. The sailing and the zine publishing are planned quarterly.
 
 ## Don't Compress Me
 2009, 2015, 2016, 2017, 2018  
@@ -62,7 +62,7 @@ Prove It: For The Betterment Of Mankind report was the curatorial research and e
 
 ## ANTI-Climax
 2013  
-ANTI-Climax is a show by Hojun Song shown at the opening of MMCA, Seoul. Collaborated with actor, Taeyoung Kang, actress, Eun-ah Suh, and the band Idiotape, the show talks about deconstructing formerly gained authorities of the art work to create next one. Starting from non-sense talking LED poets to self-confession cross computer chatting, calling out every audiences' names, flower rope suicides, and ended with loud music in the holy contemporary art museum. Clumsy no art like graphics, fake sculptures were in front, technologies and media were shown but hidden. 3 people danced out of hundreds of audiences.
+ANTI-Climax is a show by Hojun Song shown at the opening of MMCA, Seoul. Collaborated with actor, Taeyoung Kang, actress, Eun-ah Suh, and the band Idiotape, the show talks about deconstructing formerly gained authorities of the art work to create next one. Starting from non-sense talking LED poets to self-confession cross computer chatting, calling out every audiences' names, flower rope suicides, and ended with loud music in the holy contemporary art museum. Clumsy no art like graphics, fake sculptures were in front, technologies and media were shown but hidden. Only 3 people danced out of hundreds of audiences.
 
 ## Apple
 2010, 2017, 2018  
@@ -74,7 +74,7 @@ Radiation jewelries are for those who want to commit suicide. Taste the death be
 
 ## The Strongest Weapon In The World
 2007, 2009, 2010  
-The strongest weapon in the world project is a series of tries to build an indestructible weapon that DOES NOT attack. The first one a.k.a Weapons of Mass Happiness was a heavy aluminum casted spherical shape weapon equipped with geiger counter for radioactive particle detection and a printer for spit out messages when triggered. The second strongest weapon in the world was built with students of K-SAD with custom letter engravings on cow bones to emphasize that indestructible data is the the ultimate weapon. In 2010, the third version - I Love You weapon was made. Armored with thick SC45 steel and with piezo sensor sound module inside, when hit with construction hammer, it says I love you to the attacker.
+The strongest weapon in the world project is a series of tries to build an indestructible weapon that DOES NOT attack. The first one a.k.a Weapons of Mass Happiness was a heavy aluminum casted spherical shape weapon equipped with geiger counter for radioactive particle detection and a printer for spit out messages when triggered. The second strongest weapon in the world was built with students of K-SAD with custom letter engravings on cow bones to emphasize that indestructible data is the the ultimate weapon. In 2010, the third version - I Love You weapon was made. Armored with thick SC45 steel and with piezo sensor sound module inside, when hit with construction hammer, it says 'I love you' to the attacker.
 
 ## Sync-O-Light
 2006, 2017  
