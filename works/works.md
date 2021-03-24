@@ -37,7 +37,7 @@ Even after the Trinity experiment where the power of a nuclear bomb was seen and
 
 ## Divided We Stand, United We Fall
 2015  
-Divided We Stand, United We Fall. A Portable Network Graphics design.
+Divided We Stand, United We Fall. The deconstruction of a hero. A manifesto for diversity. ANTI-A.I.
 
 ## Poomba
 2015  
