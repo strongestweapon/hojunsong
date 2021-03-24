@@ -9,7 +9,7 @@ On Off Everything project presents repetitive ons and offs of a group of electro
 
 ## Time To Leave The Land
 2020, 2021  
-'Time to Leave The Land' project uses a sailboat to create a floating and isolated near-future storytelling studio. The project examines topics on off-grid ocean living in the era of pandemic and virtual reality. Along with scientists, artists, musicians, and writers, the boat sails distant seas to complete a short science fiction zine together. The converstion on the boat is live streamed for possible collaobration with audiences. The sailing and the zine publishing are planned quarterly.
+'Time to Leave The Land' project uses a sailboat to create a floating and isolated near-future storytelling studio. The project examines topics on off-grid ocean living in the era of pandemic and virtual reality. Along with scientists, artists, musicians, and writers, the boat sails distant seas to complete a short science fiction zine together. The converstion on the boat is live streamed for on-site collaobration with audiences. The sailing and the zine publishing are planned quarterly.
 
 ## Don't Compress Me
 2009, 2015, 2016, 2017, 2018  
