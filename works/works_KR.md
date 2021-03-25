@@ -44,7 +44,7 @@ GODLED 일렉트로닉스는 송호준 작가가 세운 신 모양의 LED를 대
 2015  
 2015년, 일맥 아트 프라이즈 수상자로 선정된 송호준 작가의 개인전이 열렸다. 하지만 어떠한 물리적인 작업도 선보이지 않았다. 작가 내부적으로 영웅의 해체와 낭만의 회복이라는 2가지 가치가 심하게 충돌하여 말로 질문을 던지는거 외에는 먼가를 만들어 관객들에게 보여주고 설득한다는것이 폭력적으로 느껴졌기 때문이다. '품바'는 한국 고려시대 말에 등장한 거지이기도 하지만 광대이며 존경받는 거리의 승려인 한 풍자 시인이다. 스스로를 셀프디스 하면서도 영웅들을 해체하는 영웅이 품바였고 작가는 미래의 품바를 고민하는것으로 작가의 충돌하는 2가치를 이야기할 수 있었다. 공사장에서 벌어진 전시에서는 미래의 품바를 이야기하기 위한 4개의 토크와 4개의 워크샵이 진행되었고 모두 라이브 중계되었다. 관객들은 공사장에서 수영하고 캠핑하며 밤새 서로 이야기하며 음주가무를 즐겼다. 
 
-## LED That Blinks Once Every 100 Years
+## 100년에 한번 깜박이는 LED
 2010, 2015  
 A small 5mm LED blink every 100 years. The idea began in 2010 and almost realized as a public art project in 2015. A 2 meter high spherical structure would be machined to contain inert gas filled LED module vacuum chamber. Nuclear batteries were used and passive heating system design was adopted via thorough thermal simulations. The project was rejected by juries of the local public art committee as Hojun Song turned down their proposal to blink the LED every year.
 
@@ -56,23 +56,23 @@ dssb is a death metal-ish band of 2 members - Hojun Song and Jinhwa Jeong. The b
 2014  
 In Korea, bowing is used in greetings or required to express thanks. But when the bowing is combined with the macho in its extreme, it almost becomes a fear response to the strong. While the normal angle of the bowing is 30-40 degree, the extreme macho bowing is 90 degree angle. The angular velocity of the bowing should also be much faster than the normal bowing. The volume of saying hello should also be much louder. This extreme macho bowing is very common among gangsters and military people but is also common among college clubs and k-pop idols. Hello 90 is an interactive video installation that shows people bowing in 90 degree when you enter a space.
 
-## Prove It: For ~~The Betterment Of~~ Mankind
+## 인류를  ~~번영을~~ 위하여 증명하시요
 2014  
 Prove It: For The Betterment Of Mankind report was the curatorial research and exhibition plan for a section of the opening exhibition of Asian Culture Center, Gwangju, Korea. Air bending vs Large Hadron Collider. How come only a few interested in air bending while nations spend billions of money for LHC at Cern. Is this about pseudo vs real science? Or is this about which can make world better? What is the betterment? Experts prove, people believe. Believe is the word as most of the people cannot understand. Whether it be pseudo or real, we can question these stupid and fundamental questions by juxtaposing extreme yet somewhat unrelated well-known proving efforts side by side. Air bending vs LHC, a man hikes up to mountain with atomic clock to feel the existence of the time, human echolocation of blind people, Dynasphere machine to produce love Qi for world peace, quantum consciousness, and etc. * The exhibition could not be made due to the replacement of the director.
 
-## ANTI-Climax
+## 용두사미 ANTI-Climax
 2013  
 ANTI-Climax is a show by Hojun Song shown at the opening of MMCA, Seoul. Collaborated with actor, Taeyoung Kang, actress, Eun-ah Suh, and the band Idiotape, the show talks about deconstructing formerly gained authorities of the art work to create next one. Starting from non-sense talking LED poets to self-confession cross computer chatting, calling out every audiences' names, flower rope suicides, and ended with loud music in the holy contemporary art museum. Clumsy no art like graphics, fake sculptures were in front, technologies and media were shown but hidden. Only 3 people danced out of hundreds of audiences.
 
-## Apple
+## 사과 Apple
 2010, 2017, 2018  
-Apple ripens as it gets attentions from people. When people take a picture of the apple with flash, it slowly turns red from green and produces eerie sounds. 400 light and sound modules work independently toward the synced state.
+사람들의 관심을 받을 수록 익어가는 사과. 관객들이 플래시를 이용해 사진을 찍으면 사과는 이상한 소리를 내며서 점점 빨갛게 익어간다. 빛에 반응하는 400개의 사운드 프로세서로 만들어져 독립적이면서도 싱크가 맞는 상태를 보여준다.
 
-## Radiation Jewelry
+## 방사능 보석
 2010, 2013, 2016  
 Radiation jewelries are for those who want to commit suicide. Taste the death before making a final decision. We need stronger materials to taste the death. Drugs are not enough. Upon buying the jewelry, the length of the stainless wire necklace is adjusted with wire stopper so you cannot take it off. Tried selling an uranium necklace in e-bay for 900,000 USD but failed due to the price-to-life ratio miscalculation - a life was cheaper than 900,000 USD.
 
-## The Strongest Weapon In The World
+## 이 세상에서 가장 강력한 무기
 2007, 2009, 2010  
 The strongest weapon in the world project is a series of tries to build an indestructible weapon that DOES NOT attack. The first one a.k.a Weapons of Mass Happiness was a heavy aluminum casted spherical shape weapon equipped with geiger counter for radioactive particle detection and a printer for spit out messages when triggered. The second strongest weapon in the world was built with students of K-SAD with custom letter engravings on cow bones to emphasize that indestructible data is the the ultimate weapon. In 2010, the third version - I Love You weapon was made. Armored with thick SC45 steel and with piezo sensor sound module inside, when hit with construction hammer, it says 'I love you' to the attacker.
 
