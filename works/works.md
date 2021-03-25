@@ -1,11 +1,11 @@
 # Hojun Song [[EN]](works.md) [[KR]](works_KR.md)
 ## Open Source Satellite Initiative
 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018  
-The OSSI-1 satellite was launched by Hojun Song in Apr 2013 at Baikonur, Kazakhstan. It was the first satellite built and launched by an individual person in history. While people have enticed with the fact, Hojun Song turns their attentions to subjects like heroisms and nationalisms in science, a present-day role of an amateur, and sharing sensitive technologies by a series of comedic and sarcastic performances. 
+The OSSI-1 satellite was launched by Hojun Song in Apr 2013 at Baikonur, Kazakhstan. It was the first satellite built and launched by an individual person in history. While people have enticed with the fact, Hojun Song turns their attentions to subjects like heroisms and nationalisms in science, a present-day role of an amateur, and sharing sensitive technologies by a series of comedic and satirical performances. 
 
 ## On Off Everything
 2018, 2019  
-On Off Everything project presents repetitive ons and offs of a group of electronic devices donated by the audiences. An electronic device is A SYSTEM that consists of many parts and its on off timings, lights, and sounds are all different for each device. So when all the devices are connected to the installation and its main central power is switched on and off periodically, a very unexpected audio visual combination can occur. 
+On Off Everything project presents repetitive ons and offs of a group of electronic devices brought by the audiences. An electronic device is A SYSTEM that consists of many parts and its on off timings, lights, and sounds are all different for each device. So when all the devices are connected to the installation and its main central power is switched on and off periodically, a very unexpected audio visual combination can occur. 
 
 ## Time To Leave The Land
 2020, 2021  
@@ -13,7 +13,7 @@ On Off Everything project presents repetitive ons and offs of a group of electro
 
 ## Don't Compress Me
 2009, 2015, 2016, 2017, 2018  
-Don't Compress Me: in search of anti-compression movements is a project in which participants do their best to create movements for 10 seconds, so that their movements(existence) are not easily compressed by the video compression algorithm. Participants stand in front of a camera and take 10 seconds video, and the least compressed person, the largest file size after compression, wins. Random movements should interfere with the efficiency of compression codecs such as H.264, but in fact, as soon as they recognized, they fall into irony of not moving randomly. How can we posistion ourselves outside of the A.I.'s predictions?
+Don't Compress Me is a project in which participants do their best to create movements for 10 seconds, so that their movements(existence) are not easily compressed by the video compression algorithm. Participants stand in front of a camera and take 10 seconds video, and the least compressed person, the largest file size after compression, wins. Random movements should interfere with the efficiency of compression codecs such as H.264, but in fact, as soon as they recognized, they fall into irony of not moving randomly. How can we move and think outside of the A.I.'s predictions?
 
 ## The Great Explosion
 2020  
@@ -21,7 +21,7 @@ The Great Explosion project collects voices from particpants as materials for th
 
 ## ANTI- A.I. Vocalization Techniques
 2018  
-How can we trick A.I.-based speech recognition system while a human can understand the speech? And by not changing the context of the speech? Able to deceive google cloud speech recognition by changing intonations and by inserting special white noise sounds in between syllables. Deny standardizations.
+How can we trick A.I.-based speech recognition system while a human can understand the speech? And by not changing the context of the speech? Able to deceive google cloud speech recognition by changing intonations and by inserting special white noise sounds in between syllables. A.I. kills the diversity. Deny the bias.
 
 ## gold & silver
 2017, 2018  
@@ -29,7 +29,7 @@ gold & silver is a experimental, improvisational music band of 2 members - Hojun
 
 ## GODLED Electronics
 2010, 2016  
-GODLED Electronics is a company owned by Hojun Song to mass produce God-shaped LED electronics. The idea began in 2010 but only in 2016, he was able to show the first prototypes. The current lineups are Buddha (LG-BUD-6036), Jesus (LW-JES-7620), Mary (LB-MAR- 4125), and Ganesh (LR-GAN-6036) and are going to be produced in Q3 2019.
+GODLED Electronics is a company owned by Hojun Song to mass produce God-shaped LED electronics. The idea began in 2010 but only in 2016, he was able to show the first prototypes. The current lineups are Buddha (LG-BUD-6036), Jesus (LW-JES-7620), Mary (LB-MAR- 4125), and Ganesh (LR-GAN-6036) and are going to be produced in Q3 2021.
 
 ## For Humanity - Einstein Merong
 2016  
@@ -41,7 +41,7 @@ Divided We Stand, United We Fall. The deconstruction of a hero. A manifesto for 
 
 ## Poomba
 2015  
-Awarded as the winner of Ilmac Art prize 2015, Hojun Song's solo exhibition was held. But there were no physical creations. Deconstruction of heroes. Restoration of romance. Two collided heavily, only thing the artist could do was asking questions as creating something and showed to the audience seemed to be violent. The poomba was an Korean character from the end of Goryeo dynasty and was a satirist, much like a clown, but also a beggar, and a street monk respected by people for his/her wisdoms. A self disrespecting, deconstructing hero in the future became the theme of the exhibition. 4 talks and 4 workshops to become future poomba were held at the exhibition site including construction site nearby and live streamed. Camping and swimming at the construction site, inviting people to the site every night for drinks. All were done right in front of the Gyeongbokgung palace of Chosun dynasty and it was the right place for the poomba as the poomba was the kicked-out monk from the Goryeo when the Chosun was built.
+Awarded as the winner of Ilmac Art prize 2015, Hojun Song's solo exhibition was held. But there were no physical creations. Deconstruction of heroes. Restoration of romance. Two collided heavily, only thing the artist could do was asking questions as creating something and showed to the audience seemed to be violent. The poomba was an Korean character from the end of Goryeo dynasty and was a satirist, much like a clown, but also a beggar, and a street monk respected by people for his/her wisdoms. Poomba was a self disrespecting, a hero-deconstructing hero. So the Poomba of the future became the theme of the exhibition to talk about two collided subjects. 4 talks and 4 workshops to become future poomba were held at the exhibition site including construction site nearby and live streamed. Camping and swimming at the construction site, inviting people to the site every night for drinks. 
 
 
 ## LED That Blinks Once Every 100 Years

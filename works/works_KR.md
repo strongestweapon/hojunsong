@@ -34,16 +34,16 @@ GODLED 일렉트로닉스는 송호준 작가가 세운 신 모양의 LED를 대
 
 ## 인류를 위하여 - 아인슈타인 메롱
 2016  
- 트리니티 실험을 통해 핵폭탄의 파괴력을 확인했고 독일이 항복했음에도 불구하고 맨하탄 프로젝트는 멈추지 않았고 일본에 2개의 핵폭탄을 투하하였다. 아인슈타인과 프로젝트에 참여했던 많은 과학자들이 나중에 후회와 사과를 하였지만 여전히 많은 의구심이 든다. 정말 그 수많은 천재들 중 한명이라도 폭탄을 투하하기전 프로젝트를 중단할 수 없었을까? 관객들이 금색 액자에 작은 글씨로 쓰여진 맨하탄 프로젝트에 대한 글을 다가가서 볼때 바로 옆에 있지만 액자를 보기 때문에 볼 수 없는 아인슈타인의 얼굴은 혀를 내미는 얼굴로 바뀌게 된다. 메롱.
+트리니티 실험을 통해 핵폭탄의 파괴력을 확인했고 독일이 항복했음에도 불구하고 맨하탄 프로젝트는 멈추지 않았고 일본에 2개의 핵폭탄을 투하하였다. 아인슈타인과 프로젝트에 참여했던 많은 과학자들이 나중에 후회와 사과를 하였지만 여전히 많은 의구심이 든다. 정말 그 수많은 천재들 중 한명이라도 폭탄을 투하하기전 프로젝트를 중단할 수 없었을까? 관객들이 금색 액자에 작은 글씨로 쓰여진 맨하탄 프로젝트에 대한 글을 다가가서 볼때 바로 옆에 있지만 액자를 보기 때문에 볼 수 없는 아인슈타인의 얼굴은 혀를 내미는 얼굴로 바뀌게 된다. 메롱.
 
 ## 흩어지면 살고 뭉치면 죽는다 Divided We Stand, United We Fall
 2015  
 흩어지면 살고 뭉치면 죽는다. 영웅의 해체. 다양성 선언. 반 인공지능.
 
-## Poomba
+## 품바
 2015  
-Awarded as the winner of Ilmac Art prize 2015, Hojun Song's solo exhibition was held. But there were no physical creations. Deconstruction of heroes. Restoration of romance. Two collided heavily, only thing the artist could do was asking questions as creating something and showed to the audience seemed to be violent. The poomba was an Korean character from the end of Goryeo dynasty and was a satirist, much like a clown, but also a beggar, and a street monk respected by people for his/her wisdoms. A self disrespecting, deconstructing hero in the future became the theme of the exhibition. 4 talks and 4 workshops to become future poomba were held at the exhibition site including construction site nearby and live streamed. Camping and swimming at the construction site, inviting people to the site every night for drinks. All were done right in front of the Gyeongbokgung palace of Chosun dynasty and it was the right place for the poomba as the poomba was the kicked-out monk from the Goryeo when the Chosun was built.
-
+Awarded as the winner of Ilmac Art prize 2015, Hojun Song's solo exhibition was held. But there were no physical creations. Deconstruction of heroes. Restoration of romance. Two collided heavily, only thing the artist could do was asking questions as creating something and showed to the audience seemed to be violent. The poomba was an Korean character from the end of Goryeo dynasty and was a satirist, much like a clown, but also a beggar, and a street monk respected by people for his/her wisdoms. Poomba was a self disrespecting, a hero-deconstructing hero. So the Poomba of the future became the theme of the exhibition to talk about two collided subjects. 4 talks and 4 workshops to become future poomba were held at the exhibition site including construction site nearby and live streamed. Camping and swimming at the construction site, inviting people to the site every night for drinks. 
+2015년, 일맥 아트 프라이즈 수상자로 선정된 송호준 작가의 개인전이 열렸다. 하지만 어떠한 물리적인 작업도 선보이지 않았다. 작가 내부적으로 영웅의 해체와 낭만의 회복이라는 2가지 가치가 심하게 충돌하여 말로 질문을 던지는거 외에는 먼가를 만들어 관객들에게 보여주고 설득한다는것이 폭력적으로 느껴졌기 때문이다. '품바'는 한국 고려시대 말에 등장한 거지이기도 하지만 광대이며 존경받는 거리의 승려인 한 풍자 시인이다. 스스로를 셀프디스 하면서도 영웅들을 해체하는 영웅이 품바였고 작가는 미래의 품바를 고민하는것으로 작가의 충돌하는 2가치를 이야기할 수 있었다. 공사장에서 벌어진 전시에서는 미래의 품바를 이야기하기 위한 4개의 토크와 4개의 워크샵이 진행되었고 모두 라이브 중계되었다. 관객들은 공사장에서 수영하고 캠핑하며 밤새 서로 이야기하며 음주가무를 즐겼다. 
 
 ## LED That Blinks Once Every 100 Years
 2010, 2015  
