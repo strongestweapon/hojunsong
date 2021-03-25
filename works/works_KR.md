@@ -6,7 +6,7 @@
 
 ## On Off Everything
 2018, 2019  
-On Off Everything 은 관객들이 가져온 전자장치들을 반복적으로 켜고 끄는 프로젝트이다. 전자장치는 다양한 부품들로 이뤄진 하나의 계SYSTEM이며 각각의 장치들마다 켜고 꺼지는 타이밍, 불빛과 소리들이 모두 다르다. 이렇듯 모든 장치들이 설치작업에 연결되고 그 메인전원을 켜고 끄기를 반복하면 연결된 장치들의 오디오 비주얼의 조합은 예측불가능한 새로운 형태가 된다. 
+On Off Everything은 관객들이 가져온 전자장치들을 반복적으로 켜고 끄는 프로젝트이다. 전자장치는 다양한 부품들로 이뤄진 하나의 계SYSTEM이며 각각의 장치들마다 켜고 꺼지는 타이밍, 불빛과 소리들이 모두 다르다. 이렇듯 모든 장치들이 설치작업에 연결되고 그 메인전원을 켜고 끄기를 반복하면 연결된 장치들의 오디오 비주얼의 조합은 예측불가능한 새로운 형태가 된다. 
 
 ## 이제는 육지를 떠날 때
 2020, 2021  
@@ -26,7 +26,7 @@ On Off Everything 은 관객들이 가져온 전자장치들을 반복적으로 
 
 ## gold & silver
 2017, 2018  
-gold & silver 는 송호준과 최상백으로 구성된 즉흥 실험 음악 밴드이다. 무엇을 왜 어떻게 실험할지 관객들과 적극적으로 소통하는 친절한 실험 음악 공연 밴드이다. 공연 전 곡명을 생각하게된 경위를 상세히 말해주고 연주하다보면 관객들은 같이 상상하고 처음 들어보는 즉흥 실험 음악을 같이 흥얼거릴 수 있는 상황이 생기기도 한다. 실패에 대해 죄책감을 느끼지 않고 실험하기위해 관객들에게 돈을 주는 공연을 해오고 있다. 현재 악기 구성은 모듈러 신스와 리얼 드럼이다.
+gold & silver는 송호준과 최상백으로 구성된 즉흥 실험 음악 밴드이다. 무엇을 왜 어떻게 실험할지 관객들과 적극적으로 소통하는 친절한 실험 음악 공연 밴드이다. 공연 전 곡명을 생각하게된 경위를 상세히 말해주고 연주하다보면 관객들은 같이 상상하고 처음 들어보는 즉흥 실험 음악을 같이 흥얼거릴 수 있는 상황이 생기기도 한다. 실패에 대해 죄책감을 느끼지 않고 실험하기위해 관객들에게 돈을 주는 공연을 해오고 있다. 현재 악기 구성은 모듈러 신스와 리얼 드럼이다.
 
 ## GODLED 일렉트로닉스
 2010, 2016  
@@ -46,36 +46,37 @@ GODLED 일렉트로닉스는 송호준 작가가 세운 신 모양의 LED를 대
 
 ## 100년에 한번 깜박이는 LED
 2010, 2015  
-A small 5mm LED blink every 100 years. The idea began in 2010 and almost realized as a public art project in 2015. A 2 meter high spherical structure would be machined to contain inert gas filled LED module vacuum chamber. Nuclear batteries were used and passive heating system design was adopted via thorough thermal simulations. The project was rejected by juries of the local public art committee as Hojun Song turned down their proposal to blink the LED every year.
+작고 값싼 5mm 직경의 LED가 100년에 한번 깜박인다. 2010년에 시작된 아이디어는 2015년 공공조형물 프로젝트로 거의 실현될뻔하였다. LED는  비활성 기체가 채워전 진공챔버안에 들어가 있고 이 챔버를 정밀하게 가공된 2미터 크기의 구형 구조물에 둘러싸여있다. 100년간 동작할 전원으로 핵 건전지가 사용되고 열 시뮬레이션을 통해 패시브 냉방 시스템이 디자인되었다. 이 작업은 1년마다 한번씩 켜달라는 공공조형물 심사위원단의 제안을 거졀하여 두번에 걸쳐 탈락하여 최종 탈락하였다. 
 
 ## dssb
 2014  
-dssb is a death metal-ish band of 2 members - Hojun Song and Jinhwa Jeong. The band's formation was highly influenced by the Sewol ferry disaster that led 304 passengers to death and the helpless Korean society in 2014.
+dssb는 송호준, 정진화로 구성된 데스메탈일거 같은 2인 밴드이다. 밴드는 2014년 세월호 사고와 무기력했던 한국 사회에 영향을 받아 시작되었다.
 
-## Hello 90
+## 안녕하십니까 90
 2014  
-In Korea, bowing is used in greetings or required to express thanks. But when the bowing is combined with the macho in its extreme, it almost becomes a fear response to the strong. While the normal angle of the bowing is 30-40 degree, the extreme macho bowing is 90 degree angle. The angular velocity of the bowing should also be much faster than the normal bowing. The volume of saying hello should also be much louder. This extreme macho bowing is very common among gangsters and military people but is also common among college clubs and k-pop idols. Hello 90 is an interactive video installation that shows people bowing in 90 degree when you enter a space.
+인사를 하거나 고마움을 표시할때 한국에서는 고개를 숙인다. 하지만 이 고개 숙임은 한국의 극단적인 마초 문화 속에서 강자에 대한 두려움에 대한 반응으로 해석할 수 있다. 보통의 고개 숙임의 각도가 30-40도 정도라면 극단적인 마초 인사는 각도가 90도에 이른다. 이 마초 고개 숙임의 각속도는 보통의 인사 각속도보다 훨씬 빠르다. '안녕하십니까'를 외치는 소리도 월등히 크다. 이러한 식의 마초적인 인사법은 건달 문화 혹은 군대 문화 사람들 사이에 만연하지만 대학교 동아리 혹은 아이돌 그룹에서도 볼 수 있다. '안녕하십니까 90'은 공간에 설치된 센서가 인식되면 마주하고 있는 영상에서 큰소리와 90도 안녕하십니까를 보여주는 인터렉티브 비디오 설치작업이다. 
 
 ## 인류를  ~~번영을~~ 위하여 증명하시요
 2014  
-Prove It: For The Betterment Of Mankind report was the curatorial research and exhibition plan for a section of the opening exhibition of Asian Culture Center, Gwangju, Korea. Air bending vs Large Hadron Collider. How come only a few interested in air bending while nations spend billions of money for LHC at Cern. Is this about pseudo vs real science? Or is this about which can make world better? What is the betterment? Experts prove, people believe. Believe is the word as most of the people cannot understand. Whether it be pseudo or real, we can question these stupid and fundamental questions by juxtaposing extreme yet somewhat unrelated well-known proving efforts side by side. Air bending vs LHC, a man hikes up to mountain with atomic clock to feel the existence of the time, human echolocation of blind people, Dynasphere machine to produce love Qi for world peace, quantum consciousness, and etc. * The exhibition could not be made due to the replacement of the director.
+'인류의 ~~번영을~~ 위하여 증명하시요'는 광주 아시아 문화 전당 개관 전시의 한 섹션에 대한 큐레이션 리서치이자 전시 기획 리포트이다. 장풍과 중입자가속기. 수십조의 돈을 Cern의 중입자가속기에 쓰면서 왜 아무도 장풍에 관심을 기울이지 않는가? 의사pseudo 과학과 진짜 과학의 차이인가? 무엇이 세상을 더 좋게 만들가에 대한 차이인가? 무엇이 번영인가? 전문가들은 증명하고 사람들은 믿는다. 대부분의 사람들이 이해하지 못한다면 믿음은 중요한 단어이다. 가짜이건 진짜이건 이러한 바보같지만 근본적인 질문들을 서로 연결되어 있지 않은 듯한 양 극단의 예를 통해 병렬적으로 보여주는 것은 의미가 있다. 장풍과 원자가속기, 시간의 존재를 느끼기 위해 원자 시계를 가지고 등산하는 사람, 눈이보이지 않는 사람들의 에코 로케이션, 세계 평화를 위해 사랑의 기를 만들어 내는 다이나스피어, 양자 의식 등과 같은 것들이 그 예이다. *디렉터의 교체로 이 전시는 실현되지 못하였다.
 
 ## 용두사미 ANTI-Climax
 2013  
-ANTI-Climax is a show by Hojun Song shown at the opening of MMCA, Seoul. Collaborated with actor, Taeyoung Kang, actress, Eun-ah Suh, and the band Idiotape, the show talks about deconstructing formerly gained authorities of the art work to create next one. Starting from non-sense talking LED poets to self-confession cross computer chatting, calling out every audiences' names, flower rope suicides, and ended with loud music in the holy contemporary art museum. Clumsy no art like graphics, fake sculptures were in front, technologies and media were shown but hidden. Only 3 people danced out of hundreds of audiences.
+용두사미ANTI-Climax는 서울 국립현대미술관의 개관과 함께 선보인 공연이다. 배우 강태영, 서은아, 밴드 이디오테잎과 함께 기존에 얻어진 자신의 권위를 해체할 때 새로운 창작의 기회는 마련된다라는 주제로 기획되었다. 과시하며 말이 안되는 소리를 하는 LED 시인으로부터 시작되어 즉흥적으로 스스로의 과거를 고백하는 채팅, 관객들의 이름들을 일일이 크게 호명하고, 꽃 목걸이에 목을 매다 위대한 현대 미술관에서 큰 소리의 전자 음악이 울려퍼지는걸 끝으로 공연은 마무리된다. 어설픈 그래픽 디자인들, 가짜 설치조각들이 앞서 선보이고 기술 매체들은 보여지지만 뒤에 숨겨있다. 수백명의 관객 중 단 3명만이 춤을 추었다.
 
 ## 사과 Apple
 2010, 2017, 2018  
-사람들의 관심을 받을 수록 익어가는 사과. 관객들이 플래시를 이용해 사진을 찍으면 사과는 이상한 소리를 내며서 점점 빨갛게 익어간다. 빛에 반응하는 400개의 사운드 프로세서로 만들어져 독립적이면서도 싱크가 맞는 상태를 보여준다.
+사람들의 관심을 받을 수록 익어가는 사과. 관객들이 플래시를 이용해 사진을 찍으면 사과는 이상한 소리를 내며 점점 빨갛게 익어간다. 빛에 반응하는 400개의 사운드 프로세서로 만들어져 독립적이면서도 싱크가 맞는 상태를 보여준다.
 
-## 방사능 보석
+## 우라늄 목걸이
 2010, 2013, 2016  
-Radiation jewelries are for those who want to commit suicide. Taste the death before making a final decision. We need stronger materials to taste the death. Drugs are not enough. Upon buying the jewelry, the length of the stainless wire necklace is adjusted with wire stopper so you cannot take it off. Tried selling an uranium necklace in e-bay for 900,000 USD but failed due to the price-to-life ratio miscalculation - a life was cheaper than 900,000 USD.
+우라늄 목걸이는 자살하고 싶은 사람을 위한 작업이다. 최후의 결정을 내리기 전 죽음을 시음해 보자. 죽음을 시음하기 위해서는 좀더 강한 물질이 필요하다. 마약은 충분하지 않다. 목걸이를 사게 되면 목걸이의 스테인레스 목줄은 구매자의 목둘레에 맞게 조정되고 풀 수 없게 고정된다. 이베이에서 10억원에 팔려고 했으나 삶의 가격에 비해 너무 비싸게 판다는 코멘트를 받았다. 
 
 ## 이 세상에서 가장 강력한 무기
 2007, 2009, 2010  
-The strongest weapon in the world project is a series of tries to build an indestructible weapon that DOES NOT attack. The first one a.k.a Weapons of Mass Happiness was a heavy aluminum casted spherical shape weapon equipped with geiger counter for radioactive particle detection and a printer for spit out messages when triggered. The second strongest weapon in the world was built with students of K-SAD with custom letter engravings on cow bones to emphasize that indestructible data is the the ultimate weapon. In 2010, the third version - I Love You weapon was made. Armored with thick SC45 steel and with piezo sensor sound module inside, when hit with construction hammer, it says 'I love you' to the attacker.
+이 세상에서 가장 강력한 무기 프로젝트는 상대방을 공력하지 않으면서 절대 파괴되지 않는 무기들을 만드는 시도들을 보여준다. 첫번째 이 세상에서 가장 강력한 무기는 대량 행복 무기Weapons of Mass Happiness로 알루미늄 주조로 만들어진 거대한 구모양의 장치로 방사능을 측정할 수 있는 가이거 카운터를 탑재하고 있어 핵폭발이 발생하면 내장된 프린터로 메시지를 인쇄하여 뿜어낸다. 두번째 무기는 계원대 학생들과 함께 소뼈에 각자의 역사를 특별히 고안된 문양으로 새겨넣은 작업으로 가장 강력한 것은 절대 파괴 되지 않는 데이터임을 이야기한다. 2010년 세번째 선보인 이 세상에서 가장 강력한 무기 I Love You 무기는 두꺼운 SC45 강철로 만들어진 외곽과 내부에 탑재된 센서 사운드 모듈로 만들어졌고 공사장 망치로 내려치게 되면 내려친 사람에게 사랑한다 말해준다. 
+
 
 ## Sync-O-Light
 2006, 2017  
-Inspired by a Steven Strogatz's book - SYNC, Sync-O-Light is an attempt to create a fireflies group that changes states from sync to chaos and vice versa with 200 sound reactive modules with UV lights.
+스티븐 스트로가츠Steven Strogat의 책 싱크(2003)에 영감을 받아 만들어진 Sync-O-Light는 싱크와 카오스 상태를 반복하는 반딪불이들의 군집 반응을 표현하기 위해 서로 연결되지 않은 200 여개의 소형 프로세싱 시스템을 만들었다. 각 모듈은 자외선 빛에 반응하고 소리로 표현한다.

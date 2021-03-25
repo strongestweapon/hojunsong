@@ -46,7 +46,7 @@ Awarded as the winner of Ilmac Art prize 2015, Hojun Song's solo exhibition was 
 
 ## LED That Blinks Once Every 100 Years
 2010, 2015  
-A small 5mm LED blink every 100 years. The idea began in 2010 and almost realized as a public art project in 2015. A 2 meter high spherical structure would be machined to contain inert gas filled LED module vacuum chamber. Nuclear batteries were used and passive heating system design was adopted via thorough thermal simulations. The project was rejected by juries of the local public art committee as Hojun Song turned down their proposal to blink the LED every year.
+A cheap small 5mm LED blink every 100 years. The idea began in 2010 and almost realized as a public art project in 2015. A 2 meter high spherical structure would be machined to contain inert gas filled LED module vacuum chamber. Nuclear batteries were used as main power for 100 year operation and passive heating system was designed from thermal simulations. The project was rejected by juries of the local public art committee as Hojun Song turned down their proposal to blink the LED every year.
 
 ## dssb
 2014  
@@ -58,23 +58,23 @@ In Korea, bowing is used in greetings or required to express thanks. But when th
 
 ## Prove It: For ~~The Betterment Of~~ Mankind
 2014  
-Prove It: For The Betterment Of Mankind report was the curatorial research and exhibition plan for a section of the opening exhibition of Asian Culture Center, Gwangju, Korea. Air bending vs Large Hadron Collider. How come only a few interested in air bending while nations spend billions of money for LHC at Cern. Is this about pseudo vs real science? Or is this about which can make world better? What is the betterment? Experts prove, people believe. Believe is the word as most of the people cannot understand. Whether it be pseudo or real, we can question these stupid and fundamental questions by juxtaposing extreme yet somewhat unrelated well-known proving efforts side by side. Air bending vs LHC, a man hikes up to mountain with atomic clock to feel the existence of the time, human echolocation of blind people, Dynasphere machine to produce love Qi for world peace, quantum consciousness, and etc. * The exhibition could not be made due to the replacement of the director.
+Prove It: For The Betterment Of Mankind report was the curatorial research and exhibition plan for a section of the opening exhibition of Asian Culture Center, Gwangju, Korea. Air bending vs Large Hadron Collider. How come only a few interested in air bending while nations spend billions of money for LHC at Cern. Is this about pseudo vs real science? Or is this about which can make world better? What is the betterment? Experts prove, people believe. Believe is the word as most of the people cannot understand. Whether it be pseudo or real, we can question these stupid and fundamental questions by juxtaposing extreme yet somewhat unrelated well-known proving efforts side by side. Air bending vs LHC, a man hikes up to mountain with atomic clock to feel the existence of the time, human echolocation of blind people, Dynasphere machine to produce love Qi for world peace, quantum consciousness, and etc. *The exhibition could not be made due to the replacement of the director.
 
 ## ANTI-Climax
 2013  
-ANTI-Climax is a show by Hojun Song shown at the opening of MMCA, Seoul. Collaborated with actor, Taeyoung Kang, actress, Eun-ah Suh, and the band Idiotape, the show talks about deconstructing formerly gained authorities of the art work to create next one. Starting from non-sense talking LED poets to self-confession cross computer chatting, calling out every audiences' names, flower rope suicides, and ended with loud music in the holy contemporary art museum. Clumsy no art like graphics, fake sculptures were in front, technologies and media were shown but hidden. Only 3 people danced out of hundreds of audiences.
+ANTI-Climax is a show by Hojun Song shown at the opening of MMCA, Seoul. Collaborated with actor, Taeyoung Kang, actress, Eun-ah Suh, and the band Idiotape, the show talks about deconstructing formerly gained authorities of the art work to create next one. Starting with ostentatious non-sense talking LED poets, the show continues to improvised self-confession cross-computer chatting, calling out every audiences' names, flower rope suicides, and ended with loud music in the holy contemporary art museum. Clumsy graphics design, fake sculptures were in front, technologies and media were shown but hidden. Only 3 people danced out of hundreds of audiences.
 
 ## Apple
 2010, 2017, 2018  
 Apple ripens as it gets attentions from people. When people take a picture of the apple with flash, it slowly turns red from green and produces eerie sounds. 400 light and sound modules work independently toward the synced state.
 
-## Radiation Jewelry
+## Uranium Necklace
 2010, 2013, 2016  
-Radiation jewelries are for those who want to commit suicide. Taste the death before making a final decision. We need stronger materials to taste the death. Drugs are not enough. Upon buying the jewelry, the length of the stainless wire necklace is adjusted with wire stopper so you cannot take it off. Tried selling an uranium necklace in e-bay for 900,000 USD but failed due to the price-to-life ratio miscalculation - a life was cheaper than 900,000 USD.
+Unranium Necklace is for those who want to commit suicide. Taste the death before making a final decision. We need stronger materials to taste the death. Drugs are not enough. Upon buying the jewelry, the length of the stainless wire necklace is adjusted with wire stopper so you cannot take it off. Tried selling an uranium necklace in ebay for 900,000 USD but got comment saying a life was cheaper than 900,000 USD.
 
 ## The Strongest Weapon In The World
 2007, 2009, 2010  
-The strongest weapon in the world project is a series of tries to build an indestructible weapon that DOES NOT attack. The first one a.k.a Weapons of Mass Happiness was a heavy aluminum casted spherical shape weapon equipped with geiger counter for radioactive particle detection and a printer for spit out messages when triggered. The second strongest weapon in the world was built with students of K-SAD with custom letter engravings on cow bones to emphasize that indestructible data is the the ultimate weapon. In 2010, the third version - I Love You weapon was made. Armored with thick SC45 steel and with piezo sensor sound module inside, when hit with construction hammer, it says 'I love you' to the attacker.
+The strongest weapon in the world project presents a series of tries to build an indestructible weapon that DOES NOT attack the opponent. The first one a.k.a Weapons of Mass Happiness was a heavy aluminum casted spherical shape weapon equipped with geiger counter for radioactive particle detection and a printer for spit out messages when triggered by nuclear explosion. The second strongest weapon in the world was built with students of K-SAD with custom letter engravings on cow bones to emphasize that indestructible data is the the ultimate weapon. In 2010, the third version - I Love You weapon was made. Armored with thick SC45 steel and with piezo sensor sound module inside, when hit with construction hammer, it says 'I love you' to the attacker.
 
 ## Sync-O-Light
 2006, 2017  
