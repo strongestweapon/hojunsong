@@ -1,4 +1,4 @@
-# Hojun Song [[EN]](works.md) [[KR]](works_KR.md)
+# Hojun Song Selected Works[[EN]](works.md) [[KR]](works_KR.md)
 ## Open Source Satellite Initiative
 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018  
 The OSSI-1 satellite was launched by Hojun Song in Apr 2013 at Baikonur, Kazakhstan. It was the first satellite built and launched by an individual person in history. While people have enticed with the fact, Hojun Song turns their attentions to subjects like heroisms and nationalisms in science, a present-day role of an amateur, and sharing sensitive technologies by a series of comedic and satirical performances. 
