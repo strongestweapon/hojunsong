@@ -6,7 +6,14 @@ Hojun Song's work is about creating narratives and bringing questions by making 
 Naturally, his recent work deals with ironical relationship between romanticism and deconstructionism, especially how society makes heroes and how those heroes are destroying diviersites, by referring new trends of science and technology like artificial intelligence, complexity system, and blockchain which embrace uncertainties and decentralization.
 
 He shares his work and its process to be functional in the society, rather than in museum or at gallery, by employing live streaming, sound performance, mass production, buying and selling, and hard core engineering and tries to seek humorous ways to question conventional thoughts on art, design and technology while linking those to our daily issues.
-  
+### 2021
+- 17th Venice Architecture Biennale Korean Pavillion Opening, Seoul & Venice
+- Hold Your Fart, Mobile Web Comic Environmental Game, Director
+- Time to leave the land: publishing a environmentally friendly ocean art crypto coin, West Sea, Korea
+- Future School Food Foraging - Seaweed, 17th Venice Architecture Biennale, Wando island, Korea
+- Don't Compress Me Online, Making Lemonade, Seoul
+- Don't Compress Me: Abstraced, Shinsegae Gallery, Busan
+- Time to leave the land - The beginning, This Weekend Room, Seoul
 ### 2020	
 - The Great Explosion: Covid-19, KIM HEE SOO Art Center, Seoul
 - Don’t Compress Me 2020, Open Media Art Festival, Seoul  
