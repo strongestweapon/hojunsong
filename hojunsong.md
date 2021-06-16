@@ -7,6 +7,7 @@ Naturally, his recent work deals with ironical relationship between romanticism 
 
 He shares his work and its process to be functional in the society, rather than in museum or at gallery, by employing live streaming, sound performance, mass production, buying and selling, and hard core engineering and tries to seek humorous ways to question conventional thoughts on art, design and technology while linking those to our daily issues.
 ### 2021
+- The Old Man And Sea Plastics, Mobile Web Comic Environmental Game, Director
 - 17th Venice Architecture Biennale Korean Pavillion Opening, Seoul & Venice
 - Hold Your Fart, Mobile Web Comic Environmental Game, Director
 - Time to leave the land: publishing a environmentally friendly ocean art crypto coin, West Sea, Korea
