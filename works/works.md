@@ -8,7 +8,7 @@ The OSSI-1 satellite was launched by Hojun Song in Apr 2013 at Baikonur, Kazakhs
 On Off Everything project presents repetitive ons and offs of a group of electronic devices brought by the audiences. An electronic device is A SYSTEM that consists of many parts and its on off timings, lights, and sounds are all different for each device. So when all the devices are connected to the installation and its main central power is switched on and off periodically, a very unexpected audio visual combination can occur. 
 
 ## Time To Leave The Land
-2020, 2021  
+2020, 2021, 2022  
 'Time to Leave The Land' project uses a sailboat to create a floating and isolated near-future storytelling studio. The project examines topics on off-grid ocean living in the era of pandemic and virtual reality. Along with scientists, artists, musicians, and writers, the boat sails distant seas to complete a short science fiction zine together. The converstion on the boat is live streamed for on-site collaobration with audiences. The sailing and the zine publishing are planned quarterly.
 
 ## Future School Food Foraging - Seaweed
@@ -16,7 +16,7 @@ On Off Everything project presents repetitive ons and offs of a group of electro
 The spores of a seaweed like Miyeok (Undaria pinnatifida) and Dasima (Laminaria japonica) merely travel with ocean currents and are settled. They are known as the most invasive species in the world now but are regarded as a birth related food in Korea. Even we now know the fact that seaweed in the ocean can capture more carbon than the forest of the amazon, not many related international insititutions officialy admit the fact. It's very surprsing that we can deal with many international issues like future food, climate change, decolonization, and diaspora with seemingly insignificant seaweed.
 
 ## Don't Compress Me
-2009, 2015, 2016, 2017, 2018  
+2009, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022  
 Don't Compress Me is a project in which participants do their best to create movements for 10 seconds, so that their movements(existence) are not easily compressed by the video compression algorithm. Participants stand in front of a camera and take 10 seconds video, and the least compressed person, the largest file size after compression, wins. Random movements should interfere with the efficiency of compression codecs such as H.264, but in fact, as soon as they recognized, they fall into irony of not moving randomly. How can we move and think outside of the A.I.'s predictions?
 
 ## The Great Explosion
