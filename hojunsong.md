@@ -13,7 +13,7 @@ He shares his work and its process to be functional in the society, rather than 
 - Time to leave the land: publishing a environmentally friendly ocean art crypto coin, West Sea, Korea
 - Future School Food Foraging - Seaweed, 17th Venice Architecture Biennale, Wando island, Korea
 - Don't Compress Me Online, Making Lemonade, Seoul
-- Don't Compress Me: Abstraced, Shinsegae Gallery, Busan
+- Don't Compress Me: Abstracted, Shinsegae Gallery, Busan
 - Time to leave the land - The beginning, This Weekend Room, Seoul
 ### 2020	
 - The Great Explosion: Covid-19, KIM HEE SOO Art Center, Seoul
