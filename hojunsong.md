@@ -6,6 +6,8 @@ Hojun Song's work is about creating narratives and bringing questions by making 
 Naturally, his recent work deals with ironical relationship between romanticism and deconstructionism, especially how society makes heroes and how those heroes are destroying diviersites, by referring new trends of science and technology like artificial intelligence, complexity system, and blockchain which embrace uncertainties and decentralization.
 
 He shares his work and its process to be functional in the society, rather than in museum or at gallery, by employing live streaming, sound performance, mass production, buying and selling, and hard core engineering and tries to seek humorous ways to question conventional thoughts on art, design and technology while linking those to our daily issues.
+### 2022
+- Miyeok Graffiti, Making Lemonade, Seoul
 ### 2021
 - The Old Man And Sea Plastics, Mobile Web Comic Environmental Game, Director
 - 17th Venice Architecture Biennale Korean Pavillion Opening, Seoul & Venice
