@@ -1,85 +1,85 @@
-# Hojun Song Selected Works[[EN]](works.md) [[KR]](works_KR.md)
+# Hojun Song Selected Works [[EN]](works.md) [[KR]](works_KR.md)
 ## Open Source Satellite Initiative
-2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018  
-The OSSI-1 satellite was launched by Hojun Song in Apr 2013 at Baikonur, Kazakhstan. It was the first satellite built and launched by an individual person in history. While people have enticed with the fact, Hojun Song turns their attentions to subjects like heroisms and nationalisms in science, a present-day role of an amateur, and sharing sensitive technologies by a series of comedic and satirical performances. 
+2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018
+Hojun Song launched the OSSI-1 satellite in April 2013 at Baikonur, Kazakhstan—the first satellite ever built and launched by an individual. While audiences are drawn to this achievement, Hojun Song shifts attention to broader themes: heroism and nationalism in science, the role of amateurs today, and the sharing of sensitive technologies. He explores these ideas through comedic and satirical performances.
 
 ## On Off Everything
-2018, 2019  
-On Off Everything project presents repetitive ons and offs of a group of electronic devices brought by the audiences. An electronic device is A SYSTEM that consists of many parts and its on off timings, lights, and sounds are all different for each device. So when all the devices are connected to the installation and its main central power is switched on and off periodically, a very unexpected audio visual combination can occur. 
+2018, 2019
+Audiences bring their own electronic devices to this project. Each device is a system with its own timing, lights, and sounds when switching on and off. When all devices are connected to the installation and the central power cycles on and off, unexpected audiovisual combinations emerge.
 
 ## Time To Leave The Land
-2020, 2021, 2022  
-'Time to Leave The Land' project uses a sailboat to create a floating and isolated near-future storytelling studio. The project examines topics on off-grid ocean living in the era of pandemic and virtual reality. Along with scientists, artists, musicians, and writers, the boat sails distant seas to complete a short science fiction zine together. The converstion on the boat is live streamed for on-site collaobration with audiences. The sailing and the zine publishing are planned quarterly.
+2020, 2021, 2022
+This project uses a sailboat as a floating, isolated studio for near-future storytelling. It explores off-grid ocean living in an era of pandemics and virtual reality. Scientists, artists, musicians, and writers sail together to create a short science fiction zine. Conversations on board are live-streamed for real-time collaboration with audiences. The sailing and publishing happen quarterly.
 
 ## Future School Food Foraging - Seaweed
-2021  
-The spores of a seaweed like Miyeok (Undaria pinnatifida) and Dasima (Laminaria japonica) merely travel with ocean currents and are settled. They are known as the most invasive species in the world now but are regarded as a birth related food in Korea. Even we now know the fact that seaweed in the ocean can capture more carbon than the forest of the amazon, not many related international insititutions officialy admit the fact. It's very surprsing that we can deal with many international issues like future food, climate change, decolonization, and diaspora with seemingly insignificant seaweed.
+2021
+Seaweeds like Miyeok (Undaria pinnatifida) and Dasima (Laminaria japonica) travel with ocean currents and settle wherever they land. Now considered among the most invasive species globally, they are also traditional postpartum food in Korea. We know that ocean seaweed captures more carbon than the Amazon rainforest, yet few international institutions officially recognize this. It's striking how this seemingly insignificant seaweed connects to major global issues: future food, climate change, decolonization, and diaspora.
 
 ## Don't Compress Me
-(2009), 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022  
-Don't Compress Me is a project in which participants do their best to create movements for 10 seconds, so that their movements(existence) are not easily compressed by the video compression algorithm. Participants stand in front of a camera and take 10 seconds video, and the least compressed person, the largest file size after compression, wins. Random movements should interfere with the efficiency of compression codecs such as H.264, but in fact, as soon as they recognized, they fall into irony of not moving randomly. How can we move and think outside of the A.I.'s predictions?
+(2009), 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022
+Participants try to create movements for 10 seconds that resist video compression. They stand before a camera and record; the person whose video stays largest after compression wins. Random movements should defeat codecs like H.264, but there's an irony: once people consciously try to be random, they can't truly be random. How can we move and think beyond A.I. predictions?
 
 ## The Great Explosion
-2020  
-The Great Explosion project collects voices from particpants as materials for the explosion simulation. Voices are mapped to exploded fragments’ energies and trajectories and are condensed to explode. A noise like people’s voices played at once, a higly loaded, overdrived computer, and a video of sync and chaos give us chances to think between a simulated disaster and a existing one like Covid 19.
+2020
+This project collects participants' voices as material for an explosion simulation. Voices are mapped to fragment energies and trajectories, then detonated. The noise of all voices playing at once, the overloaded computer, and visuals shifting between order and chaos invite us to think about the space between simulated disasters and real ones like COVID-19.
 
-## ANTI- A.I. Vocalization Techniques
-2018  
-How can we trick A.I.-based speech recognition system while a human can understand the speech? And by not changing the context of the speech? Able to deceive google cloud speech recognition by changing intonations and by inserting special white noise sounds in between syllables. A.I. kills the diversity. Deny the bias.
+## ANTI-A.I. Vocalization Techniques
+2018
+How can we fool A.I. speech recognition while remaining understandable to humans—without changing what we say? By altering intonation and inserting white noise between syllables, we can deceive Google Cloud Speech Recognition. A.I. kills diversity. Deny the bias.
 
 ## gold & silver
-2017, 2018  
-gold & silver is a experimental, improvisational music band of 2 members - Hojun Song and Sangback Choe. gold & silver does a very kind experimental music by actively communicating with audiences about what and why they are trying to do something at the concert. For example, the band shares the improvised song titles and why they come up with them, so that the audiences can also imagine while listening. When performed well, the audiences can even sing together on a improvised sound. Oh, the band even make the concert fee to minus - giving out some money to the audiences, so the band can fail big time without feeling guilty. The current band setup is composed of modular synthesizers and real drums.
+2017, 2018
+gold & silver is a two-member experimental improvisation band: Hojun Song and Sangback Choe. The band makes experimental music accessible by actively explaining what they're doing and why during performances. They share improvised song titles and the thinking behind them, helping audiences imagine along. When it works, audiences can even sing along to improvised sounds. The band has charged negative admission—paying audiences to attend—so they can fail freely without guilt. Current setup: modular synthesizers and acoustic drums.
 
 ## GODLED Electronics
-2010, 2016  
-GODLED Electronics is a company owned by Hojun Song to mass produce God-shaped LED electronics. The idea began in 2010 but only in 2016, he was able to show the first prototypes. The current lineups are Buddha (LG-BUD-6036), Jesus (LW-JES-7620), Mary (LB-MAR- 4125), and Ganesh (LR-GAN-6036) and are going to be produced in Q3 2021.
+2010, 2016
+GODLED Electronics is Hojun Song's company for mass-producing God-shaped LED electronics. The idea began in 2010; the first prototypes appeared in 2016. Current lineup: Buddha (LG-BUD-6036), Jesus (LW-JES-7620), Mary (LB-MAR-4125), and Ganesh (LR-GAN-6036), with production planned for Q3 2021.
 
 ## For Humanity - Einstein Merong
-2016  
-Even after the Trinity experiment where the power of a nuclear bomb was seen and even after the fall of Germany, the manhattan project didn't stop and nuclear bombed the 2 major Japanese cities. Including Albert Einstein, many scientists later kind of regret and apologized about the project, but still the question remains. Were they, the geniuses, really not able to stop the project before the bombing? While the audience sees the golden framed tiny tiny text about the manhattan project up close, the video of Einstein next to the audience turns to famous Einstein tongue out gesture - known as for humanity gesture from normal face. Tease Ya! 
+2016
+Even after the Trinity test revealed the bomb's power, and even after Germany's defeat, the Manhattan Project continued—dropping nuclear bombs on two Japanese cities. Many scientists, including Einstein, later expressed regret. But the question remains: couldn't these geniuses have stopped it before the bombing? In this installation, viewers examine tiny gold-framed text about the Manhattan Project up close. Beside them, a video of Einstein shifts from his normal face to his famous tongue-out gesture—supposedly made "for humanity." Gotcha!
 
 ## Divided We Stand, United We Fall
-2015  
+2015
 Divided We Stand, United We Fall. The deconstruction of a hero. A manifesto for diversity. ANTI-A.I.
 
 ## Poomba
-2015  
-Awarded as the winner of Ilmac Art prize 2015, Hojun Song's solo exhibition was held. But there were no physical creations. Deconstruction of heroes. Restoration of romance. Two collided heavily, only thing the artist could do was asking questions as creating something and showed to the audience seemed to be violent. The poomba was an Korean character from the end of Goryeo dynasty and was a satirist, much like a clown, but also a beggar, and a street monk respected by people for his/her wisdoms. Poomba was a self disrespecting, a hero-deconstructing hero. So the Poomba of the future became the theme of the exhibition to talk about two collided subjects. 4 talks and 4 workshops to become future poomba were held at the exhibition site including construction site nearby and live streamed. Camping and swimming at the construction site, inviting people to the site every night for drinks. 
+2015
+Winner of the Ilmac Art Prize 2015, Hojun Song's solo exhibition featured no physical artworks. Deconstructing heroes and restoring romance collided—the artist could only ask questions, since making and showing things felt like violence. The poomba was a Korean figure from the late Goryeo dynasty: satirist, clown, beggar, and street monk, respected for wisdom. A self-deprecating, hero-deconstructing hero. The exhibition explored what a future poomba might be. Four talks and four workshops were held at the gallery and a nearby construction site, all live-streamed. Activities included camping and swimming at the construction site, with nightly gatherings for drinks.
 
 
 ## LED That Blinks Once Every 100 Years
-2010, 2015  
-A cheap small 5mm LED blink every 100 years. The idea began in 2010 and almost realized as a public art project in 2015. A 2 meter high spherical structure would be machined to contain inert gas filled LED module vacuum chamber. Nuclear batteries were used as main power for 100 year operation and passive heating system was designed from thermal simulations. The project was rejected by juries of the local public art committee as Hojun Song turned down their proposal to blink the LED every year.
+2010, 2015
+A small, cheap 5mm LED that blinks once every 100 years. The idea began in 2010 and nearly became a public art project in 2015. A two-meter spherical structure would house an LED module in an inert gas-filled vacuum chamber. Nuclear batteries would provide 100 years of power, with a passive heating system designed through thermal simulation. The project was rejected after Hojun Song refused the committee's proposal to make it blink every year.
 
 ## dssb
-2014  
-dssb is a death metal-ish band of 2 members - Hojun Song and Jinhwa Jeong. The band's formation was highly influenced by the Sewol ferry disaster that led 304 passengers to death and the helpless Korean society in 2014.
+2014
+dssb is a death metal-inspired duo: Hojun Song and Jinhwa Jeong. The band formed in response to the Sewol ferry disaster, which killed 304 passengers and left Korean society feeling helpless in 2014.
 
 ## Hello 90
-2014  
-In Korea, bowing is used in greetings or required to express thanks. But when the bowing is combined with the macho in its extreme, it almost becomes a fear response to the strong. While the normal angle of the bowing is 30-40 degree, the extreme macho bowing is 90 degree angle. The angular velocity of the bowing should also be much faster than the normal bowing. The volume of saying hello should also be much louder. This extreme macho bowing is very common among gangsters and military people but is also common among college clubs and k-pop idols. Hello 90 is an interactive video installation that shows people bowing in 90 degree when you enter a space.
+2014
+In Korea, bowing expresses greeting or gratitude. But when combined with extreme machismo, it becomes a fear response. A normal bow is 30-40 degrees; the extreme macho bow is a full 90 degrees—faster, with a louder greeting. This bowing style is common among gangsters and military personnel, but also in college clubs and among K-pop idols. Hello 90 is an interactive video installation where people on screen bow at 90 degrees when you enter.
 
 ## Prove It: For ~~The Betterment Of~~ Mankind
-2014  
-Prove It: For The Betterment Of Mankind report was the curatorial research and exhibition plan for a section of the opening exhibition of Asian Culture Center, Gwangju, Korea. Air bending vs Large Hadron Collider. How come only a few interested in air bending while nations spend billions of money for LHC at Cern. Is this about pseudo vs real science? Or is this about which can make world better? What is the betterment? Experts prove, people believe. Believe is the word as most of the people cannot understand. Whether it be pseudo or real, we can question these stupid and fundamental questions by juxtaposing extreme yet somewhat unrelated well-known proving efforts side by side. Air bending vs LHC, a man hikes up to mountain with atomic clock to feel the existence of the time, human echolocation of blind people, Dynasphere machine to produce love Qi for world peace, quantum consciousness, and etc. *The exhibition could not be made due to the replacement of the director.
+2014
+A curatorial research project and exhibition plan for the Asian Culture Center opening in Gwangju, Korea. Air bending versus the Large Hadron Collider. Why do few care about air bending while nations spend billions on the LHC at CERN? Is this about pseudoscience versus real science? Or about what actually improves the world? What is "betterment"? Experts prove; people believe—because most can't understand either way. The project places different "proofs" side by side: air bending vs. LHC, a man hiking with an atomic clock to feel time, human echolocation by blind people, a Dynasphere machine generating love Qi for world peace, quantum consciousness, and more. *The exhibition was never realized due to a change in director.
 
 ## ANTI-Climax
-2013  
-ANTI-Climax is a show by Hojun Song shown at the opening of MMCA, Seoul. Collaborated with actor, Taeyoung Kang, actress, Eun-ah Suh, and the band Idiotape, the show talks about deconstructing formerly gained authorities of the art work to create next one. Starting with ostentatious non-sense talking LED poets, the show continues to improvised self-confession cross-computer chatting, calling out every audiences' names, flower rope suicides, and ended with loud music in the holy contemporary art museum. Clumsy graphics design, fake sculptures were in front, technologies and media were shown but hidden. Only 3 people danced out of hundreds of audiences.
+2013
+A performance at the opening of MMCA Seoul. Collaborating with actor Taeyoung Kang, actress Eun-ah Suh, and the band Idiotape, the show explored deconstructing the authority of previous artworks to create new ones. It began with LED poets spouting nonsense, moved through improvised confessions via computer chat, calling out every audience member's name, and flower-rope suicides, ending with loud music in the quiet museum. Deliberately clumsy graphics and fake sculptures were displayed prominently while technology stayed hidden. Only 3 of hundreds danced.
 
 ## Apple
-2010, 2017, 2018  
-Apple ripens as it gets attentions from people. When people take a picture of the apple with flash, it slowly turns red from green and produces eerie sounds. 400 light and sound modules work independently toward the synced state.
+2010, 2017, 2018
+The apple ripens when it receives attention. When someone photographs it with a flash, it slowly turns from green to red and emits eerie sounds. 400 independent light and sound modules gradually synchronize.
 
 ## Uranium Necklace
-2010, 2013, 2016  
-Unranium Necklace is for those who want to commit suicide. Taste the death before making a final decision. We need stronger materials to taste the death. Drugs are not enough. Upon buying the jewelry, the length of the stainless wire necklace is adjusted with wire stopper so you cannot take it off. Tried selling an uranium necklace in ebay for 900,000 USD but got comment saying a life was cheaper than 900,000 USD.
+2010, 2013, 2016
+Uranium Necklace is for those contemplating suicide—a way to taste death before making a final decision. Drugs aren't potent enough; we need stronger materials. Upon purchase, the stainless steel wire necklace is locked so it cannot be removed. An attempt to sell one on eBay for $900,000 drew a comment that a life was worth less.
 
 ## The Strongest Weapon In The World
-2007, 2009, 2010  
-The strongest weapon in the world project presents a series of tries to build an indestructible weapon that DOES NOT attack the opponent. The first one a.k.a Weapons of Mass Happiness was a heavy aluminum casted spherical shape weapon equipped with geiger counter for radioactive particle detection and a printer for spit out messages when triggered by nuclear explosion. The second strongest weapon in the world was built with students of K-SAD with custom letter engravings on cow bones to emphasize that indestructible data is the the ultimate weapon. In 2010, the third version - I Love You weapon was made. Armored with thick SC45 steel and with piezo sensor sound module inside, when hit with construction hammer, it says 'I love you' to the attacker.
+2007, 2009, 2010
+A series of attempts to build an indestructible weapon that does NOT attack. The first version, Weapons of Mass Happiness, was a heavy cast-aluminum sphere with a Geiger counter and a printer that outputs messages when triggered by nuclear explosion. The second was built with K-SAD students, featuring letters engraved on cow bones—emphasizing that indestructible data is the ultimate weapon. In 2010, the third version appeared: I Love You. Armored in thick SC45 steel with a piezo sensor inside, it says "I love you" when struck with a hammer.
 
 ## Sync-O-Light
-2006, 2017  
-Inspired by a Steven Strogatz's book - SYNC, Sync-O-Light is an attempt to create a fireflies group that changes states from sync to chaos and vice versa with 200 sound reactive modules with UV lights.
+2006, 2017
+Inspired by Steven Strogatz's book SYNC, this project creates artificial fireflies using 200 sound-reactive UV light modules that shift between synchronized and chaotic states.
