@@ -1,0 +1,62 @@
+/* Author: Hojun Song */
+/* Date: Feb 2019 */
+
+html {
+  font-size: 16px;
+  font-family: 'Times New Roman', serif;
+  background-color:#f1f1f1;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  max-width: 730px;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+a:link, a:visited, a:hover {
+  color: black;
+  text-decoration:underline;
+}
+
+h1 {
+  margin-bottom: 1rem;
+}
+
+.work h2 {
+  text-decoration: underline;
+  cursor:pointer;
+  margin-bottom: 0.3rem;
+}
+
+.work p {
+  line-height: 1.4rem;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.work figure {
+  max-width: 100%;
+  margin: 0 0 1rem 0;
+}
+
+.work img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+#workcontents {
+  margin-bottom: 1.5rem;
+}
+
+@media only screen and (min-width: 730px) {
+  body {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
+}
