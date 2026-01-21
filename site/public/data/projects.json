@@ -1,0 +1,13 @@
+{
+  "site": {
+    "title": "Hojun Song",
+    "url": "https://hojunsong.com",
+    "description": "Hojun Song is an artist working with technology, science, and social issues."
+  },
+  "license": {
+    "type": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "name": "Creative Commons Attribution 4.0 International"
+  },
+  "projects": []
+}

@@ -24,7 +24,11 @@ a:link, a:visited, a:hover {
 }
 
 h1 {
-  margin-bottom: 1rem;
+  margin-bottom: 0;
+}
+
+nav {
+  margin-bottom: 0.5rem;
 }
 
 .work h2 {
@@ -39,6 +43,42 @@ h1 {
   margin-bottom: 0.5rem;
 }
 
+.work ul {
+  margin-left: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.work li {
+  line-height: 1.4rem;
+  font-size: 1.2rem;
+  margin-bottom: 0.3rem;
+}
+
+.work .video {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  margin-bottom: 1rem;
+}
+
+.work .video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.work .video-loop {
+  margin-bottom: 1rem;
+}
+
+.work .video-loop video {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
 .work figure {
   max-width: 100%;
   margin: 0 0 1rem 0;
@@ -51,6 +91,7 @@ h1 {
 }
 
 #workcontents {
+  margin-top: 1rem;
   margin-bottom: 1.5rem;
 }
 

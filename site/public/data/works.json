@@ -134,27 +134,54 @@
         "Random movements should defeat codecs like H.264, but there's an irony: once people consciously try to be random, they can't truly be random.",
         "How can we move and think beyond A.I. predictions?"
       ],
-      "thumbnail": null,
-      "images": [],
+      "thumbnail": "/works/dont-compress-me/_images/01-Don't Compress Me 2015.png",
+      "images": [
+        {
+          "src": "/works/dont-compress-me/_images/01-Don't Compress Me 2015.png",
+          "filename": "01-Don't Compress Me 2015.png",
+          "caption": "Don't Compress Me 2015"
+        }
+      ],
       "relatedProjects": [
         "anti-ai-vocalization-techniques",
         "the-great-explosion"
       ],
       "presentations": [
         {
-          "slug": "2013-seoul-mmca",
+          "slug": "2022-DCMWC",
           "title": "Don't Compress Me",
+          "event": "Don't Compress Me World Competition Seoul",
+          "type": "Event",
+          "location": "Mother Offline",
+          "year": "2022",
+          "description": "The first Don’t Compress Me World Competition in Seoul. The winner gets 1 ETH.",
+          "images": [
+            {
+              "src": "/works/dont-compress-me/2022-DCMWC/_images/01-Don't Compress Me World Poster.jpg",
+              "filename": "01-Don't Compress Me World Poster.jpg",
+              "caption": "Don't Compress Me World Poster"
+            }
+          ],
+          "overview": "Artist Hojun Song's\n🌐 Don’t Compress Me World Competition Begins 📢\n👽 Finding a new type of human in the era of artificial intelligence and uncertainty.\n🏆 Awarding 1 BTC to the final winner of the least compressed at  the world competition after moving the body for 10 seconds in front of the camera.\nYou need to move as fast and randomly as possible with colorful outfits in order not to get compressed.\n- The 1st City:  Seoul (Prize 1 ETH)\n- When: 7.22 Fri 6PM Registration, 8PM Competition\n- Venue: Mother Offline Yongsan-gu, Hannam-dong, Itaewon-ro 55na-gil, 6\n- Music: DJ Maktoop, DJ DGURU \n- Sponsor: NFT Mania, Mother Media\n[images]\n[youtube](https://www.youtube.com/watch?v=lfWTGIeqh-I)",
+          "credits": "- Partner: NFTMania\n- Location Partner: MOTHER Media\n- Design: WORKS\n- Coordinator: Sabina\n- Project Manager: Saewon Kong\n- LED Display: CreDL\n- Printing: 1px Gardening\n- DJ: DJ DGURU, DJ Maktoop\n- Video: Yongyeon Jeon"
+        },
+        {
+          "slug": "2025-UnfoldX",
+          "title": "Don't Compress Me",
+          "event": "Unfold X",
           "type": "Installation",
-          "location": "MMCA Seoul",
-          "year": "2013",
+          "location": "Culture Station Seoul 284",
+          "year": "2025",
           "description": "Interactive installation where participants compete to resist video compression through movement.",
-          "images": [],
-          "overview": "Interactive installation presented at the opening of MMCA Seoul. Participants stood in front of a camera and moved freely for 10 seconds. Their video was compressed in real-time, and the file size determined their score.",
-          "context": "The National Museum of Modern and Contemporary Art Seoul opened in 2013. This work was part of the opening exhibition exploring the relationship between humans and digital technology.",
-          "focus": "This version emphasized the competitive aspect—turning compression resistance into a game. A leaderboard displayed the top scores, encouraging repeated attempts.",
-          "development": "Built with Processing and FFmpeg. The system captured video, applied H.264 compression, measured file size, and displayed results in under 3 seconds.",
-          "documentation": "![Installation view](installation-view.jpg)\n![Participant playing](participant.jpg)\n[Performance documentation](https://vimeo.com/example)",
-          "credits": "Technical support: Jinhwa Jeong\nExhibition: MMCA Seoul Opening Exhibition"
+          "images": [
+            {
+              "src": "/works/dont-compress-me/2025-UnfoldX/_images/01-A New Type of Human.jpeg",
+              "filename": "01-A New Type of Human.jpeg",
+              "caption": "A New Type of Human"
+            }
+          ],
+          "overview": "Interactive installation presented at the Unfold X 2025. Participants stood in front of a camera and moved freely for 10 seconds. More than 1000 people participated this time. Many group sessions were recorded.",
+          "credits": "Exhibition: Unfold X Culture Staion Seoul 284"
         }
       ]
     },
@@ -211,7 +238,8 @@
       "overview": [
         "gold & silver is a two-member experimental improvisation band: Hojun Song and Sangback Choe. The band makes experimental music accessible by actively explaining what they're doing and why during performances.",
         "They share improvised song titles and the thinking behind them, helping audiences imagine along. When it works, audiences can even sing along to improvised sounds.",
-        "The band has charged negative admission—paying audiences to attend—so they can fail freely without guilt. Current setup: modular synthesizers and acoustic drums."
+        "The band has charged negative admission—paying audiences to attend—so they can fail freely without guilt. Current setup: modular synthesizers and acoustic drums.",
+        "[images]\n[Apple Music](https://music.apple.com/kr/album/hello-world-ep/1802809497?l=en-GB)\n[Spotify Music](https://open.spotify.com/album/4frAnlsHYnjVGZuOjjS2BU)"
       ],
       "thumbnail": "/works/gold-and-silver/_images/01-Gold & Silver Hello World Album Cover.jpeg",
       "images": [
@@ -380,7 +408,8 @@
       "year": "2014",
       "description": "dssb is a death metal-inspired duo: Hojun Song and Jinhwa Jeong. The band formed in response to the Sewol ferry disaster in 2014.",
       "overview": [
-        "dssb is a death metal-inspired duo: Hojun Song and Jinhwa Jeong. The band formed in response to the Sewol ferry disaster, which killed 304 passengers and left Korean society feeling helpless in 2014."
+        "dssb is a death metal-inspired duo: Hojun Song and Jinhwa Jeong. The band formed in response to the Sewol ferry disaster, which killed 304 passengers and left Korean society feeling helpless in 2014.",
+        "[images]\n[Apple Music](https://music.apple.com/kr/album/beautiful-nation-single/1561357862?l=en-GB)"
       ],
       "thumbnail": "/works/dssb/_images/dssb Beautiful Nation.png",
       "images": [
