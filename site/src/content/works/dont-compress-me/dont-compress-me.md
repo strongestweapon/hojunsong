@@ -14,3 +14,5 @@ Participants try to create movements for 10 seconds that resist video compressio
 Random movements should defeat codecs like H.264, but there's an irony: once people consciously try to be random, they can't truly be random.
 
 How can we move and think beyond A.I. predictions?
+
+![Don't Compress Me 2015](01-Don't Compress Me 2015.png)

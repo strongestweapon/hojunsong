@@ -10,14 +10,14 @@ site/
 │   │   ├── works/
 │   │   │   └── [slug]/
 │   │   │       ├── [slug].md         # 작업 메인 파일
-│   │   │       ├── _images/          # 작업 이미지
+│   │   │       ├── images/          # 작업 이미지
 │   │   │       └── [sub-slug]/       # 세부 프로젝트 (선택)
 │   │   │           ├── [sub-slug].md
 │   │   │           └── (이미지들)
 │   │   ├── projects/
 │   │   │   └── [slug]/
 │   │   │       ├── [slug].md         # 프로젝트 메인 파일
-│   │   │       └── _images/          # 프로젝트 이미지
+│   │   │       └── images/          # 프로젝트 이미지
 │   │   └── about/
 │   │       └── about.md              # 작가 소개
 │   └── README.md             # 이 파일
@@ -81,11 +81,10 @@ node src/build.js
 
 ## 이미지 규칙
 
-- 작업/프로젝트 이미지: `src/content/[works|projects]/[slug]/_images/` 폴더에
-- 파일명 순서: 숫자 prefix로 정렬 (`01-name.jpg`, `02-name.jpg`)
-- 캡션: 파일명에서 자동 생성 (숫자 prefix 제거됨)
-  - `01-installation-view.jpg` → "Installation view"
-- 사이즈: 원본 유지, CSS에서 max-width: 100%로 표시
+- 이미지 파일: `src/content/[works|projects]/[slug]/images/` 폴더에 저장
+- 마크다운에서 직접 이미지와 캡션 지정 (자동 스캔 없음)
+- 이미지 경로는 `images/` 기준 상대 경로 또는 절대 경로
+- 이미지가 없으면 404 placeholder 표시 (디버깅용)
 
 ## 주요 기능
 
@@ -111,10 +110,10 @@ node src/build.js
 ```
 dont-compress-me/
 ├── dont-compress-me.md
-├── _images/
+├── images/
 └── 2025-UnfoldX/
     ├── 2025-UnfoldX.md
-    └── _images/          # 세부 프로젝트 이미지
+    └── images/          # 세부 프로젝트 이미지
 ```
 
 세부 프로젝트 MD 형식:
@@ -132,7 +131,12 @@ description: 짧은 설명
 ## Overview
 내용
 
-[images]
+![설치 전경](installation-view.jpg)
+
+[grid-2]
+![상세 1](detail-1.jpg)
+![상세 2](detail-2.jpg)
+[/grid]
 
 [vimeo](https://vimeo.com/12345)
 
@@ -158,12 +162,41 @@ description: 짧은 설명
 - 리스트 아이템 2
 ```
 
-### 이미지 위치 지정
+### 단일 이미지
 ```markdown
-[images]
+![캡션 텍스트](image.jpg)
 ```
-- `_images/` 폴더의 이미지들이 이 위치에 표시됨
-- `[images]` 없으면 Overview 끝에 자동 추가
+- `images/` 폴더 기준 상대 경로
+- 세로로 나열됨
+
+### 이미지 그리드 (2열)
+```markdown
+[grid-2]
+![캡션1](image1.jpg)
+![캡션2](image2.jpg)
+![캡션3](image3.jpg)
+[/grid]
+```
+
+### 이미지 그리드 (3열)
+```markdown
+[grid-3]
+![캡션1](image1.jpg)
+![캡션2](image2.jpg)
+![캡션3](image3.jpg)
+[/grid]
+```
+
+### Masonry 레이아웃 (Pinterest 스타일)
+```markdown
+[masonry]
+![캡션1](image1.jpg)
+![캡션2](image2.jpg)
+![캡션3](image3.jpg)
+[/masonry]
+```
+- 이미지 원본 비율 유지
+- 2열 기준, 모바일에서 1열
 
 ### 비디오 임베드
 ```markdown
@@ -177,7 +210,7 @@ description: 짧은 설명
 [loop](video.mp4)
 ```
 - 자동재생, 반복, 음소거
-- `_images/` 폴더에 mp4 파일 넣고 사용
+- `images/` 폴더에 mp4 파일 넣고 사용
 
 ### 링크
 ```markdown
@@ -185,8 +218,3 @@ description: 짧은 설명
 ```
 - 외부 링크 (`http://`, `https://`)는 자동으로 새 탭에서 열림
 - 내부 링크 (`/works/...`, `../`)는 같은 탭에서 열림
-
-### 인라인 이미지 (마크다운 본문에 직접)
-```markdown
-![캡션](image.jpg)
-```

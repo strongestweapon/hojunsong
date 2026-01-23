@@ -12,3 +12,6 @@ relatedProjects:
 Hojun Song launched the OSSI-1 satellite in April 2013 at Baikonur, Kazakhstan—the first satellite ever built and launched by an individual.
 
 While audiences are drawn to this achievement, Hojun Song shifts attention to broader themes: heroism and nationalism in science, the role of amateurs today, and the sharing of sensitive technologies. He explores these ideas through comedic and satirical performances.
+
+![OSSI 1 Satellite](01-OSSI-1 Satellite.JPG)
+![In Front Of Soyuz](02-In Front Of Soyuz.jpg)

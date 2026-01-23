@@ -39,32 +39,6 @@ function parseFrontmatter(content) {
   return { data, content: body.trim() };
 }
 
-// Convert filename to caption: "01-installation-view.jpg" → "Installation view"
-function filenameToCaption(filename) {
-  const name = filename.replace(/\.[^.]+$/, '');
-  return name
-    .replace(/^\d+[-_\s]*/, '')  // remove leading numbers and separator
-    .replace(/[-_]/g, ' ')
-    .replace(/^\w/, c => c.toUpperCase());
-}
-
-// Get images from a directory (sorted by filename)
-function getImages(dir, urlBase) {
-  if (!fs.existsSync(dir)) return [];
-
-  const imageExtensions = ['.jpg', '.jpeg', '.png', '.gif', '.webp'];
-  const files = fs.readdirSync(dir);
-
-  return files
-    .filter(f => imageExtensions.includes(path.extname(f).toLowerCase()))
-    .sort((a, b) => a.localeCompare(b, undefined, { numeric: true }))
-    .map(f => ({
-      src: `${urlBase}/${f}`,
-      filename: f,
-      caption: filenameToCaption(f)
-    }));
-}
-
 // Copy directory recursively
 function copyDir(src, dest) {
   if (!fs.existsSync(src)) return;
@@ -82,14 +56,84 @@ function copyDir(src, dest) {
   }
 }
 
+// HTML escape
+function escapeHtml(text) {
+  return text
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;');
+}
+
+// Generate image HTML with 404 fallback
+function generateImageHtml(src, caption, imagesBasePath) {
+  const escapedCaption = escapeHtml(caption);
+  // Resolve relative paths against imagesBasePath
+  let resolvedSrc = src;
+  if (!src.startsWith('/') && !src.startsWith('http') && imagesBasePath) {
+    resolvedSrc = `${imagesBasePath}/${src}`;
+  }
+  // Use onerror for 404 fallback (shows placeholder and logs error)
+  return `<figure><img src="${resolvedSrc}" alt="${escapedCaption}" onerror="this.onerror=null; this.src='/images/404.svg'; this.parentElement.classList.add('image-error'); console.error('Image not found: ${resolvedSrc}');"><figcaption>${escapedCaption}</figcaption></figure>`;
+}
+
+// Parse grid block and return images HTML
+function parseGridBlock(lines, gridType, imagesBasePath) {
+  const images = [];
+  lines.forEach(line => {
+    const trimmed = line.trim();
+    // Supports filenames with parentheses
+    const match = trimmed.match(/^!\[([^\]]*)\]\((.+)\)$/);
+    if (match) {
+      const [, caption, src] = match;
+      images.push(generateImageHtml(src, caption, imagesBasePath));
+    }
+  });
+
+  if (images.length === 0) return '';
+
+  return `<div class="image-${gridType}">\n${images.join('\n')}\n</div>`;
+}
+
 // Simple markdown to HTML
-function markdownToHtml(md) {
+// imagesBasePath: base path for relative image URLs (e.g., "/works/slug/images")
+function markdownToHtml(md, imagesBasePath = null) {
   const lines = md.split('\n');
   const result = [];
   let inList = false;
+  let inGrid = false;
+  let gridType = null;
+  let gridLines = [];
 
   lines.forEach(line => {
     const trimmed = line.trim();
+
+    // Check for grid block start
+    const gridStartMatch = trimmed.match(/^\[(grid-2|grid-3|masonry)\]$/);
+    if (gridStartMatch) {
+      if (inList) { result.push('</ul>'); inList = false; }
+      inGrid = true;
+      gridType = gridStartMatch[1];
+      gridLines = [];
+      return;
+    }
+
+    // Check for grid block end
+    if (trimmed === '[/grid]' || trimmed === '[/masonry]') {
+      if (inGrid) {
+        result.push(parseGridBlock(gridLines, gridType, imagesBasePath));
+        inGrid = false;
+        gridType = null;
+        gridLines = [];
+      }
+      return;
+    }
+
+    // If inside grid block, collect lines
+    if (inGrid) {
+      gridLines.push(line);
+      return;
+    }
+
     if (!trimmed) {
       if (inList) {
         result.push('</ul>');
@@ -104,17 +148,11 @@ function markdownToHtml(md) {
       return;
     }
 
-    if (trimmed.match(/^!\[(.+)\]\((.+)\)$/)) {
+    // Single image (outside grid) - supports filenames with parentheses
+    if (trimmed.match(/^!\[([^\]]*)\]\((.+)\)$/)) {
       if (inList) { result.push('</ul>'); inList = false; }
-      const [, alt, src] = trimmed.match(/^!\[(.+)\]\((.+)\)$/);
-      result.push(`<figure><img src="${src}" alt="${alt}"><figcaption>${alt}</figcaption></figure>`);
-      return;
-    }
-
-    // Images placeholder
-    if (trimmed === '[images]') {
-      if (inList) { result.push('</ul>'); inList = false; }
-      result.push('{{IMAGES}}');
+      const [, caption, src] = trimmed.match(/^!\[([^\]]*)\]\((.+)\)$/);
+      result.push(generateImageHtml(src, caption, imagesBasePath));
       return;
     }
 
@@ -177,15 +215,13 @@ function markdownToHtml(md) {
 
   if (inList) result.push('</ul>');
 
-  return result.join('\n');
-}
+  // Close unclosed grid block (in case [/grid] is missing)
+  if (inGrid) {
+    console.warn('Warning: Unclosed grid block detected');
+    result.push(parseGridBlock(gridLines, gridType, imagesBasePath));
+  }
 
-// HTML escape
-function escapeHtml(text) {
-  return text
-    .replace(/&/g, '&amp;')
-    .replace(/</g, '&lt;')
-    .replace(/>/g, '&gt;');
+  return result.join('\n');
 }
 
 // Read all works
@@ -215,11 +251,6 @@ function readWorks(contentDir) {
     }
 
     const overview = body.split('\n\n').filter(p => p.trim());
-
-    // Get work images from _images folder
-    const workImagesDir = path.join(workFolder, '_images');
-    const workImages = getImages(workImagesDir, `/works/${slug}/_images`);
-    const thumbnail = workImages.length > 0 ? workImages[0].src : null;
 
     // Find presentations (sub-folders with matching .md file)
     const presentations = [];
@@ -259,10 +290,6 @@ function readWorks(contentDir) {
         sections[key] = sections[key].join('\n').trim();
       });
 
-      // Get presentation images from _images folder
-      const presImagesDir = path.join(subFolder, '_images');
-      const presImages = getImages(presImagesDir, `/works/${slug}/${subSlug}/_images`);
-
       presentations.push({
         slug: subSlug,
         _folderName: subFolderName,  // for source path
@@ -272,7 +299,6 @@ function readWorks(contentDir) {
         location: subData.location,
         year: subData.year,
         description: subData.description,
-        images: presImages,
         ...sections
       });
     });
@@ -285,8 +311,6 @@ function readWorks(contentDir) {
       year: data.year,
       description: data.description,
       overview,
-      thumbnail,
-      images: workImages,
       presentations,
       relatedProjects: data.relatedProjects || []
     });
@@ -323,11 +347,6 @@ function readProjects(contentDir) {
 
     const overview = body.split('\n\n').filter(p => p.trim());
 
-    // Get project images from _images folder
-    const projectImagesDir = path.join(projectFolder, '_images');
-    const projectImages = getImages(projectImagesDir, `/projects/${slug}/_images`);
-    const thumbnail = projectImages.length > 0 ? projectImages[0].src : null;
-
     projects.push({
       slug,
       _folderName: folderName,
@@ -335,9 +354,7 @@ function readProjects(contentDir) {
       title: data.title,
       year: data.year,
       description: data.description,
-      overview,
-      thumbnail,
-      images: projectImages
+      overview
     });
   });
 
@@ -359,14 +376,6 @@ function readAbout(contentDir) {
   };
 }
 
-// Generate images HTML
-function generateImagesHtml(images) {
-  if (!images || images.length === 0) return '';
-
-  return images.map(img =>
-    `  <figure><img src="${img.src}" alt="${escapeHtml(img.caption)}"><figcaption>${escapeHtml(img.caption)}</figcaption></figure>`
-  ).join('\n');
-}
 
 // Generate work HTML
 function generateWorkHtml(work, allWorks) {
@@ -384,14 +393,11 @@ function generateWorkHtml(work, allWorks) {
     ? `
 <div class="work">
   <h2>Presentations</h2>
-${work.presentations.map(p => `  <p><a href="${p.slug}/">${p.event ? escapeHtml(p.event) + ', ' : ''}${escapeHtml(p.type)}, ${escapeHtml(p.location)}, ${p.year}</a></p>`).join('\n')}
+  <ul>
+${work.presentations.map(p => `    <li><a href="${p.slug}/">${p.event ? escapeHtml(p.event) + ', ' : ''}${escapeHtml(p.type)}, ${escapeHtml(p.location)}, ${p.year}</a></li>`).join('\n')}
+  </ul>
 </div>
 `
-    : '';
-
-  // Images HTML for placeholder
-  const imagesHtml = work.images && work.images.length > 0
-    ? generateImagesHtml(work.images)
     : '';
 
   // Only show related if there are any
@@ -443,15 +449,7 @@ ${relatedLinks}
 
 <div class="work">
   <h2>Overview</h2>
-  ${(() => {
-    let content = markdownToHtml(work.overview.join('\n\n'));
-    if (content.includes('{{IMAGES}}')) {
-      return content.replace('{{IMAGES}}', imagesHtml);
-    } else if (imagesHtml) {
-      return content + '\n' + imagesHtml;
-    }
-    return content;
-  })()}
+  ${markdownToHtml(work.overview.join('\n\n'), `/works/${work.slug}/images`)}
 </div>
 ${presentationsSection}${relatedSection}
 </body>
@@ -461,46 +459,30 @@ ${presentationsSection}${relatedSection}
 
 // Generate presentation (sub-project) HTML
 function generatePresentationHtml(work, presentation) {
-  const imagesHtml = presentation.images && presentation.images.length > 0
-    ? generateImagesHtml(presentation.images)
-    : '';
+  const imagesBasePath = `/works/${work.slug}/${presentation.slug}/images`;
 
-  // Overview section - check for [images] placeholder
+  // Overview section
   let overviewHtml = '';
-  let imagesPlaced = false;
   if (presentation.overview) {
-    let overviewContent = markdownToHtml(presentation.overview);
-    // Replace {{IMAGES}} placeholder with actual images
-    if (overviewContent.includes('{{IMAGES}}')) {
-      overviewContent = overviewContent.replace('{{IMAGES}}', imagesHtml);
-      imagesPlaced = true;
-    }
-    // If no placeholder, add images at end of overview
-    if (!imagesPlaced && imagesHtml) {
-      overviewContent += '\n' + imagesHtml;
-      imagesPlaced = true;
-    }
     overviewHtml = `
 <div class="work">
   <h2>Overview</h2>
-  ${overviewContent}
+  ${markdownToHtml(presentation.overview, imagesBasePath)}
 </div>
 `;
   }
 
-  // Other sections - also support [images] placeholder
+  // Other sections
   const otherSections = ['context', 'focus', 'development', 'credits', 'technicalnotes'];
   let sectionsHtml = '';
   otherSections.forEach(section => {
     if (presentation[section]) {
       const title = section === 'technicalnotes' ? 'Technical Notes' :
                     section.charAt(0).toUpperCase() + section.slice(1);
-      let sectionContent = markdownToHtml(presentation[section]);
-      sectionContent = sectionContent.replace('{{IMAGES}}', imagesHtml);
       sectionsHtml += `
 <div class="work">
   <h2>${title}</h2>
-  ${sectionContent}
+  ${markdownToHtml(presentation[section], imagesBasePath)}
 </div>
 `;
     }
@@ -554,14 +536,7 @@ ${overviewHtml}${sectionsHtml}
 
 // Generate project HTML
 function generateProjectHtml(project) {
-  // Only show images if there are any (no heading)
-  const imagesSection = project.images && project.images.length > 0
-    ? `
-<div class="work">
-${generateImagesHtml(project.images)}
-</div>
-`
-    : '';
+  const imagesBasePath = `/projects/${project.slug}/images`;
 
   return `<!DOCTYPE html>
 <html lang="en">
@@ -602,9 +577,9 @@ ${generateImagesHtml(project.images)}
 
 <div class="work">
   <h2>Overview</h2>
-${project.overview.map(p => `  <p>${escapeHtml(p)}</p>`).join('\n')}
+  ${markdownToHtml(project.overview.join('\n\n'), imagesBasePath)}
 </div>
-${imagesSection}
+
 </body>
 </html>
 `;
@@ -647,7 +622,7 @@ ${projectsList}
 
 // Generate about HTML
 function generateAboutHtml(about) {
-  const contentHtml = about.content ? markdownToHtml(about.content) : '<p>(직접 작성)</p>';
+  const contentHtml = about.content ? markdownToHtml(about.content, '/about/images') : '<p>(직접 작성)</p>';
 
   return `<!DOCTYPE html>
 <html lang="en">
@@ -812,9 +787,9 @@ function build() {
     console.log(`Generating works/${work.slug}/index.html...`);
     fs.writeFileSync(path.join(workDir, 'index.html'), generateWorkHtml(work, works));
 
-    // Copy work images from _images (use _folderName for source path)
-    const srcImagesDir = path.join(contentDir, 'works', work._folderName, '_images');
-    const destImagesDir = path.join(workDir, '_images');
+    // Copy work images from images (use _folderName for source path)
+    const srcImagesDir = path.join(contentDir, 'works', work._folderName, 'images');
+    const destImagesDir = path.join(workDir, 'images');
     if (fs.existsSync(srcImagesDir)) {
       console.log(`Copying images for ${work.slug}...`);
       copyDir(srcImagesDir, destImagesDir);
@@ -828,9 +803,9 @@ function build() {
       console.log(`Generating works/${work.slug}/${presentation.slug}/index.html...`);
       fs.writeFileSync(path.join(presDir, 'index.html'), generatePresentationHtml(work, presentation));
 
-      // Copy presentation images from _images folder
-      const srcPresImagesDir = path.join(contentDir, 'works', work._folderName, presentation._folderName, '_images');
-      const destPresImagesDir = path.join(presDir, '_images');
+      // Copy presentation images from images folder
+      const srcPresImagesDir = path.join(contentDir, 'works', work._folderName, presentation._folderName, 'images');
+      const destPresImagesDir = path.join(presDir, 'images');
       if (fs.existsSync(srcPresImagesDir)) {
         console.log(`Copying images for ${work.slug}/${presentation.slug}...`);
         copyDir(srcPresImagesDir, destPresImagesDir);
@@ -850,9 +825,9 @@ function build() {
     console.log(`Generating projects/${project.slug}/index.html...`);
     fs.writeFileSync(path.join(projectDir, 'index.html'), generateProjectHtml(project));
 
-    // Copy project images from _images
-    const srcImagesDir = path.join(contentDir, 'projects', project._folderName, '_images');
-    const destImagesDir = path.join(projectDir, '_images');
+    // Copy project images from images
+    const srcImagesDir = path.join(contentDir, 'projects', project._folderName, 'images');
+    const destImagesDir = path.join(projectDir, 'images');
     if (fs.existsSync(srcImagesDir)) {
       console.log(`Copying images for project ${project.slug}...`);
       copyDir(srcImagesDir, destImagesDir);
@@ -866,6 +841,14 @@ function build() {
   } else {
     // Create default about page if no about.md exists
     fs.writeFileSync(path.join(aboutOutputDir, 'index.html'), generateAboutHtml({ title: 'About', content: '' }));
+  }
+
+  // Copy about images
+  const srcAboutImagesDir = path.join(contentDir, 'about', 'images');
+  const destAboutImagesDir = path.join(aboutOutputDir, 'images');
+  if (fs.existsSync(srcAboutImagesDir)) {
+    console.log('Copying images for about...');
+    copyDir(srcAboutImagesDir, destAboutImagesDir);
   }
 
   console.log('Build complete!');

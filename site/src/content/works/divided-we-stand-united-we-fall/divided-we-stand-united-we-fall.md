@@ -10,3 +10,5 @@ relatedProjects:
 ---
 
 Divided We Stand, United We Fall. The deconstruction of a hero. A manifesto for diversity. ANTI-A.I.
+
+![Divided We Stand United We Fall](01-Divided We Stand United We Fall.jpg)

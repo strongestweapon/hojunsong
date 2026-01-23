@@ -21,8 +21,11 @@ You need to move as fast and randomly as possible with colorful outfits in order
 - Venue: Mother Offline Yongsan-gu, Hannam-dong, Itaewon-ro 55na-gil, 6
 - Music: DJ Maktoop, DJ DGURU 
 - Sponsor: NFT Mania, Mother Media
-[images]
+  
+![Don't Compress Me World Poster](01-Don't Compress Me World Poster.jpg)
+
 [youtube](https://www.youtube.com/watch?v=lfWTGIeqh-I)
+
 
 ## Credits
 - Partner: NFTMania

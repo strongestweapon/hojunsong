@@ -17,26 +17,55 @@
       "description": "The OSSI-1 satellite was launched by Hojun Song in April 2013 at Baikonur, Kazakhstan—the first satellite ever built and launched by an individual.",
       "overview": [
         "Hojun Song launched the OSSI-1 satellite in April 2013 at Baikonur, Kazakhstan—the first satellite ever built and launched by an individual.",
-        "While audiences are drawn to this achievement, Hojun Song shifts attention to broader themes: heroism and nationalism in science, the role of amateurs today, and the sharing of sensitive technologies. He explores these ideas through comedic and satirical performances."
-      ],
-      "thumbnail": "/works/open-source-satellite-initiative/_images/01-OSSI-1 Satellite.JPG",
-      "images": [
-        {
-          "src": "/works/open-source-satellite-initiative/_images/01-OSSI-1 Satellite.JPG",
-          "filename": "01-OSSI-1 Satellite.JPG",
-          "caption": "OSSI 1 Satellite"
-        },
-        {
-          "src": "/works/open-source-satellite-initiative/_images/02-In Front Of Soyuz.jpg",
-          "filename": "02-In Front Of Soyuz.jpg",
-          "caption": "In Front Of Soyuz"
-        }
+        "While audiences are drawn to this achievement, Hojun Song shifts attention to broader themes: heroism and nationalism in science, the role of amateurs today, and the sharing of sensitive technologies. He explores these ideas through comedic and satirical performances.",
+        "![OSSI 1 Satellite](01-OSSI-1 Satellite.JPG)\n![In Front Of Soyuz](02-In Front Of Soyuz.jpg)"
       ],
       "relatedProjects": [
         "the-strongest-weapon-in-the-world",
         "anti-ai-vocalization-techniques"
       ],
-      "presentations": []
+      "presentations": [
+        {
+          "slug": "2012-Zero1Biennale",
+          "title": "Open Source Satellite Initiative",
+          "event": "Zero1 Biennial",
+          "type": "Exhibition",
+          "location": "San Jose, California",
+          "year": "2012",
+          "description": "Open Source Satellite Initiative project shown at the Zero1 Biennaial",
+          "overview": "Presenting Open Source Satellite Initiative project at the Zero1 Biennial in San Jose, California. NASA Ames Center was near by so many scientis stopped by to talk.\n![If I tell you, I have to kill you](ifitellyou.jpg)\n![I sell T shirts to pay for the launching](iselltshirts.jpg)\n![International Traffic in Arms Regulation My Ass](itarmyass.jpg)\n![OSSI-1 Satellite](zero1ossi.jpg)"
+        },
+        {
+          "slug": "2014-ArtSpectrum",
+          "title": "Open Source Satellite Initiative",
+          "event": "Art Spectrum",
+          "type": "Exhibition",
+          "location": "Leeum Museum of Art, Seoul",
+          "year": "2014",
+          "description": "OSSI project presented at Art Spectrum, Leeum Museum of Art",
+          "overview": "The core idea of the OSSI satellite project is to share the entire process of building and launching a satellite. Therefore, even though it was presented in a renowned exhibition such as Art Spectrum, the work was presented in a deliberately approachable and accessible manner. The main idea behind the presentation format was inspired by kiosks found in local community offices and post offices. \nBy encouraging active audience participation—watching videos and solving quizzes—the project aimed to help viewers realize that the technologies discussed in the satellite project are in fact connected to broader themes such as society, politics, and people’s dreams.\n![Satellite Quiz Show Communication Module Capter](QuizShowLeeum.jpg)\n![Satellite Quiz Show Communication Module Capter](OSSIQuizshowPeople.JPG)\n![Satellite Quiz Show Communication Module Capter](OSSIQuizshowPeople2.JPG)\n![Elementary School Field Trip for Satellite Quiz Show](OSSIQuizshowSchool.jpeg)\nBefore the exhibition, more than 100 elementary school students in Seoul sent handwritten letters titled “To Scientist Hojun Song, Who Launched a Satellite into Space.” The students and their science teacher were invited to the art exhibition, where a gathering was held to share conversations together.\n![Quiz Show Prize](OSSIQuizshowPresent1.JPG)\n![Quiz Show Prize](OSSIQuizshowPresent2.JPG)\n![Satellite Quiz Show Drawing LIVE](OSSIQuizShow.JPG)\n[grid-2]\n![OSSI Quiz Show Quiz 1](OSSIQuiz1.jpg)\n![OSSI Quiz Show Quiz 2](OSSIQuiz2.jpg)\n![OSSI Quiz Show Quiz 3](OSSIQuiz3.jpg)\n![OSSI Quiz Show Quiz 4](OSSIQuiz4.jpg)\n[/grid]\n[youtube](https://www.youtube.com/watch?v=wArISD9NJ_8)"
+        },
+        {
+          "slug": "2014-FestivalBom",
+          "title": "Open Source Satellite Initiative",
+          "event": "Festival Bom",
+          "type": "Performance",
+          "location": "Seoul",
+          "year": "2014",
+          "description": "OSSI project presented at Festival Bom",
+          "overview": "Open Source Satellite Initiative project presented at Festival BO:M 2014 as rap music performance.\n[youtube](https://www.youtube.com/watch?v=M-pZb4Ni7KQ)"
+        },
+        {
+          "slug": "2015-Objectology2",
+          "title": "Open Source Satellite Initiative",
+          "event": "Objectology 2",
+          "type": "Exhibition",
+          "location": "Seoul",
+          "year": "2015",
+          "description": "OSSI project presented at Objectology 2",
+          "overview": ""
+        }
+      ]
     },
     {
       "slug": "on-off-everything",
@@ -45,20 +74,8 @@
       "description": "Audiences bring their own electronic devices to this project. Each device has its own timing, lights, and sounds when switching on and off.",
       "overview": [
         "Audiences bring their own electronic devices to this project. Each device is a system with its own timing, lights, and sounds when switching on and off.",
-        "When all devices are connected to the installation and the central power cycles on and off, unexpected audiovisual combinations emerge."
-      ],
-      "thumbnail": "/works/on-off-everything/_images/01-On Off Everything On.jpg",
-      "images": [
-        {
-          "src": "/works/on-off-everything/_images/01-On Off Everything On.jpg",
-          "filename": "01-On Off Everything On.jpg",
-          "caption": "On Off Everything On"
-        },
-        {
-          "src": "/works/on-off-everything/_images/02-On Off Everything Off.jpg",
-          "filename": "02-On Off Everything Off.jpg",
-          "caption": "On Off Everything Off"
-        }
+        "When all devices are connected to the installation and the central power cycles on and off, unexpected audiovisual combinations emerge.",
+        "![On Off Everything On](01-On Off Everything On.jpg)\n![On Off Everything Off](02-On Off Everything Off.jpg)"
       ],
       "relatedProjects": [
         "sync-o-light"
@@ -74,8 +91,6 @@
         "This project uses a sailboat as a floating, isolated studio for near-future storytelling. It explores off-grid ocean living in an era of pandemics and virtual reality.",
         "Scientists, artists, musicians, and writers sail together to create a short science fiction zine. Conversations on board are live-streamed for real-time collaboration with audiences. The sailing and publishing happen quarterly."
       ],
-      "thumbnail": null,
-      "images": [],
       "relatedProjects": [
         "future-school-food-foraging-seaweed"
       ],
@@ -89,35 +104,8 @@
       "overview": [
         "Seaweeds like Miyeok (Undaria pinnatifida) and Dasima (Laminaria japonica) travel with ocean currents and settle wherever they land. Now considered among the most invasive species globally, they are also traditional postpartum food in Korea.",
         "We know that ocean seaweed captures more carbon than the Amazon rainforest, yet few international institutions officially recognize this.",
-        "It's striking how this seemingly insignificant seaweed connects to major global issues: future food, climate change, decolonization, and diaspora."
-      ],
-      "thumbnail": "/works/future-school-food-foraging-seaweed/_images/01-Future School Food Foraging.png",
-      "images": [
-        {
-          "src": "/works/future-school-food-foraging-seaweed/_images/01-Future School Food Foraging.png",
-          "filename": "01-Future School Food Foraging.png",
-          "caption": "Future School Food Foraging"
-        },
-        {
-          "src": "/works/future-school-food-foraging-seaweed/_images/02-Future School Food Foraging.jpg",
-          "filename": "02-Future School Food Foraging.jpg",
-          "caption": "Future School Food Foraging"
-        },
-        {
-          "src": "/works/future-school-food-foraging-seaweed/_images/03-Future School Miyeok Dance.jpg",
-          "filename": "03-Future School Miyeok Dance.jpg",
-          "caption": "Future School Miyeok Dance"
-        },
-        {
-          "src": "/works/future-school-food-foraging-seaweed/_images/04-Future School Food Foraging Recipie.png",
-          "filename": "04-Future School Food Foraging Recipie.png",
-          "caption": "Future School Food Foraging Recipie"
-        },
-        {
-          "src": "/works/future-school-food-foraging-seaweed/_images/05-What We Waste What We Eat.png",
-          "filename": "05-What We Waste What We Eat.png",
-          "caption": "What We Waste What We Eat"
-        }
+        "It's striking how this seemingly insignificant seaweed connects to major global issues: future food, climate change, decolonization, and diaspora.",
+        "![Future School Food Foraging](01-Future School Food Foraging.png)\n![Future School Food Foraging](02-Future School Food Foraging.jpg)\n![Future School Miyeok Dance](03-Future School Miyeok Dance.jpg)\n![Future School Food Foraging Recipie](04-Future School Food Foraging Recipie.png)\n![What We Waste What We Eat](05-What We Waste What We Eat.png)"
       ],
       "relatedProjects": [
         "time-to-leave-the-land"
@@ -132,15 +120,8 @@
       "overview": [
         "Participants try to create movements for 10 seconds that resist video compression. They stand before a camera and record; the person whose video stays largest after compression wins.",
         "Random movements should defeat codecs like H.264, but there's an irony: once people consciously try to be random, they can't truly be random.",
-        "How can we move and think beyond A.I. predictions?"
-      ],
-      "thumbnail": "/works/dont-compress-me/_images/01-Don't Compress Me 2015.png",
-      "images": [
-        {
-          "src": "/works/dont-compress-me/_images/01-Don't Compress Me 2015.png",
-          "filename": "01-Don't Compress Me 2015.png",
-          "caption": "Don't Compress Me 2015"
-        }
+        "How can we move and think beyond A.I. predictions?",
+        "![Don't Compress Me 2015](01-Don't Compress Me 2015.png)"
       ],
       "relatedProjects": [
         "anti-ai-vocalization-techniques",
@@ -155,14 +136,7 @@
           "location": "Mother Offline",
           "year": "2022",
           "description": "The first Don’t Compress Me World Competition in Seoul. The winner gets 1 ETH.",
-          "images": [
-            {
-              "src": "/works/dont-compress-me/2022-DCMWC/_images/01-Don't Compress Me World Poster.jpg",
-              "filename": "01-Don't Compress Me World Poster.jpg",
-              "caption": "Don't Compress Me World Poster"
-            }
-          ],
-          "overview": "Artist Hojun Song's\n🌐 Don’t Compress Me World Competition Begins 📢\n👽 Finding a new type of human in the era of artificial intelligence and uncertainty.\n🏆 Awarding 1 BTC to the final winner of the least compressed at  the world competition after moving the body for 10 seconds in front of the camera.\nYou need to move as fast and randomly as possible with colorful outfits in order not to get compressed.\n- The 1st City:  Seoul (Prize 1 ETH)\n- When: 7.22 Fri 6PM Registration, 8PM Competition\n- Venue: Mother Offline Yongsan-gu, Hannam-dong, Itaewon-ro 55na-gil, 6\n- Music: DJ Maktoop, DJ DGURU \n- Sponsor: NFT Mania, Mother Media\n[images]\n[youtube](https://www.youtube.com/watch?v=lfWTGIeqh-I)",
+          "overview": "Artist Hojun Song's\n🌐 Don’t Compress Me World Competition Begins 📢\n👽 Finding a new type of human in the era of artificial intelligence and uncertainty.\n🏆 Awarding 1 BTC to the final winner of the least compressed at  the world competition after moving the body for 10 seconds in front of the camera.\nYou need to move as fast and randomly as possible with colorful outfits in order not to get compressed.\n- The 1st City:  Seoul (Prize 1 ETH)\n- When: 7.22 Fri 6PM Registration, 8PM Competition\n- Venue: Mother Offline Yongsan-gu, Hannam-dong, Itaewon-ro 55na-gil, 6\n- Music: DJ Maktoop, DJ DGURU \n- Sponsor: NFT Mania, Mother Media\n![Don't Compress Me World Poster](01-Don't Compress Me World Poster.jpg)\n[youtube](https://www.youtube.com/watch?v=lfWTGIeqh-I)",
           "credits": "- Partner: NFTMania\n- Location Partner: MOTHER Media\n- Design: WORKS\n- Coordinator: Sabina\n- Project Manager: Saewon Kong\n- LED Display: CreDL\n- Printing: 1px Gardening\n- DJ: DJ DGURU, DJ Maktoop\n- Video: Yongyeon Jeon"
         },
         {
@@ -173,14 +147,7 @@
           "location": "Culture Station Seoul 284",
           "year": "2025",
           "description": "Interactive installation where participants compete to resist video compression through movement.",
-          "images": [
-            {
-              "src": "/works/dont-compress-me/2025-UnfoldX/_images/01-A New Type of Human.jpeg",
-              "filename": "01-A New Type of Human.jpeg",
-              "caption": "A New Type of Human"
-            }
-          ],
-          "overview": "Interactive installation presented at the Unfold X 2025. Participants stood in front of a camera and moved freely for 10 seconds. More than 1000 people participated this time. Many group sessions were recorded.",
+          "overview": "Interactive installation presented at the Unfold X 2025. Participants stood in front of a camera and moved freely for 10 seconds. More than 1000 people participated this time. Many group sessions were recorded.\n![A New Type of Human](01-A New Type of Human.jpeg)",
           "credits": "Exhibition: Unfold X Culture Staion Seoul 284"
         }
       ]
@@ -192,20 +159,8 @@
       "description": "This project collects participants' voices as material for an explosion simulation.",
       "overview": [
         "This project collects participants' voices as material for an explosion simulation. Voices are mapped to fragment energies and trajectories, then detonated.",
-        "The noise of all voices playing at once, the overloaded computer, and visuals shifting between order and chaos invite us to think about the space between simulated disasters and real ones like COVID-19."
-      ],
-      "thumbnail": "/works/the-great-explosion/_images/01-The Great Explosion.jpg",
-      "images": [
-        {
-          "src": "/works/the-great-explosion/_images/01-The Great Explosion.jpg",
-          "filename": "01-The Great Explosion.jpg",
-          "caption": "The Great Explosion"
-        },
-        {
-          "src": "/works/the-great-explosion/_images/02-Voice Upload.PNG",
-          "filename": "02-Voice Upload.PNG",
-          "caption": "Voice Upload"
-        }
+        "The noise of all voices playing at once, the overloaded computer, and visuals shifting between order and chaos invite us to think about the space between simulated disasters and real ones like COVID-19.",
+        "![The Great Explosion](01-The Great Explosion.jpg)\n![Voice Upload](02-Voice Upload.PNG)"
       ],
       "relatedProjects": [
         "dont-compress-me"
@@ -222,8 +177,6 @@
         "By altering intonation and inserting white noise between syllables, we can deceive Google Cloud Speech Recognition.",
         "A.I. kills diversity. Deny the bias."
       ],
-      "thumbnail": null,
-      "images": [],
       "relatedProjects": [
         "dont-compress-me",
         "divided-we-stand-united-we-fall"
@@ -233,21 +186,14 @@
     {
       "slug": "gold-and-silver",
       "title": "gold & silver",
-      "year": "2017–2018",
+      "year": "2017–",
       "description": "gold & silver is a two-member experimental improvisation band: Hojun Song and Sangback Choe.",
       "overview": [
         "gold & silver is a two-member experimental improvisation band: Hojun Song and Sangback Choe. The band makes experimental music accessible by actively explaining what they're doing and why during performances.",
         "They share improvised song titles and the thinking behind them, helping audiences imagine along. When it works, audiences can even sing along to improvised sounds.",
         "The band has charged negative admission—paying audiences to attend—so they can fail freely without guilt. Current setup: modular synthesizers and acoustic drums.",
-        "[images]\n[Apple Music](https://music.apple.com/kr/album/hello-world-ep/1802809497?l=en-GB)\n[Spotify Music](https://open.spotify.com/album/4frAnlsHYnjVGZuOjjS2BU)"
-      ],
-      "thumbnail": "/works/gold-and-silver/_images/01-Gold & Silver Hello World Album Cover.jpeg",
-      "images": [
-        {
-          "src": "/works/gold-and-silver/_images/01-Gold & Silver Hello World Album Cover.jpeg",
-          "filename": "01-Gold & Silver Hello World Album Cover.jpeg",
-          "caption": "Gold & Silver Hello World Album Cover"
-        }
+        "[Apple Music](https://music.apple.com/kr/album/hello-world-ep/1802809497?l=en-GB)\n[Spotify Music](https://open.spotify.com/album/4frAnlsHYnjVGZuOjjS2BU)",
+        "![Gold & Silver Hello World Album Cover](01-Gold & Silver Hello World Album Cover.jpeg)"
       ],
       "relatedProjects": [
         "dssb"
@@ -260,40 +206,8 @@
       "year": "2010–2016",
       "description": "GODLED Electronics is Hojun Song's company for mass-producing God-shaped LED electronics.",
       "overview": [
-        "GODLED Electronics is Hojun Song's company for mass-producing God-shaped LED electronics. The idea began in 2010; the first prototypes appeared in 2016. Current lineup: Buddha (LG-BUD-6036), Jesus (LW-JES-7620), Mary (LB-MAR-4125), and Ganesh (LR-GAN-6036), with production planned for Q3 2021."
-      ],
-      "thumbnail": "/works/godled-electronics/_images/01-Buddha (LG-BUD-6036).png",
-      "images": [
-        {
-          "src": "/works/godled-electronics/_images/01-Buddha (LG-BUD-6036).png",
-          "filename": "01-Buddha (LG-BUD-6036).png",
-          "caption": "Buddha (LG BUD 6036)"
-        },
-        {
-          "src": "/works/godled-electronics/_images/02-Ganesh (LR-GAN-6036).png",
-          "filename": "02-Ganesh (LR-GAN-6036).png",
-          "caption": "Ganesh (LR GAN 6036)"
-        },
-        {
-          "src": "/works/godled-electronics/_images/03-Jesus (LW-JES-7620).png",
-          "filename": "03-Jesus (LW-JES-7620).png",
-          "caption": "Jesus (LW JES 7620)"
-        },
-        {
-          "src": "/works/godled-electronics/_images/04-Mary (LB-MAR-4125).png",
-          "filename": "04-Mary (LB-MAR-4125).png",
-          "caption": "Mary (LB MAR 4125)"
-        },
-        {
-          "src": "/works/godled-electronics/_images/05-Godled Industrial.jpg",
-          "filename": "05-Godled Industrial.jpg",
-          "caption": "Godled Industrial"
-        },
-        {
-          "src": "/works/godled-electronics/_images/06-Jesus Mold.jpg",
-          "filename": "06-Jesus Mold.jpg",
-          "caption": "Jesus Mold"
-        }
+        "GODLED Electronics is Hojun Song's company for mass-producing God-shaped LED electronics. The idea began in 2010; the first prototypes appeared in 2016. Current lineup: Buddha (LG-BUD-6036), Jesus (LW-JES-7620), Mary (LB-MAR-4125), and Ganesh (LR-GAN-6036), with production planned for Q3 2021.",
+        "[grid-2]\n![Buddha (LG BUD 6036)](01-Buddha (LG-BUD-6036).png)\n![Ganesh (LR GAN 6036)](02-Ganesh (LR-GAN-6036).png)\n![Jesus (LW JES 7620)](03-Jesus (LW-JES-7620).png)\n![Mary (LB MAR 4125)](04-Mary (LB-MAR-4125).png)\n![Godled Industrial](05-Godled Industrial.jpg)\n![Jesus Mold](06-Jesus Mold.jpg)\n[/grid]"
       ],
       "relatedProjects": [
         "sync-o-light"
@@ -306,20 +220,8 @@
       "year": "2016",
       "description": "Even after the Trinity test revealed the bomb's power, and even after Germany's defeat, the Manhattan Project continued. The question remains: couldn't these geniuses have stopped it?",
       "overview": [
-        "Even after the Trinity test revealed the bomb's power, and even after Germany's defeat, the Manhattan Project continued—dropping nuclear bombs on two Japanese cities. Many scientists, including Einstein, later expressed regret. But the question remains: couldn't these geniuses have stopped it before the bombing? In this installation, as viewers examine a tiny, gold-framed text about the Manhattan Project up close, a nearby video of Einstein transitions from his normal expression to his famous tongue-out gesture—supposedly made \"for humanity.\" Gotcha!"
-      ],
-      "thumbnail": "/works/for-humanity-einstein-merong/_images/01-Einstein Merong No Audience.JPG",
-      "images": [
-        {
-          "src": "/works/for-humanity-einstein-merong/_images/01-Einstein Merong No Audience.JPG",
-          "filename": "01-Einstein Merong No Audience.JPG",
-          "caption": "Einstein Merong No Audience"
-        },
-        {
-          "src": "/works/for-humanity-einstein-merong/_images/02-Einstein Merong With Audience.JPG",
-          "filename": "02-Einstein Merong With Audience.JPG",
-          "caption": "Einstein Merong With Audience"
-        }
+        "Even after the Trinity test revealed the bomb's power, and even after Germany's defeat, the Manhattan Project continued—dropping nuclear bombs on two Japanese cities. Many scientists, including Einstein, later expressed regret. But the question remains: couldn't these geniuses have stopped it before the bombing? In this installation, as viewers examine a tiny, gold-framed text about the Manhattan Project up close, a nearby video of Einstein transitions from his normal expression to his famous tongue-out gesture—supposedly made \"for humanity.\" Gotcha!",
+        "![Einstein Merong No Audience](01-Einstein Merong No Audience.JPG)\n![Einstein Merong With Audience](02-Einstein Merong With Audience.JPG)"
       ],
       "relatedProjects": [
         "the-strongest-weapon-in-the-world",
@@ -333,15 +235,8 @@
       "year": "2015",
       "description": "Divided We Stand, United We Fall. The deconstruction of a hero. A manifesto for diversity. ANTI-A.I.",
       "overview": [
-        "Divided We Stand, United We Fall. The deconstruction of a hero. A manifesto for diversity. ANTI-A.I."
-      ],
-      "thumbnail": "/works/divided-we-stand-united-we-fall/_images/01-Divided We Stand United We Fall.jpg",
-      "images": [
-        {
-          "src": "/works/divided-we-stand-united-we-fall/_images/01-Divided We Stand United We Fall.jpg",
-          "filename": "01-Divided We Stand United We Fall.jpg",
-          "caption": "Divided We Stand United We Fall"
-        }
+        "Divided We Stand, United We Fall. The deconstruction of a hero. A manifesto for diversity. ANTI-A.I.",
+        "![Divided We Stand United We Fall](01-Divided We Stand United We Fall.jpg)"
       ],
       "relatedProjects": [
         "poomba",
@@ -357,8 +252,6 @@
       "overview": [
         "Winner of the Ilmac Art Prize 2015, Hojun Song's solo exhibition featured no physical artworks. Deconstructing heroes and restoring romance collided—the artist could only ask questions, since making and showing things felt like violence. The poomba was a Korean figure from the late Goryeo dynasty: satirist, clown, beggar, and street monk, respected for wisdom. A self-deprecating, hero-deconstructing hero. The exhibition explored what a future poomba might be. Four talks and four workshops were held at the gallery and a nearby construction site, all live-streamed. Activities included camping and swimming at the construction site, with nightly gatherings for drinks."
       ],
-      "thumbnail": null,
-      "images": [],
       "relatedProjects": [
         "divided-we-stand-united-we-fall",
         "anti-climax"
@@ -371,30 +264,8 @@
       "year": "2010–2015, 2025",
       "description": "A small, cheap 5mm LED that blinks once every 100 years. The project was rejected after Hojun Song refused to make the LED blink every year instead.",
       "overview": [
-        "A small, cheap 5mm LED that blinks once every 100 years. The idea began in 2010 and nearly became a public art project in 2015. A two-meter spherical structure would house an LED module in an inert gas-filled vacuum chamber. Nuclear batteries would provide 100 years of power, with a passive heating system designed through thermal simulation. The project was rejected after Hojun Song refused the committee's proposal to make it blink every year."
-      ],
-      "thumbnail": "/works/led-that-blinks-once-every-100-years/_images/01-LED-that-blinks-once-every-100-years ver 001.jpeg",
-      "images": [
-        {
-          "src": "/works/led-that-blinks-once-every-100-years/_images/01-LED-that-blinks-once-every-100-years ver 001.jpeg",
-          "filename": "01-LED-that-blinks-once-every-100-years ver 001.jpeg",
-          "caption": "LED that blinks once every 100 years ver 001"
-        },
-        {
-          "src": "/works/led-that-blinks-once-every-100-years/_images/02-LED-that-blinks-once-every-100-years ver 001.jpeg",
-          "filename": "02-LED-that-blinks-once-every-100-years ver 001.jpeg",
-          "caption": "LED that blinks once every 100 years ver 001"
-        },
-        {
-          "src": "/works/led-that-blinks-once-every-100-years/_images/03-LED-that-blinks-once-every-100-years ver 001.jpeg",
-          "filename": "03-LED-that-blinks-once-every-100-years ver 001.jpeg",
-          "caption": "LED that blinks once every 100 years ver 001"
-        },
-        {
-          "src": "/works/led-that-blinks-once-every-100-years/_images/04-LED-that-blinks-once-every-100-years ver 001.png",
-          "filename": "04-LED-that-blinks-once-every-100-years ver 001.png",
-          "caption": "LED that blinks once every 100 years ver 001"
-        }
+        "A small, cheap 5mm LED that blinks once every 100 years. The idea began in 2010 and nearly became a public art project in 2015. A two-meter spherical structure would house an LED module in an inert gas-filled vacuum chamber. Nuclear batteries would provide 100 years of power, with a passive heating system designed through thermal simulation. The project was rejected after Hojun Song refused the committee's proposal to make it blink every year.",
+        "![LED that blinks once every 100 years ver 001](01-LED-that-blinks-once-every-100-years ver 001.jpeg)\n![LED that blinks once every 100 years ver 001](02-LED-that-blinks-once-every-100-years ver 001.jpeg)\n![LED that blinks once every 100 years ver 001](03-LED-that-blinks-once-every-100-years ver 001.jpeg)\n![LED that blinks once every 100 years ver 001](04-LED-that-blinks-once-every-100-years ver 001.png)"
       ],
       "relatedProjects": [
         "sync-o-light",
@@ -409,15 +280,8 @@
       "description": "dssb is a death metal-inspired duo: Hojun Song and Jinhwa Jeong. The band formed in response to the Sewol ferry disaster in 2014.",
       "overview": [
         "dssb is a death metal-inspired duo: Hojun Song and Jinhwa Jeong. The band formed in response to the Sewol ferry disaster, which killed 304 passengers and left Korean society feeling helpless in 2014.",
-        "[images]\n[Apple Music](https://music.apple.com/kr/album/beautiful-nation-single/1561357862?l=en-GB)"
-      ],
-      "thumbnail": "/works/dssb/_images/dssb Beautiful Nation.png",
-      "images": [
-        {
-          "src": "/works/dssb/_images/dssb Beautiful Nation.png",
-          "filename": "dssb Beautiful Nation.png",
-          "caption": "Dssb Beautiful Nation"
-        }
+        "[Apple Music](https://music.apple.com/kr/album/beautiful-nation-single/1561357862?l=en-GB)",
+        "![dssb Beautiful Nation](dssb Beautiful Nation.png)"
       ],
       "relatedProjects": [
         "gold-and-silver"
@@ -430,20 +294,8 @@
       "year": "2014",
       "description": "In Korea, bowing expresses greeting or gratitude. But when combined with extreme machismo, it becomes a fear response. Hello 90 is an interactive video installation.",
       "overview": [
-        "In Korea, bowing expresses greeting or gratitude. But when combined with extreme machismo, it becomes a fear response. A normal bow is 30-40 degrees; the extreme macho bow is a full 90 degrees—faster, with a louder greeting. This bowing style is common among gangsters and military personnel, but also in college clubs and among K-pop idols. Hello 90 is an interactive video installation where people on screen bow at 90 degrees when you enter."
-      ],
-      "thumbnail": "/works/hello-90/_images/01-Hello90 0 deg.jpg",
-      "images": [
-        {
-          "src": "/works/hello-90/_images/01-Hello90 0 deg.jpg",
-          "filename": "01-Hello90 0 deg.jpg",
-          "caption": "Hello90 0 deg"
-        },
-        {
-          "src": "/works/hello-90/_images/02-Hello90 90 deg.jpg",
-          "filename": "02-Hello90 90 deg.jpg",
-          "caption": "Hello90 90 deg"
-        }
+        "In Korea, bowing expresses greeting or gratitude. But when combined with extreme machismo, it becomes a fear response. A normal bow is 30-40 degrees; the extreme macho bow is a full 90 degrees—faster, with a louder greeting. This bowing style is common among gangsters and military personnel, but also in college clubs and among K-pop idols. Hello 90 is an interactive video installation where people on screen bow at 90 degrees when you enter.",
+        "![Hello90 0 deg](01-Hello90 0 deg.jpg)\n![Hello90 90 deg](02-Hello90 90 deg.jpg)"
       ],
       "relatedProjects": [
         "poomba"
@@ -456,15 +308,8 @@
       "year": "2014",
       "description": "Air bending versus the Large Hadron Collider. Why do few care about air bending while nations spend billions on the LHC at CERN?",
       "overview": [
-        "A curatorial research project and exhibition plan for the Asian Culture Center opening in Gwangju, Korea. Air bending versus the Large Hadron Collider. Why do few care about air bending while nations spend billions on the LHC at CERN? Is this about pseudoscience versus real science? Or about what actually improves the world? What is \"betterment\"? Experts prove; people believe—because most can't understand either way. The project places different \"proofs\" side by side: air bending vs. LHC, a man hiking with an atomic clock to feel time, human echolocation by blind people, a Dynasphere machine generating love Qi for world peace, quantum consciousness, and more. *The exhibition was never realized due to a change in director."
-      ],
-      "thumbnail": "/works/prove-it-for-mankind/_images/01-Prove It For Mankind Poster.jpeg",
-      "images": [
-        {
-          "src": "/works/prove-it-for-mankind/_images/01-Prove It For Mankind Poster.jpeg",
-          "filename": "01-Prove It For Mankind Poster.jpeg",
-          "caption": "Prove It For Mankind Poster"
-        }
+        "A curatorial research project and exhibition plan for the Asian Culture Center opening in Gwangju, Korea. Air bending versus the Large Hadron Collider. Why do few care about air bending while nations spend billions on the LHC at CERN? Is this about pseudoscience versus real science? Or about what actually improves the world? What is \"betterment\"? Experts prove; people believe—because most can't understand either way. The project places different \"proofs\" side by side: air bending vs. LHC, a man hiking with an atomic clock to feel time, human echolocation by blind people, a Dynasphere machine generating love Qi for world peace, quantum consciousness, and more. *The exhibition was never realized due to a change in director.",
+        "![Prove It For Mankind Poster](01-Prove It For Mankind Poster.jpeg)"
       ],
       "relatedProjects": [
         "open-source-satellite-initiative"
@@ -477,30 +322,8 @@
       "year": "2013",
       "description": "A performance at the opening of MMCA Seoul. The show explored deconstructing the authority of previous artworks to create new ones.",
       "overview": [
-        "A performance at the opening of MMCA Seoul. Collaborating with actor Taeyoung Kang, actress Eun-ah Suh, and the band Idiotape, the show explored deconstructing the authority of previous artworks to create new ones. It began with LED poets spouting nonsense, moved through improvised confessions via computer chat, calling out every audience member's name, and flower-rope suicides, ending with loud music in the quiet museum. Deliberately clumsy graphics and fake sculptures were displayed prominently while technology stayed hidden. Only 3 of hundreds danced."
-      ],
-      "thumbnail": "/works/anti-climax/_images/01-Anti Climax.jpg",
-      "images": [
-        {
-          "src": "/works/anti-climax/_images/01-Anti Climax.jpg",
-          "filename": "01-Anti Climax.jpg",
-          "caption": "Anti Climax"
-        },
-        {
-          "src": "/works/anti-climax/_images/02-Anti Climax LED Poet.jpg",
-          "filename": "02-Anti Climax LED Poet.jpg",
-          "caption": "Anti Climax LED Poet"
-        },
-        {
-          "src": "/works/anti-climax/_images/03-Anti Climax Flower Suicide.jpg",
-          "filename": "03-Anti Climax Flower Suicide.jpg",
-          "caption": "Anti Climax Flower Suicide"
-        },
-        {
-          "src": "/works/anti-climax/_images/04-Anti Climax with Idiotape.jpg",
-          "filename": "04-Anti Climax with Idiotape.jpg",
-          "caption": "Anti Climax with Idiotape"
-        }
+        "A performance at the opening of MMCA Seoul. Collaborating with actor Taeyoung Kang, actress Eun-ah Suh, and the band Idiotape, the show explored deconstructing the authority of previous artworks to create new ones. It began with LED poets spouting nonsense, moved through improvised confessions via computer chat, calling out every audience member's name, and flower-rope suicides, ending with loud music in the quiet museum. Deliberately clumsy graphics and fake sculptures were displayed prominently while technology stayed hidden. Only 3 of hundreds danced.",
+        "![Anti Climax](01-Anti Climax.jpg)\n![Anti Climax LED Poet](02-Anti Climax LED Poet.jpg)\n![Anti Climax Flower Suicide](03-Anti Climax Flower Suicide.jpg)\n![Anti Climax with Idiotape](04-Anti Climax with Idiotape.jpg)"
       ],
       "relatedProjects": [
         "poomba",
@@ -514,15 +337,8 @@
       "year": "2010–2018",
       "description": "The apple ripens when it receives attention. When someone photographs it with a flash, it slowly turns from green to red and emits eerie sounds.",
       "overview": [
-        "The apple ripens when it receives attention. When someone photographs it with a flash, it slowly turns from green to red and emits eerie sounds. 400 independent light and sound modules gradually synchronize."
-      ],
-      "thumbnail": "/works/apple/_images/01-Apple.jpg",
-      "images": [
-        {
-          "src": "/works/apple/_images/01-Apple.jpg",
-          "filename": "01-Apple.jpg",
-          "caption": "Apple"
-        }
+        "The apple ripens when it receives attention. When someone photographs it with a flash, it slowly turns from green to red and emits eerie sounds. 400 independent light and sound modules gradually synchronize.",
+        "![Apple](01-Apple.jpg)"
       ],
       "relatedProjects": [
         "sync-o-light",
@@ -536,15 +352,8 @@
       "year": "2010–2016",
       "description": "Uranium Necklace is for those contemplating suicide—a way to taste death before making a final decision.",
       "overview": [
-        "Uranium Necklace is for those contemplating suicide—a way to taste death before making a final decision. Drugs aren't potent enough; we need stronger materials. Upon purchase, the stainless steel wire necklace is locked so it cannot be removed. An attempt to sell one on eBay for $900,000 drew a comment that a life was worth less."
-      ],
-      "thumbnail": "/works/uranium-necklace/_images/Uranium Neckrace.jpeg",
-      "images": [
-        {
-          "src": "/works/uranium-necklace/_images/Uranium Neckrace.jpeg",
-          "filename": "Uranium Neckrace.jpeg",
-          "caption": "Uranium Neckrace"
-        }
+        "Uranium Necklace is for those contemplating suicide—a way to taste death before making a final decision. Drugs aren't potent enough; we need stronger materials. Upon purchase, the stainless steel wire necklace is locked so it cannot be removed. An attempt to sell one on eBay for $900,000 drew a comment that a life was worth less.",
+        "![Uranium Neckrace](Uranium Neckrace.jpeg)"
       ],
       "relatedProjects": [
         "the-strongest-weapon-in-the-world"
@@ -557,20 +366,8 @@
       "year": "2007–2010",
       "description": "A series of attempts to build an indestructible weapon that does NOT attack. When struck with a hammer, it says 'I love you.'",
       "overview": [
-        "A series of attempts to build an indestructible weapon that does NOT attack. The first version, Weapons of Mass Happiness, was a heavy cast-aluminum sphere with a Geiger counter and a printer that outputs messages when triggered by nuclear explosion. The second was built with K-SAD students, featuring letters engraved on cow bones—emphasizing that indestructible data is the ultimate weapon. In 2010, the third version appeared: I Love You. Armored in thick SC45 steel with a piezo sensor inside, it says \"I love you\" when struck with a hammer."
-      ],
-      "thumbnail": "/works/the-strongest-weapon-in-the-world/_images/01-Srongest Weapon In The World.jpg",
-      "images": [
-        {
-          "src": "/works/the-strongest-weapon-in-the-world/_images/01-Srongest Weapon In The World.jpg",
-          "filename": "01-Srongest Weapon In The World.jpg",
-          "caption": "Srongest Weapon In The World"
-        },
-        {
-          "src": "/works/the-strongest-weapon-in-the-world/_images/02-Srongest Weapon In The World I Love You.JPG",
-          "filename": "02-Srongest Weapon In The World I Love You.JPG",
-          "caption": "Srongest Weapon In The World I Love You"
-        }
+        "A series of attempts to build an indestructible weapon that does NOT attack. The first version, Weapons of Mass Happiness, was a heavy cast-aluminum sphere with a Geiger counter and a printer that outputs messages when triggered by nuclear explosion. The second was built with K-SAD students, featuring letters engraved on cow bones—emphasizing that indestructible data is the ultimate weapon. In 2010, the third version appeared: I Love You. Armored in thick SC45 steel with a piezo sensor inside, it says \"I love you\" when struck with a hammer.",
+        "![Srongest Weapon In The World](01-Srongest Weapon In The World.jpg)\n![Srongest Weapon In The World I Love You](02-Srongest Weapon In The World I Love You.JPG)"
       ],
       "relatedProjects": [
         "uranium-necklace",
@@ -584,15 +381,8 @@
       "year": "2006–2017",
       "description": "Inspired by Steven Strogatz's book SYNC, this project creates artificial fireflies using 200 sound-reactive UV light modules that shift between synchronized and chaotic states.",
       "overview": [
-        "Inspired by Steven Strogatz's book SYNC, this project creates artificial fireflies using 200 sound-reactive UV light modules that shift between synchronized and chaotic states."
-      ],
-      "thumbnail": "/works/sync-o-light/_images/01-Sync O Light.jpg",
-      "images": [
-        {
-          "src": "/works/sync-o-light/_images/01-Sync O Light.jpg",
-          "filename": "01-Sync O Light.jpg",
-          "caption": "Sync O Light"
-        }
+        "Inspired by Steven Strogatz's book SYNC, this project creates artificial fireflies using 200 sound-reactive UV light modules that shift between synchronized and chaotic states.",
+        "![Sync O Light](01-Sync O Light.jpg)"
       ],
       "relatedProjects": [
         "apple",

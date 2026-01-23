@@ -20,7 +20,8 @@ body {
 
 a:link, a:visited, a:hover {
   color: black;
-  text-decoration:underline;
+  text-decoration: underline;
+  text-decoration-color: blue;
 }
 
 h1 {
@@ -93,6 +94,75 @@ nav {
 #workcontents {
   margin-top: 1rem;
   margin-bottom: 1.5rem;
+}
+
+/* Image Grid Layouts */
+.image-grid-2,
+.image-grid-3 {
+  display: grid;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.image-grid-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.image-grid-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.image-grid-2 figure,
+.image-grid-3 figure {
+  margin: 0;
+}
+
+.image-grid-2 img,
+.image-grid-3 img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* Masonry Layout */
+.image-masonry {
+  column-count: 2;
+  column-gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.image-masonry figure {
+  margin: 0 0 1rem 0;
+  break-inside: avoid;
+}
+
+.image-masonry img {
+  width: 100%;
+  height: auto;
+}
+
+/* Image Error State (404) */
+.image-error img {
+  background-color: #e0e0e0;
+  min-height: 150px;
+}
+
+.image-error figcaption::after {
+  content: ' (image not found)';
+  color: #999;
+  font-style: italic;
+}
+
+/* Responsive: Single column on mobile */
+@media only screen and (max-width: 500px) {
+  .image-grid-2,
+  .image-grid-3 {
+    grid-template-columns: 1fr;
+  }
+
+  .image-masonry {
+    column-count: 1;
+  }
 }
 
 @media only screen and (min-width: 730px) {

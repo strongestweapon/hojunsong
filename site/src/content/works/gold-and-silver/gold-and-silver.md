@@ -2,7 +2,7 @@
 slug: gold-and-silver
 order: 8
 title: gold & silver
-year: 2017–2018
+year: 2017–
 description: gold & silver is a two-member experimental improvisation band: Hojun Song and Sangback Choe.
 relatedProjects:
   - dssb
@@ -14,6 +14,7 @@ They share improvised song titles and the thinking behind them, helping audience
 
 The band has charged negative admission—paying audiences to attend—so they can fail freely without guilt. Current setup: modular synthesizers and acoustic drums.
 
-[images]
 [Apple Music](https://music.apple.com/kr/album/hello-world-ep/1802809497?l=en-GB)
 [Spotify Music](https://open.spotify.com/album/4frAnlsHYnjVGZuOjjS2BU)
+
+![Gold & Silver Hello World Album Cover](01-Gold & Silver Hello World Album Cover.jpeg)

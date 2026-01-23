@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#e0e0e0"/>
+  <text x="200" y="140" text-anchor="middle" font-family="Times New Roman, serif" font-size="24" fill="#999">Image not found</text>
+  <text x="200" y="170" text-anchor="middle" font-family="Times New Roman, serif" font-size="14" fill="#bbb">404</text>
+</svg>

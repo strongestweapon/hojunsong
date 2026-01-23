@@ -10,3 +10,5 @@ relatedProjects:
 ---
 
 Inspired by Steven Strogatz's book SYNC, this project creates artificial fireflies using 200 sound-reactive UV light modules that shift between synchronized and chaotic states.
+
+![Sync O Light](01-Sync O Light.jpg)
