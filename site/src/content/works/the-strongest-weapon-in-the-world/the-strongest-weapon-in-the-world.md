@@ -9,7 +9,13 @@ relatedProjects:
   - open-source-satellite-initiative
 ---
 
-A series of attempts to build an indestructible weapon that does NOT attack. The first version, Weapons of Mass Happiness, was a heavy cast-aluminum sphere with a Geiger counter and a printer that outputs messages when triggered by nuclear explosion. The second was built with K-SAD students, featuring letters engraved on cow bones—emphasizing that indestructible data is the ultimate weapon. In 2010, the third version appeared: I Love You. Armored in thick SC45 steel with a piezo sensor inside, it says "I love you" when struck with a hammer.
+A series of attempts to build an indestructible weapon that does NOT attack. The first version, Weapons of Mass Happiness, was a heavy cast-aluminum sphere with a Geiger counter and a printer that outputs messages when triggered by nuclear explosion. 
 
-![Srongest Weapon In The World](01-Srongest Weapon In The World.jpg)
-![Srongest Weapon In The World I Love You](02-Srongest Weapon In The World I Love You.JPG)
+The second was built with K-SAD students, featuring letters engraved on cow bones—emphasizing that indestructible data is the ultimate weapon. 
+
+In 2010, the third version appeared: I Love You. Armored in thick SC45 steel with a piezo sensor inside, it says "I love you" when struck with a hammer.
+
+![Srongest Weapon In The World, 2007](01-Srongest Weapon In The World.jpg)
+![Srongest Weapon In The World I Love You, 2010](02-Srongest Weapon In The World I Love You.JPG)
+
+[youtube](https://www.youtube.com/watch?v=wAfstSQJ6rU)

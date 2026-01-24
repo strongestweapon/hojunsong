@@ -173,6 +173,8 @@ function markdownToHtml(md, imagesBasePath = null) {
           videoId = href.match(/[?&]v=([^&]+)/)?.[1];
         } else if (href.includes('youtu.be/')) {
           videoId = href.match(/youtu\.be\/([^?]+)/)?.[1];
+        } else if (href.includes('youtube.com/shorts/')) {
+          videoId = href.match(/shorts\/([^?]+)/)?.[1];
         }
         if (videoId) {
           result.push(`<div class="video"><iframe src="https://www.youtube.com/embed/${videoId}" frameborder="0" allowfullscreen></iframe></div>`);

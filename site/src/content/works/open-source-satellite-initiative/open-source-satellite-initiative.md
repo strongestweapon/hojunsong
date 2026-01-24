@@ -13,5 +13,13 @@ Hojun Song launched the OSSI-1 satellite in April 2013 at Baikonur, Kazakhstanâ€
 
 While audiences are drawn to this achievement, Hojun Song shifts attention to broader themes: heroism and nationalism in science, the role of amateurs today, and the sharing of sensitive technologies. He explores these ideas through comedic and satirical performances.
 
-![OSSI 1 Satellite](01-OSSI-1 Satellite.JPG)
-![In Front Of Soyuz](02-In Front Of Soyuz.jpg)
+![Impossible Is Expensive, 2013](8-ImpossibleIsExpensive.jpg)
+![In Front Of Soyuz, 2013](02-In Front Of Soyuz.jpg)
+![OSSI 1 Satellite, 2013](01-OSSI-1 Satellite.JPG)
+![Launch Vehicle Contract Ceremony, Video, 2011](LVC3.png)
+![Please Buy My T-shirts, Video, 2012](BuyTshirts4.png)
+![OSSI Satellite Integration, 2013](SatelliteAdaptor.jpg)
+![Wired Magazine UK, July 2012](wired-2012-07-jul.jpg)
+Korean Artist + UK Magazine -> U.S. Flag behind.
+
+

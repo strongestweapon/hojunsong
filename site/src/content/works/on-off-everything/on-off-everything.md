@@ -12,5 +12,8 @@ Audiences bring their own electronic devices to this project. Each device is a s
 
 When all devices are connected to the installation and the central power cycles on and off, unexpected audiovisual combinations emerge.
 
-![On Off Everything On](01-On Off Everything On.jpg)
-![On Off Everything Off](02-On Off Everything Off.jpg)
+![On Off Everything On, 2019](DSC04323.JPG)
+![On Off Everything Off, 2019](DSC04324.JPG)
+![160-Outlet Power Strip, 2019](multiOOE.JPG)
+
+[youtube](https://www.youtube.com/watch?v=Hbkriwbvdro)

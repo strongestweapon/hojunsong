@@ -18,13 +18,23 @@
       "overview": [
         "Hojun Song launched the OSSI-1 satellite in April 2013 at Baikonur, Kazakhstan—the first satellite ever built and launched by an individual.",
         "While audiences are drawn to this achievement, Hojun Song shifts attention to broader themes: heroism and nationalism in science, the role of amateurs today, and the sharing of sensitive technologies. He explores these ideas through comedic and satirical performances.",
-        "![OSSI 1 Satellite](01-OSSI-1 Satellite.JPG)\n![In Front Of Soyuz](02-In Front Of Soyuz.jpg)"
+        "![Impossible Is Expensive, 2013](8-ImpossibleIsExpensive.jpg)\n![In Front Of Soyuz, 2013](02-In Front Of Soyuz.jpg)\n![OSSI 1 Satellite, 2013](01-OSSI-1 Satellite.JPG)\n![Launch Vehicle Contract Ceremony, Video, 2011](LVC3.png)\n![Please Buy My T-shirts, Video, 2012](BuyTshirts4.png)\n![OSSI Satellite Integration, 2013](SatelliteAdaptor.jpg)\n![Wired Magazine UK, July 2012](wired-2012-07-jul.jpg)\nKorean Artist + UK Magazine -> U.S. Flag behind."
       ],
       "relatedProjects": [
         "the-strongest-weapon-in-the-world",
         "anti-ai-vocalization-techniques"
       ],
       "presentations": [
+        {
+          "slug": "2011-LaborOfLoveRevisited",
+          "title": "Open Source Satellite Initiative",
+          "event": "Labor Of Love, Revisited",
+          "type": "Exhibition",
+          "location": "Arko Art Center, Seoul",
+          "year": "2011",
+          "description": "Open Source Satellite Initiative project shown at the Arko Art Center, Seoul, Korea",
+          "overview": "![Passionate Amateur](6342958301_2909d55f92_o.jpg)\n![OSSI T shirts and launching plan](6343709038_500fb05b1f_o.jpg)\n![OSSI Parts](6343709626_1bf3d8e896_o.jpg)\n![A plan for launching a satellite](6342965497_57d597e0b0_o.jpg)\n[grid-2]\n![OSSI Cricket Satellite Kit](cricket.jpg)\n![Space Blanket Film](petFilm.jpg)\n[/grid]"
+        },
         {
           "slug": "2012-Zero1Biennale",
           "title": "Open Source Satellite Initiative",
@@ -53,17 +63,37 @@
           "location": "Seoul",
           "year": "2014",
           "description": "OSSI project presented at Festival Bom",
-          "overview": "Open Source Satellite Initiative project presented at Festival BO:M 2014 as rap music performance.\n[youtube](https://www.youtube.com/watch?v=M-pZb4Ni7KQ)"
+          "overview": "Open Source Satellite Initiative project presented at Festival BO:M 2014 as rap music performance.\n![OSSI Satellite Rap Performance](OR1.png)\n![OSSI Satellite Rap Performance](OR2.png)\n![OSSI Satellite Rap Performance](OR3.png)\n![OSSI Satellite Rap Performance](OR4.png)\n[youtube](https://www.youtube.com/watch?v=M-pZb4Ni7KQ)"
         },
         {
           "slug": "2015-Objectology2",
           "title": "Open Source Satellite Initiative",
           "event": "Objectology 2",
           "type": "Exhibition",
-          "location": "Seoul",
+          "location": "Gwacheon, MMCA",
           "year": "2015",
           "description": "OSSI project presented at Objectology 2",
+          "overview": "OSSI-1 Satellite Manufacturing Techniques, 2015\nThis work presents stories about manufacturing techniques based on practical knowledge of satellite construction. Rather than focusing on the operating principles of satellites, it highlights hands-on processes such as wire selection, wire stripping, soldering, aluminum machining, spring fabrication, antenna making, and selecting adhesives capable of functioning in space. \nThese forms of practical knowledge—often referred to as know-how—are much harder to find than theoretical principles organized in textbooks. The exhibition presents actual fabricated satellite components alongside stories of the people, communities, and online knowledge encountered throughout the production process."
+        },
+        {
+          "slug": "OSSI-Goods",
+          "title": "Open Source Satellite Initiative",
+          "event": "OSSI Goods",
+          "type": "Collection",
+          "location": "Various",
+          "year": "2008–2018",
+          "description": "Goods and merchandise from OSSI project",
           "overview": ""
+        },
+        {
+          "slug": "OSSI-Videos",
+          "title": "Open Source Satellite Initiative",
+          "event": "OSSI Videos",
+          "type": "Collection",
+          "location": "Various",
+          "year": "2008–2018",
+          "description": "Video documentations of OSSI project",
+          "overview": "[youtube](https://www.youtube.com/watch?v=enkgRR5cOtg)\n[youtube](https://www.youtube.com/watch?v=O5s_daMeayk)\n[youtube](https://www.youtube.com/watch?v=YUOL0zSY6cg)\n[youtube](https://www.youtube.com/watch?v=D1R39O0pSoA)\n[youtube](https://www.youtube.com/watch?v=HC9wkbOtdqM)\n[youtube](https://www.youtube.com/watch?v=wArISD9NJ_8)"
         }
       ]
     },
@@ -75,12 +105,35 @@
       "overview": [
         "Audiences bring their own electronic devices to this project. Each device is a system with its own timing, lights, and sounds when switching on and off.",
         "When all devices are connected to the installation and the central power cycles on and off, unexpected audiovisual combinations emerge.",
-        "![On Off Everything On](01-On Off Everything On.jpg)\n![On Off Everything Off](02-On Off Everything Off.jpg)"
+        "![On Off Everything On, 2019](DSC04323.JPG)\n![On Off Everything Off, 2019](DSC04324.JPG)\n![160-Outlet Power Strip, 2019](multiOOE.JPG)",
+        "[youtube](https://www.youtube.com/watch?v=Hbkriwbvdro)"
       ],
       "relatedProjects": [
         "sync-o-light"
       ],
-      "presentations": []
+      "presentations": [
+        {
+          "slug": "2019-ArtienceDaejeon",
+          "title": "On Off Everything",
+          "event": "Artience Daejeon",
+          "type": "Exhibition",
+          "location": "Daejeon",
+          "year": "2019",
+          "description": "On Off Everything presented at Artience Daejeon",
+          "overview": "![On Off Everything Artience Daejeon 2019 Party](OOE2PartyInstagramImage.png)\n![On Off Everything Talk With Scientists, 2019](ooe2talkparty.png)\n![On Off Everything 160 Outlet Power Strip, 2019](multiOOE.JPG)"
+        },
+        {
+          "slug": "2019-Mumokjeok",
+          "title": "On Off Everything",
+          "event": "On Off Everything",
+          "type": "Exhibition",
+          "location": "Mumokjeok, Seoul",
+          "year": "2019",
+          "description": "On Off Everything presented at Mumokjeok",
+          "overview": "On Off Everything, a new project by media artist Hojun Song, is an exhibition that repeatedly turns electronic and mechanical devices on and off. The artist’s core approach—creating narratives through technology—lies in hoping that the simultaneous switching on and off of multiple devices resonates with the many stories of the world. In this exhibition, Song explores unexpected synesthetic effects through combinations and operations of various devices.\nThe first edition of On Off Everything begins at the space “Mumokjeok.”\nFifty power outlets are waiting for you.\n- Dates: July 26–28\n- Opening Party: July 26, 8:00 PM (DJ Jeon yonghyeon)\n[youtube](https://www.youtube.com/watch?v=Hbkriwbvdro)\n![On Off Everything On](DSC04323.JPG)\n![On Off Everything Off](DSC04324.JPG)\n![Installation View A](IMG_2941.jpg)\n![Installation View B](IMG_2938.jpg)\n[grid-2]\n![Flour Bakery](flourbakery.jpg)\n![Magpie Brewing](magpie.jpg)\n![Poster A](onoff-01.png)\n![Poster B](onoff-03.png)\n![Flyer](danger.jpg)\n[/grid]",
+          "credits": "- Artist: Hojun Song\n- Curator: Movement Seoul\n- Venue: Mumokjeok Building\n- Food: FLOUR Bakery\n- Drinks: Magpie Brewing, Boksoondoga"
+        }
+      ]
     },
     {
       "slug": "time-to-leave-the-land",
@@ -129,6 +182,76 @@
       ],
       "presentations": [
         {
+          "slug": "2015-BlackoutBasel",
+          "title": "Don't Compress Me",
+          "event": "Blackout Basel",
+          "type": "Exhibition",
+          "location": "Basel, Switzerland",
+          "year": "2015",
+          "description": "Don't Compress Me at Blackout Basel",
+          "overview": "Don't Compress Me Competition Head Only Version at Blackout Basel, Basel, Switzerland, 2015\n![Don't Compress Me Head Only,Blackout Basel, 2015](all.jpg)"
+        },
+        {
+          "slug": "2015-FutureNow",
+          "title": "Don't Compress Me",
+          "event": "Future Now",
+          "type": "Exhibition",
+          "location": "SomoS Art House, Berlin",
+          "year": "2015",
+          "description": "Don't Compress Me at Future Now, SomoS Art House",
+          "overview": ""
+        },
+        {
+          "slug": "2018-StoryOfGoa",
+          "title": "Don't Compress Me",
+          "event": "The Story of Space",
+          "type": "Exhibition",
+          "location": "Goa, India",
+          "year": "2018",
+          "description": "Don't Compress Me at The Story of Space, Goa",
+          "overview": ""
+        },
+        {
+          "slug": "2019-EchoChamber",
+          "title": "Don't Compress Me",
+          "event": "Echo Chamber",
+          "type": "Exhibition",
+          "location": "Sound Effects Seoul, Seoul",
+          "year": "2019",
+          "description": "Don't Compress Me at Echo Chamber, Sound Effects Seoul",
+          "overview": ""
+        },
+        {
+          "slug": "2020-OMAF",
+          "title": "Don't Compress Me",
+          "event": "Open Media Art Festival",
+          "type": "Exhibition",
+          "location": "Seoul",
+          "year": "2020",
+          "description": "Don't Compress Me 2020 at Open Media Art Festival",
+          "overview": ""
+        },
+        {
+          "slug": "2021-DCMAbstracted",
+          "title": "Don't Compress Me",
+          "event": "Don't Compress Me Abstracted",
+          "type": "Exhibition",
+          "location": "Shinsegae Gallery, Busan",
+          "year": "2021",
+          "description": "Don't Compress Me Abstracted at Shinsegae Gallery",
+          "overview": "The more one tries to reveal existence, the more it appears in high resolution. \nIf you remain still, you are nothing more than a pixel at the lowest resolution.\n[grid-2]\n![Don't Compress Me Abstracted](DCM-Abstracted-1.jpg)\n![Don't Compress Me Abstracted](DCM-Abstracted-2.jpg)\n![Don't Compress Me Abstracted](DCM-Abstracted-3.jpg)\n![Don't Compress Me Abstracted](DCM-Abstracted-4.jpg)\n![Don't Compress Me Abstracted](DCM-Abstracted-5.jpg)\n![Don't Compress Me Abstracted](DCM-Abstracted-6.jpg)\n![Don't Compress Me Abstracted](DCM-Abstracted-7.jpg)\n![Don't Compress Me Abstracted](DCM-Abstracted-8.jpg)\n[/grid]\n[youtube](https://www.youtube.com/watch?v=yJD5e--SuxQ)"
+        },
+        {
+          "slug": "2021-DCMOnline",
+          "title": "Don't Compress Me",
+          "event": "Making Lemonade",
+          "type": "Exhibition",
+          "location": "Making Lemonade, Seoul",
+          "year": "2021",
+          "description": "Don't Compress Me Online at Making Lemonade",
+          "overview": ""
+        },
+        {
           "slug": "2022-DCMWC",
           "title": "Don't Compress Me",
           "event": "Don't Compress Me World Competition Seoul",
@@ -138,6 +261,26 @@
           "description": "The first Don’t Compress Me World Competition in Seoul. The winner gets 1 ETH.",
           "overview": "Artist Hojun Song's\n🌐 Don’t Compress Me World Competition Begins 📢\n👽 Finding a new type of human in the era of artificial intelligence and uncertainty.\n🏆 Awarding 1 BTC to the final winner of the least compressed at  the world competition after moving the body for 10 seconds in front of the camera.\nYou need to move as fast and randomly as possible with colorful outfits in order not to get compressed.\n- The 1st City:  Seoul (Prize 1 ETH)\n- When: 7.22 Fri 6PM Registration, 8PM Competition\n- Venue: Mother Offline Yongsan-gu, Hannam-dong, Itaewon-ro 55na-gil, 6\n- Music: DJ Maktoop, DJ DGURU \n- Sponsor: NFT Mania, Mother Media\n![Don't Compress Me World Poster](01-Don't Compress Me World Poster.jpg)\n[youtube](https://www.youtube.com/watch?v=lfWTGIeqh-I)",
           "credits": "- Partner: NFTMania\n- Location Partner: MOTHER Media\n- Design: WORKS\n- Coordinator: Sabina\n- Project Manager: Saewon Kong\n- LED Display: CreDL\n- Printing: 1px Gardening\n- DJ: DJ DGURU, DJ Maktoop\n- Video: Yongyeon Jeon"
+        },
+        {
+          "slug": "2023-DCMWC-Rome",
+          "title": "Don't Compress Me",
+          "event": "DCMWC Rome",
+          "type": "Exhibition",
+          "location": "Videocittà, Rome",
+          "year": "2023",
+          "description": "Don't Compress Me World Competition Rome at Videocittà",
+          "overview": ""
+        },
+        {
+          "slug": "2024-PackUnpack",
+          "title": "Don't Compress Me",
+          "event": "Pack-Unpack",
+          "type": "Exhibition",
+          "location": "Total Museum, Seoul",
+          "year": "2024",
+          "description": "Don't Compress Me presented at Pack-Unpack, Total Museum",
+          "overview": ""
         },
         {
           "slug": "2025-UnfoldX",
@@ -220,8 +363,10 @@
       "year": "2016",
       "description": "Even after the Trinity test revealed the bomb's power, and even after Germany's defeat, the Manhattan Project continued. The question remains: couldn't these geniuses have stopped it?",
       "overview": [
-        "Even after the Trinity test revealed the bomb's power, and even after Germany's defeat, the Manhattan Project continued—dropping nuclear bombs on two Japanese cities. Many scientists, including Einstein, later expressed regret. But the question remains: couldn't these geniuses have stopped it before the bombing? In this installation, as viewers examine a tiny, gold-framed text about the Manhattan Project up close, a nearby video of Einstein transitions from his normal expression to his famous tongue-out gesture—supposedly made \"for humanity.\" Gotcha!",
-        "![Einstein Merong No Audience](01-Einstein Merong No Audience.JPG)\n![Einstein Merong With Audience](02-Einstein Merong With Audience.JPG)"
+        "Even after the Trinity test revealed the bomb's power, and even after Germany's defeat, the Manhattan Project continued—dropping nuclear bombs on two Japanese cities. Many scientists, including Einstein, later expressed regret. But the question remains: couldn't these geniuses have stopped it before the bombing? ",
+        "In this installation, as viewers examine a tiny, gold-framed text about the Manhattan Project up close, a nearby video of Einstein transitions from his normal expression to his famous tongue-out gesture—supposedly made \"for humanity.\" Gotcha!",
+        "![Einstein Merong No Audience](01-Einstein Merong No Audience.JPG)\n![Einstein Merong With Audience](02-Einstein Merong With Audience.JPG)",
+        "[grid-2]\n![Einstein Standby](EisteinA.jpg)\n![Einstein Activated](EinsteinB.jpg)\n[/grid]"
       ],
       "relatedProjects": [
         "the-strongest-weapon-in-the-world",
@@ -265,13 +410,34 @@
       "description": "A small, cheap 5mm LED that blinks once every 100 years. The project was rejected after Hojun Song refused to make the LED blink every year instead.",
       "overview": [
         "A small, cheap 5mm LED that blinks once every 100 years. The idea began in 2010 and nearly became a public art project in 2015. A two-meter spherical structure would house an LED module in an inert gas-filled vacuum chamber. Nuclear batteries would provide 100 years of power, with a passive heating system designed through thermal simulation. The project was rejected after Hojun Song refused the committee's proposal to make it blink every year.",
-        "![LED that blinks once every 100 years ver 001](01-LED-that-blinks-once-every-100-years ver 001.jpeg)\n![LED that blinks once every 100 years ver 001](02-LED-that-blinks-once-every-100-years ver 001.jpeg)\n![LED that blinks once every 100 years ver 001](03-LED-that-blinks-once-every-100-years ver 001.jpeg)\n![LED that blinks once every 100 years ver 001](04-LED-that-blinks-once-every-100-years ver 001.png)"
+        "![LED that blinks once every 100 years ver 001, 2025](01-LED-that-blinks-once-every-100-years ver 001.jpeg)\n![LED that blinks once every 100 years ver 001, 2025](02-LED-that-blinks-once-every-100-years ver 001.jpeg)\n![LED that blinks once every 100 years ver 001, 2025](03-LED-that-blinks-once-every-100-years ver 001.jpeg)\n![LED That Blinks Once Every 100 Years Proposal, 2014](100yearsLEDAssem3.jpg)"
       ],
       "relatedProjects": [
         "sync-o-light",
         "godled-electronics"
       ],
-      "presentations": []
+      "presentations": [
+        {
+          "slug": "2014-Prototype",
+          "title": "LED That Blinks Once Every 100 Years",
+          "event": "Public Installation",
+          "type": "Proposal",
+          "location": "Naju",
+          "year": "2014",
+          "description": "Early prototype of LED that blinks once every 100 years",
+          "overview": "![LED That Blinks Once Every 100 Years Proposal, 2014](100yearsLEDAssem3.jpg)\n![LED That Blinks Once Every 100 Years Proposal BOM, 2014](100yearsLEDAssemBOM.jpg)\n![LED That Blinks Once Every 100 Years Installation Proposal, 2014](ProposalPage_06.jpg)\n[youtube](https://www.youtube.com/watch?v=lb06_5bTqd8)"
+        },
+        {
+          "slug": "2025-Ver001",
+          "title": "LED That Blinks Once Every 100 Years",
+          "event": "Galaxy Corporation Collection",
+          "type": "Artwork",
+          "location": "Seoul",
+          "year": "2025",
+          "description": "LED that blinks once every 100 years Ver 001",
+          "overview": "![LED that blinks once every 100 years ver 001, 2025](01-LED-that-blinks-once-every-100-years ver 001.jpeg)\n![LED that blinks once every 100 years ver 001, 2025](02-LED-that-blinks-once-every-100-years ver 001.jpeg)\n![LED that blinks once every 100 years ver 001, 2025](03-LED-that-blinks-once-every-100-years ver 001.jpeg)\n![LED that blinks once every 100 years ver 001, 2025](04-LED-that-blinks-once-every-100-years ver 001.png)\n[youtube](https://youtube.com/shorts/dHSHKqKqSTk)"
+        }
+      ]
     },
     {
       "slug": "dssb",
@@ -366,8 +532,11 @@
       "year": "2007–2010",
       "description": "A series of attempts to build an indestructible weapon that does NOT attack. When struck with a hammer, it says 'I love you.'",
       "overview": [
-        "A series of attempts to build an indestructible weapon that does NOT attack. The first version, Weapons of Mass Happiness, was a heavy cast-aluminum sphere with a Geiger counter and a printer that outputs messages when triggered by nuclear explosion. The second was built with K-SAD students, featuring letters engraved on cow bones—emphasizing that indestructible data is the ultimate weapon. In 2010, the third version appeared: I Love You. Armored in thick SC45 steel with a piezo sensor inside, it says \"I love you\" when struck with a hammer.",
-        "![Srongest Weapon In The World](01-Srongest Weapon In The World.jpg)\n![Srongest Weapon In The World I Love You](02-Srongest Weapon In The World I Love You.JPG)"
+        "A series of attempts to build an indestructible weapon that does NOT attack. The first version, Weapons of Mass Happiness, was a heavy cast-aluminum sphere with a Geiger counter and a printer that outputs messages when triggered by nuclear explosion. ",
+        "The second was built with K-SAD students, featuring letters engraved on cow bones—emphasizing that indestructible data is the ultimate weapon. ",
+        "In 2010, the third version appeared: I Love You. Armored in thick SC45 steel with a piezo sensor inside, it says \"I love you\" when struck with a hammer.",
+        "![Srongest Weapon In The World, 2007](01-Srongest Weapon In The World.jpg)\n![Srongest Weapon In The World I Love You, 2010](02-Srongest Weapon In The World I Love You.JPG)",
+        "[youtube](https://www.youtube.com/watch?v=wAfstSQJ6rU)"
       ],
       "relatedProjects": [
         "uranium-necklace",
