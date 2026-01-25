@@ -239,7 +239,7 @@
           "location": "Shinsegae Gallery, Busan",
           "year": "2021",
           "description": "Don't Compress Me Abstracted at Shinsegae Gallery",
-          "overview": "The more one tries to reveal existence, the more it appears in high resolution. \nIf you remain still, you are nothing more than a pixel at the lowest resolution.\n[grid-2]\n![Don't Compress Me Abstracted](DCM-Abstracted-1.jpg)\n![Don't Compress Me Abstracted](DCM-Abstracted-2.jpg)\n![Don't Compress Me Abstracted](DCM-Abstracted-3.jpg)\n![Don't Compress Me Abstracted](DCM-Abstracted-4.jpg)\n![Don't Compress Me Abstracted](DCM-Abstracted-5.jpg)\n![Don't Compress Me Abstracted](DCM-Abstracted-6.jpg)\n![Don't Compress Me Abstracted](DCM-Abstracted-7.jpg)\n![Don't Compress Me Abstracted](DCM-Abstracted-8.jpg)\n[/grid]\n[youtube](https://www.youtube.com/watch?v=yJD5e--SuxQ)"
+          "overview": "The more one tries to reveal existence, the more it appears in high resolution. \nIf you remain still, you are nothing more than a pixel at the lowest resolution.\n[grid-2]\n![Don't Compress Me Abstracted, 2021](DCM-Abstracted-1.jpg)\n![Don't Compress Me Abstracted, 2021](DCM-Abstracted-2.jpg)\n![Don't Compress Me Abstracted, 2021](DCM-Abstracted-3.jpg)\n![Don't Compress Me Abstracted, 2021](DCM-Abstracted-4.jpg)\n![Don't Compress Me Abstracted, 2021](DCM-Abstracted-5.jpg)\n![Don't Compress Me Abstracted, 2021](DCM-Abstracted-6.jpg)\n![Don't Compress Me Abstracted, 2021](DCM-Abstracted-7.jpg)\n![Don't Compress Me Abstracted, 2021](DCM-Abstracted-8.jpg)\n[/grid]\n[youtube](https://www.youtube.com/watch?v=yJD5e--SuxQ)"
         },
         {
           "slug": "2021-DCMOnline",
@@ -504,7 +504,7 @@
       "description": "The apple ripens when it receives attention. When someone photographs it with a flash, it slowly turns from green to red and emits eerie sounds.",
       "overview": [
         "The apple ripens when it receives attention. When someone photographs it with a flash, it slowly turns from green to red and emits eerie sounds. 400 independent light and sound modules gradually synchronize.",
-        "![Apple](01-Apple.jpg)"
+        "![Apple, 2010](01-Apple.jpg)\n![Apple, 2010](5025839484_579006256c_o.jpg)\n![Apple, 2010](5025217085_caf0ef1fe7_o.jpg)"
       ],
       "relatedProjects": [
         "sync-o-light",
@@ -535,14 +535,45 @@
         "A series of attempts to build an indestructible weapon that does NOT attack. The first version, Weapons of Mass Happiness, was a heavy cast-aluminum sphere with a Geiger counter and a printer that outputs messages when triggered by nuclear explosion. ",
         "The second was built with K-SAD students, featuring letters engraved on cow bones—emphasizing that indestructible data is the ultimate weapon. ",
         "In 2010, the third version appeared: I Love You. Armored in thick SC45 steel with a piezo sensor inside, it says \"I love you\" when struck with a hammer.",
-        "![Srongest Weapon In The World, 2007](01-Srongest Weapon In The World.jpg)\n![Srongest Weapon In The World I Love You, 2010](02-Srongest Weapon In The World I Love You.JPG)",
+        "![Srongest Weapon In The World, 2007](01-Srongest Weapon In The World.jpg)\n![Srongest Weapon In The World I Love You, 2010](02-Srongest Weapon In The World I Love You.JPG)\n![Rosetta Stone 2009, 2009](3890105674_d62d3bb7a3_o.jpg)",
         "[youtube](https://www.youtube.com/watch?v=wAfstSQJ6rU)"
       ],
       "relatedProjects": [
         "uranium-necklace",
         "open-source-satellite-initiative"
       ],
-      "presentations": []
+      "presentations": [
+        {
+          "slug": "2007-WeaponsOfMassHappiness",
+          "title": "The Strongest Weapon In The World - Weapons of Mass Happiness",
+          "event": "Integrating",
+          "type": "Exhibition",
+          "location": "Asian Culture Center, Gwangju",
+          "year": "2007",
+          "description": "The Strongest Weapon In The World at Integrating",
+          "overview": "A series of attempts to build an indestructible weapon that does NOT attack. The first version, Weapons of Mass Happiness, was a heavy cast-aluminum sphere with a Geiger counter and a printer that outputs messages when triggered by nuclear explosion. \n![Srongest Weapon In The World, 2007](3138433790_7f98cbee58_o.jpg)\n![Srongest Weapon In The World, 2007](3137606743_eded131c89_o.jpg)\n![3Stroy Opening Party, 2008](3129469641_8fe6cb6e50_o.jpg)\n![Srongest Weapon In The World Sketch, 2007](3131484016_85d13e6a5c_o.jpg)"
+        },
+        {
+          "slug": "2009-RosettaStone",
+          "title": "The Strongest Weapon In The World",
+          "event": "Workshop 27",
+          "type": "Workshop",
+          "location": "K-SAD,Gyeonggi",
+          "year": "2009",
+          "description": "The Strongest Weapon In The World - Rosetta Stone 2009 ",
+          "overview": "Made with K-SAD students as the result of Workshop 27, Rosetta Stone 2009 features letters engraved on cow bones, suggesting that indestructible data is the ultimate weapon.\n![Rosetta Stone 2009, 2009](3890105674_d62d3bb7a3_o.jpg)\n![Rosetta Stone 2009, 2009](3888171890_3f8defbbfb_o.jpg)\n![Rosetta Stone 2009, 2009](3888229790_220ab451a0_o.jpg)\n![Rosetta Stone 2009, 2009](3889320311_ebd9b1efc4_o.jpg)\n[youtube](https://www.youtube.com/watch?v=bH8fV0wCiWQ)\n[youtube](https://www.youtube.com/watch?v=W27S0KpKXXE)\n[youtube](https://www.youtube.com/watch?v=7BowXpbSS3w)"
+        },
+        {
+          "slug": "2010-ILoveU",
+          "title": "The Strongest Weapon In The World - I Love U",
+          "event": "The Lack of Electricity II",
+          "type": "Exhibition",
+          "location": "Space Can, Seoul",
+          "year": "2010",
+          "description": "The Strongest Weapon In The World at The Lack of Electricity II",
+          "overview": "In 2010, the third version of Strongest Weapon In the World appeared: I Love You. Armored in thick SC45 steel with a piezo sensor inside, it says \"I love you\" when struck with a hammer.\n![Srongest Weapon In The World I Love You, 2010](02-Srongest Weapon In The World I Love You.JPG)\n![Srongest Weapon In The World I Love You, 2010](5175453504_bde9b33071_o.jpg)\n![Srongest Weapon In The World I Love You, 2010](wmhdent.jpg)\n[youtube](https://www.youtube.com/watch?v=wAfstSQJ6rU)"
+        }
+      ]
     },
     {
       "slug": "sync-o-light",

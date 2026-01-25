@@ -17,5 +17,6 @@ In 2010, the third version appeared: I Love You. Armored in thick SC45 steel wit
 
 ![Srongest Weapon In The World, 2007](01-Srongest Weapon In The World.jpg)
 ![Srongest Weapon In The World I Love You, 2010](02-Srongest Weapon In The World I Love You.JPG)
+![Rosetta Stone 2009, 2009](3890105674_d62d3bb7a3_o.jpg)
 
 [youtube](https://www.youtube.com/watch?v=wAfstSQJ6rU)

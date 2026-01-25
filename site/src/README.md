@@ -202,6 +202,7 @@ description: 짧은 설명
 ```markdown
 [youtube](https://www.youtube.com/watch?v=VIDEO_ID)
 [youtube](https://youtu.be/VIDEO_ID)
+[youtube](https://youtube.com/shorts/VIDEO_ID)
 [vimeo](https://vimeo.com/VIDEO_ID)
 ```
 

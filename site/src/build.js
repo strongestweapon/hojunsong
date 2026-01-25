@@ -527,7 +527,7 @@ function generatePresentationHtml(work, presentation) {
 <div class="work">
   <p><a href="../../../">Hojun Song</a> / <a href="../../../">Works</a> / <a href="../">${escapeHtml(work.title)}</a> / ${presentation.event ? escapeHtml(presentation.event) + ', ' + presentation.year : escapeHtml(presentation.type) + ', ' + presentation.year}</p>
 
-  <h2>${escapeHtml(work.title)}${presentation.event ? ': ' + escapeHtml(presentation.event) : ''}</h2>
+  <h2>${escapeHtml(presentation.title)}${presentation.event ? ': ' + escapeHtml(presentation.event) : ''}</h2>
   <p>${escapeHtml(presentation.type)}, ${escapeHtml(presentation.location)}, ${presentation.year}</p>
 </div>
 ${overviewHtml}${sectionsHtml}
