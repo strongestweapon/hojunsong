@@ -69,6 +69,23 @@
 - 자동재생, 반복, 음소거
 - `images/` 폴더에 mp4 파일 저장
 
+### HTML5 비디오 (플레이 버튼)
+```markdown
+[video][캡션](video.mp4)
+```
+- 클릭하면 재생/일시정지
+- 오디오 포함
+- `images/` 폴더에 mp4 파일 저장
+- **poster**: `video-poster.jpg` 파일이 있으면 자동으로 썸네일로 사용
+- **인코딩**: H.264 권장
+```bash
+ffmpeg -i input.mov -c:v libx264 -crf 23 -preset slow -movflags +faststart -c:a aac -b:a 128k output.mp4
+```
+- **poster 추출**:
+```bash
+ffmpeg -i video.mp4 -ss 00:00:04 -vframes 1 video-poster.jpg
+```
+
 ## 링크
 
 ```markdown
