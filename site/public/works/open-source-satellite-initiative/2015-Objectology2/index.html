@@ -6,7 +6,7 @@
   <title>Open Source Satellite Initiative (2015) - Hojun Song</title>
   <meta name="description" content="OSSI project presented at Objectology 2">
   <link rel="canonical" href="https://hojunsong.com/works/open-source-satellite-initiative/2015-Objectology2/">
-  <link rel="stylesheet" href="../../../css/style.css?v=1769325695037">
+  <link rel="stylesheet" href="../../../css/style.css?v=1769428793940">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -46,5 +46,12 @@
 <p>These forms of practical knowledge—often referred to as know-how—are much harder to find than theoretical principles organized in textbooks. The exhibition presents actual fabricated satellite components alongside stories of the people, communities, and online knowledge encountered throughout the production process.</p>
 </div>
 
+<script>
+document.querySelectorAll('.video-player').forEach(p=>{
+  const v=p.querySelector('video'),b=p.querySelector('.play-btn');
+  p.addEventListener('click',()=>{if(v.paused){v.play();p.classList.add('playing')}else{v.pause();p.classList.remove('playing')}});
+  v.addEventListener('ended',()=>p.classList.remove('playing'));
+});
+</script>
 </body>
 </html>

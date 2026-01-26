@@ -98,8 +98,21 @@ node src/build.js
 
 ## S3 배포
 
-1. `node src/build.js` 실행
-2. `public/` 폴더 안의 내용물을 S3 버킷에 업로드
+### 빌드
+```bash
+cd /Users/hojunsong/Documents/Github/hojunsong/site/src
+node build.js
+```
+
+### S3 동기화
+```bash
+/usr/local/bin/aws s3 sync /Users/hojunsong/Documents/Github/hojunsong/site/public s3://hojunsong-com
+```
+
+### CloudFront 캐시 무효화
+```bash
+/usr/local/bin/aws cloudfront create-invalidation --distribution-id E28EYQUKVHIIRP --paths "/*"
+```
 
 **캐시 버스팅**: 빌드 시 CSS에 자동으로 버전 번호 추가됨 (`style.css?v=timestamp`)
 
@@ -149,6 +162,14 @@ description: 짧은 설명
 ```
 
 **event 필드**: 있으면 제목이 "Don't Compress Me: Unfold X"로 표시됨
+
+### 세부 프로젝트 네이밍 컨벤션
+
+- **폴더명**: `연도-세부작업명/애칭` (예: `2007-WeaponsOfMassHappiness`)
+- **event**: 전시 이름 (예: `Integrating`)
+- **title**: 메인 작품명만 또는 `메인 작품명 - 세부 작업명`
+  - 세부 작업명 포함 시: `The Strongest Weapon In The World - Weapons of Mass Happiness`
+  - h2에 `title: event` 형식으로 표시됨
 
 ## 마크다운 문법
 
@@ -219,3 +240,20 @@ description: 짧은 설명
 ```
 - 외부 링크 (`http://`, `https://`)는 자동으로 새 탭에서 열림
 - 내부 링크 (`/works/...`, `../`)는 같은 탭에서 열림
+
+---
+
+## 작업 로그
+
+### 2026-01-24
+- AWS CLI 설치 및 IAM credentials 설정
+- S3 버킷 `hojunsong-com` 연결, CloudFront 캐시 무효화 설정
+- YouTube Shorts URL 지원 추가
+- 세부 프로젝트 h2에 `presentation.title: event` 형식 표시 수정
+
+**새 세부 프로젝트:**
+- open-source-satellite-initiative: OSSI-Videos, OSSI-Goods
+- led-that-blinks-once-every-100-years: 2014-Prototype, 2025-Ver001
+- on-off-everything: 2019-ArtienceDaejeon, 2019-Mumokjeok
+- dont-compress-me: 2015-BlackoutBasel, 2015-FutureNow, 2018-StoryOfGoa, 2019-EchoChamber, 2020-OMAF, 2021-DCMAbstracted, 2021-DCMOnline, 2023-DCMWC-Rome, 2024-PackUnpack
+- the-strongest-weapon-in-the-world: 2007-WeaponsOfMassHappiness, 2009-RosettaStone, 2010-ILoveU

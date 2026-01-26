@@ -6,7 +6,7 @@
   <title>Don't Compress Me (2025) - Hojun Song</title>
   <meta name="description" content="Interactive installation where participants compete to resist video compression through movement.">
   <link rel="canonical" href="https://hojunsong.com/works/dont-compress-me/2025-UnfoldX/">
-  <link rel="stylesheet" href="../../../css/style.css?v=1769325695037">
+  <link rel="stylesheet" href="../../../css/style.css?v=1769428793940">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -50,5 +50,12 @@
   <p>Exhibition: Unfold X Culture Staion Seoul 284</p>
 </div>
 
+<script>
+document.querySelectorAll('.video-player').forEach(p=>{
+  const v=p.querySelector('video'),b=p.querySelector('.play-btn');
+  p.addEventListener('click',()=>{if(v.paused){v.play();p.classList.add('playing')}else{v.pause();p.classList.remove('playing')}});
+  v.addEventListener('ended',()=>p.classList.remove('playing'));
+});
+</script>
 </body>
 </html>

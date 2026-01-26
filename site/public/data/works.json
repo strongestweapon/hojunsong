@@ -504,7 +504,8 @@
       "description": "The apple ripens when it receives attention. When someone photographs it with a flash, it slowly turns from green to red and emits eerie sounds.",
       "overview": [
         "The apple ripens when it receives attention. When someone photographs it with a flash, it slowly turns from green to red and emits eerie sounds. 400 independent light and sound modules gradually synchronize.",
-        "![Apple, 2010](01-Apple.jpg)\n![Apple, 2010](5025839484_579006256c_o.jpg)\n![Apple, 2010](5025217085_caf0ef1fe7_o.jpg)"
+        "\n![Apple, 2010](01-Apple.jpg)\n![Apple, 2010](5025839484_579006256c_o.jpg)\n![Apple, 2010](5025217085_caf0ef1fe7_o.jpg)",
+        "[video][Apple Turning On](apple-turning-on.mp4)"
       ],
       "relatedProjects": [
         "sync-o-light",
@@ -551,7 +552,7 @@
           "location": "Asian Culture Center, Gwangju",
           "year": "2007",
           "description": "The Strongest Weapon In The World at Integrating",
-          "overview": "A series of attempts to build an indestructible weapon that does NOT attack. The first version, Weapons of Mass Happiness, was a heavy cast-aluminum sphere with a Geiger counter and a printer that outputs messages when triggered by nuclear explosion. \n![Srongest Weapon In The World, 2007](3138433790_7f98cbee58_o.jpg)\n![Srongest Weapon In The World, 2007](3137606743_eded131c89_o.jpg)\n![3Stroy Opening Party, 2008](3129469641_8fe6cb6e50_o.jpg)\n![Srongest Weapon In The World Sketch, 2007](3131484016_85d13e6a5c_o.jpg)"
+          "overview": "A series of attempts to build an indestructible weapon that does NOT attack. The first version, Weapons of Mass Happiness, was a heavy cast-aluminum sphere with a Geiger counter and a printer that outputs messages when triggered by nuclear explosion. \n![Srongest Weapon In The World, 2007](3138433790_7f98cbee58_o.jpg)\n![Srongest Weapon In The World, 2007](3137606743_eded131c89_o.jpg)\n![3Stroy Opening Party, 2008](3129469641_8fe6cb6e50_o.jpg)\n![3Stroy Opening, 2008](DSC_1076.JPG)\n![Srongest Weapon In The World Sketch, 2007](3131484016_85d13e6a5c_o.jpg)"
         },
         {
           "slug": "2009-RosettaStone",

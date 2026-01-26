@@ -6,7 +6,7 @@
   <title>On Off Everything - Hojun Song</title>
   <meta name="description" content="Audiences bring their own electronic devices to this project. Each device has its own timing, lights, and sounds when switching on and off.">
   <link rel="canonical" href="https://hojunsong.com/works/on-off-everything/">
-  <link rel="stylesheet" href="../../css/style.css?v=1769325695037">
+  <link rel="stylesheet" href="../../css/style.css?v=1769428793940">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -58,5 +58,12 @@
   <p><a href="../sync-o-light/">&rarr; Sync-O-Light</a></p>
 </div>
 
+<script>
+document.querySelectorAll('.video-player').forEach(p=>{
+  const v=p.querySelector('video'),b=p.querySelector('.play-btn');
+  p.addEventListener('click',()=>{if(v.paused){v.play();p.classList.add('playing')}else{v.pause();p.classList.remove('playing')}});
+  v.addEventListener('ended',()=>p.classList.remove('playing'));
+});
+</script>
 </body>
 </html>

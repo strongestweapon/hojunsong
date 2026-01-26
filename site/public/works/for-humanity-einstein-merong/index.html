@@ -6,7 +6,7 @@
   <title>For Humanity - Einstein Merong - Hojun Song</title>
   <meta name="description" content="Even after the Trinity test revealed the bomb's power, and even after Germany's defeat, the Manhattan Project continued. The question remains: couldn't these geniuses have stopped it?">
   <link rel="canonical" href="https://hojunsong.com/works/for-humanity-einstein-merong/">
-  <link rel="stylesheet" href="../../css/style.css?v=1769325695037">
+  <link rel="stylesheet" href="../../css/style.css?v=1769428793940">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -53,5 +53,12 @@
   <p><a href="../open-source-satellite-initiative/">&rarr; Open Source Satellite Initiative</a></p>
 </div>
 
+<script>
+document.querySelectorAll('.video-player').forEach(p=>{
+  const v=p.querySelector('video'),b=p.querySelector('.play-btn');
+  p.addEventListener('click',()=>{if(v.paused){v.play();p.classList.add('playing')}else{v.pause();p.classList.remove('playing')}});
+  v.addEventListener('ended',()=>p.classList.remove('playing'));
+});
+</script>
 </body>
 </html>

@@ -6,7 +6,7 @@
   <title>Poomba - Hojun Song</title>
   <meta name="description" content="Winner of the Ilmac Art Prize 2015, Hojun Song's solo exhibition featured no physical artworks. The poomba was a Korean figure: satirist, clown, beggar, and street monk.">
   <link rel="canonical" href="https://hojunsong.com/works/poomba/">
-  <link rel="stylesheet" href="../../css/style.css?v=1769325695037">
+  <link rel="stylesheet" href="../../css/style.css?v=1769428793940">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -46,5 +46,12 @@
   <p><a href="../anti-climax/">&rarr; ANTI-Climax</a></p>
 </div>
 
+<script>
+document.querySelectorAll('.video-player').forEach(p=>{
+  const v=p.querySelector('video'),b=p.querySelector('.play-btn');
+  p.addEventListener('click',()=>{if(v.paused){v.play();p.classList.add('playing')}else{v.pause();p.classList.remove('playing')}});
+  v.addEventListener('ended',()=>p.classList.remove('playing'));
+});
+</script>
 </body>
 </html>

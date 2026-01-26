@@ -156,6 +156,21 @@ function markdownToHtml(md, imagesBasePath = null) {
       return;
     }
 
+    // Video with play button: [video][caption](filename)
+    if (trimmed.match(/^\[video\]\[([^\]]*)\]\((.+)\)$/i)) {
+      if (inList) { result.push('</ul>'); inList = false; }
+      const [, caption, src] = trimmed.match(/^\[video\]\[([^\]]*)\]\((.+)\)$/i);
+      const videoSrc = src.startsWith('http') ? src : `${imagesBasePath}/${src}`;
+      // Check if poster file exists
+      const posterFileName = src.replace(/\.mp4$/i, '-poster.jpg');
+      const posterFilePath = imagesBasePath.replace(/^\//, '') + '/' + posterFileName;
+      const posterExists = fs.existsSync(path.join(__dirname, 'content', posterFilePath.replace(/^works\//, 'works/')));
+      const posterAttr = posterExists ? `poster="${imagesBasePath}/${posterFileName}"` : '';
+      const captionHtml = caption ? `<figcaption>${caption}</figcaption>` : '';
+      result.push(`<figure class="video-player"><video playsinline ${posterAttr}><source src="${videoSrc}" type="video/mp4"></video><button class="play-btn" aria-label="Play"></button>${captionHtml}</figure>`);
+      return;
+    }
+
     if (trimmed.match(/^\[(.+)\]\((.+)\)$/)) {
       if (inList) { result.push('</ul>'); inList = false; }
       const [, text, href] = trimmed.match(/^\[(.+)\]\((.+)\)$/);
@@ -165,6 +180,7 @@ function markdownToHtml(md, imagesBasePath = null) {
         result.push(`<div class="video-loop"><video autoplay loop muted playsinline><source src="${href}" type="video/mp4"></video></div>`);
         return;
       }
+
 
       // YouTube embed
       if (text.toLowerCase() === 'youtube') {
@@ -454,6 +470,13 @@ ${relatedLinks}
   ${markdownToHtml(work.overview.join('\n\n'), `/works/${work.slug}/images`)}
 </div>
 ${presentationsSection}${relatedSection}
+<script>
+document.querySelectorAll('.video-player').forEach(p=>{
+  const v=p.querySelector('video'),b=p.querySelector('.play-btn');
+  p.addEventListener('click',()=>{if(v.paused){v.play();p.classList.add('playing')}else{v.pause();p.classList.remove('playing')}});
+  v.addEventListener('ended',()=>p.classList.remove('playing'));
+});
+</script>
 </body>
 </html>
 `;
@@ -531,6 +554,13 @@ function generatePresentationHtml(work, presentation) {
   <p>${escapeHtml(presentation.type)}, ${escapeHtml(presentation.location)}, ${presentation.year}</p>
 </div>
 ${overviewHtml}${sectionsHtml}
+<script>
+document.querySelectorAll('.video-player').forEach(p=>{
+  const v=p.querySelector('video'),b=p.querySelector('.play-btn');
+  p.addEventListener('click',()=>{if(v.paused){v.play();p.classList.add('playing')}else{v.pause();p.classList.remove('playing')}});
+  v.addEventListener('ended',()=>p.classList.remove('playing'));
+});
+</script>
 </body>
 </html>
 `;
@@ -581,7 +611,13 @@ function generateProjectHtml(project) {
   <h2>Overview</h2>
   ${markdownToHtml(project.overview.join('\n\n'), imagesBasePath)}
 </div>
-
+<script>
+document.querySelectorAll('.video-player').forEach(p=>{
+  const v=p.querySelector('video'),b=p.querySelector('.play-btn');
+  p.addEventListener('click',()=>{if(v.paused){v.play();p.classList.add('playing')}else{v.pause();p.classList.remove('playing')}});
+  v.addEventListener('ended',()=>p.classList.remove('playing'));
+});
+</script>
 </body>
 </html>
 `;
@@ -647,7 +683,13 @@ function generateAboutHtml(about) {
 <div class="work">
 ${contentHtml}
 </div>
-
+<script>
+document.querySelectorAll('.video-player').forEach(p=>{
+  const v=p.querySelector('video'),b=p.querySelector('.play-btn');
+  p.addEventListener('click',()=>{if(v.paused){v.play();p.classList.add('playing')}else{v.pause();p.classList.remove('playing')}});
+  v.addEventListener('ended',()=>p.classList.remove('playing'));
+});
+</script>
 </body>
 </html>
 `;
@@ -657,7 +699,7 @@ ${contentHtml}
 function generateIndexHtml(works) {
   const worksList = works
     .map(w => `    <div class="work">
-      <h2><a href="works/${w.slug}/">${escapeHtml(w.title)}</a></h2>
+      <h2><a href="works/${w.slug}/">${escapeHtml(w.title)}, ${w.year}</a></h2>
     </div>`)
     .join('\n');
 

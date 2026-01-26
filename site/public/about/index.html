@@ -6,7 +6,7 @@
   <title>About - Hojun Song</title>
   <meta name="description" content="About Hojun Song - artist working with technology, science, and social issues.">
   <link rel="canonical" href="https://hojunsong.com/about/">
-  <link rel="stylesheet" href="../css/style.css?v=1769325695037">
+  <link rel="stylesheet" href="../css/style.css?v=1769428793940">
 </head>
 <body>
 
@@ -22,6 +22,12 @@
 <p>His recent works explore the ironic relationship between romanticism and deconstructionism, examining how societies create heroes and how those heroes can suppress diversity. Drawing on contemporary scientific and technological discourses—such as artificial intelligence, complex systems, and blockchain—his practice embraces uncertainty and decentralization.</p>
 <p>Rather than confining his work to museums or galleries, Song situates it within society through live streaming, sound performance, mass production, commerce, and hands-on engineering, using humor to question conventional ideas of art, design, and technology while connecting them to everyday life.</p>
 </div>
-
+<script>
+document.querySelectorAll('.video-player').forEach(p=>{
+  const v=p.querySelector('video'),b=p.querySelector('.play-btn');
+  p.addEventListener('click',()=>{if(v.paused){v.play();p.classList.add('playing')}else{v.pause();p.classList.remove('playing')}});
+  v.addEventListener('ended',()=>p.classList.remove('playing'));
+});
+</script>
 </body>
 </html>

@@ -6,7 +6,7 @@
   <title>Apple - Hojun Song</title>
   <meta name="description" content="The apple ripens when it receives attention. When someone photographs it with a flash, it slowly turns from green to red and emits eerie sounds.">
   <link rel="canonical" href="https://hojunsong.com/works/apple/">
-  <link rel="stylesheet" href="../../css/style.css?v=1769325695037">
+  <link rel="stylesheet" href="../../css/style.css?v=1769428793940">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -41,6 +41,7 @@
 <figure><img src="/works/apple/images/01-Apple.jpg" alt="Apple, 2010" onerror="this.onerror=null; this.src='/images/404.svg'; this.parentElement.classList.add('image-error'); console.error('Image not found: /works/apple/images/01-Apple.jpg');"><figcaption>Apple, 2010</figcaption></figure>
 <figure><img src="/works/apple/images/5025839484_579006256c_o.jpg" alt="Apple, 2010" onerror="this.onerror=null; this.src='/images/404.svg'; this.parentElement.classList.add('image-error'); console.error('Image not found: /works/apple/images/5025839484_579006256c_o.jpg');"><figcaption>Apple, 2010</figcaption></figure>
 <figure><img src="/works/apple/images/5025217085_caf0ef1fe7_o.jpg" alt="Apple, 2010" onerror="this.onerror=null; this.src='/images/404.svg'; this.parentElement.classList.add('image-error'); console.error('Image not found: /works/apple/images/5025217085_caf0ef1fe7_o.jpg');"><figcaption>Apple, 2010</figcaption></figure>
+<figure class="video-player"><video playsinline poster="/works/apple/images/apple-turning-on-poster.jpg"><source src="/works/apple/images/apple-turning-on.mp4" type="video/mp4"></video><button class="play-btn" aria-label="Play"></button><figcaption>Apple Turning On</figcaption></figure>
 </div>
 
 <div class="work">
@@ -49,5 +50,12 @@
   <p><a href="../on-off-everything/">&rarr; On Off Everything</a></p>
 </div>
 
+<script>
+document.querySelectorAll('.video-player').forEach(p=>{
+  const v=p.querySelector('video'),b=p.querySelector('.play-btn');
+  p.addEventListener('click',()=>{if(v.paused){v.play();p.classList.add('playing')}else{v.pause();p.classList.remove('playing')}});
+  v.addEventListener('ended',()=>p.classList.remove('playing'));
+});
+</script>
 </body>
 </html>
