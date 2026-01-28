@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZLYQTCD8FK"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-ZLYQTCD8FK');
+  </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hello90</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      background: #f1f1f1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+      font-family: 'Times New Roman', serif;
+      font-size: 16px;
+      padding: 0.5rem;
+    }
+    .player {
+      position: relative;
+      width: 100%;
+      max-width: 400px;
+      aspect-ratio: 9/16;
+      background: #000;
+    }
+    .inner {
+      position: relative;
+      width: 100%;
+      height: 100%;
+    }
+    video {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .standby { z-index: 1; }
+    .greeting { z-index: 2; opacity: 0; pointer-events: none; }
+    .greeting.active { opacity: 1; }
+
+    .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background: rgba(0,0,0,0.7);
+      z-index: 10;
+    }
+    .overlay.hidden { display: none; }
+
+    .title {
+      color: #fff;
+      font-size: 2rem;
+      margin-bottom: 10px;
+    }
+
+    .controls {
+      position: absolute;
+      bottom: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 5;
+      display: flex;
+      gap: 6px;
+    }
+    .controls.hidden { display: none; }
+
+    button {
+      padding: 8px 12px;
+      font-size: 1rem;
+      font-family: 'Times New Roman', serif;
+      cursor: pointer;
+      background: #000;
+      color: #fff;
+      border: none;
+      transition: opacity 0.2s;
+    }
+    button:hover { opacity: 0.7; }
+
+    #fullscreenBtn {
+      padding: 8px 12px;
+      background: #000;
+      color: #fff;
+      font-size: 1rem;
+    }
+
+    .btn-start {
+      padding: 8px 20px;
+      font-size: 1rem;
+      background: #fff;
+      color: #000;
+    }
+    .btn-start:hover { opacity: 0.8; }
+
+    .clip-info {
+      position: absolute;
+      top: 15px;
+      left: 15px;
+      color: #fff;
+      font-size: 0.8rem;
+      z-index: 5;
+      opacity: 0.7;
+    }
+    .breadcrumb {
+      width: 100%;
+      max-width: 400px;
+      font-size: 1.2rem;
+      line-height: 1.4rem;
+      margin-bottom: 0.5rem;
+    }
+    .breadcrumb a {
+      color: #000;
+      text-decoration: underline;
+      text-decoration-color: blue;
+    }
+
+    /* 전체화면 */
+    .player:fullscreen {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100vw;
+      height: 100vh;
+      max-width: none;
+      background: #000;
+    }
+    .player:fullscreen .inner {
+      width: auto;
+      height: 100%;
+      aspect-ratio: 9/16;
+    }
+  </style>
+</head>
+<body>
+  <p class="breadcrumb" id="breadcrumb"><a href="/">Hojun Song</a> / <a href="/">Works</a> / <a href="/works/hello-90/">Hello 90</a></p>
+  <script>if (window.self !== window.top) { document.getElementById('breadcrumb').style.display = 'none'; document.body.style.padding = '0'; }</script>
+  <div class="player">
+    <div class="inner">
+      <video id="standby" class="standby" loop playsinline muted></video>
+      <video id="greeting" class="greeting" playsinline></video>
+
+      <div class="overlay" id="startOverlay">
+        <div class="title">Hello90</div>
+        <button class="btn-start" id="startBtn">Start</button>
+      </div>
+
+      <div class="clip-info" id="clipInfo"></div>
+
+      <div class="controls hidden" id="controls">
+        <button class="btn-bow" id="bowBtn">Bow 90°</button>
+        <button id="nextBtn">Next</button>
+        <button id="fullscreenBtn">⛶</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const standbyVideo = document.getElementById('standby');
+    const greetingVideo = document.getElementById('greeting');
+    const startOverlay = document.getElementById('startOverlay');
+    const startBtn = document.getElementById('startBtn');
+    const controls = document.getElementById('controls');
+    const bowBtn = document.getElementById('bowBtn');
+    const nextBtn = document.getElementById('nextBtn');
+    const clipInfo = document.getElementById('clipInfo');
+
+    // 선택된 영상 목록 (첫번째 고정, 나머지 남녀 섞음)
+    const clips = [
+      {type: 'b', index: 1},   // 첫번째 고정
+      {type: 'g', index: 0},
+      {type: 'b', index: 8},
+      {type: 'g', index: 2},
+      {type: 'b', index: 10},
+      {type: 'g', index: 4},
+      {type: 'b', index: 12},
+      {type: 'g', index: 6},
+      {type: 'b', index: 14},
+      {type: 'g', index: 9},
+      {type: 'b', index: 15},
+      {type: 'g', index: 11},
+      {type: 'b', index: 17},
+      {type: 'g', index: 15},
+      {type: 'b', index: 18},
+      {type: 'g', index: 16},
+      {type: 'g', index: 18},
+      {type: 'g', index: 19},
+      {type: 'g', index: 25},
+      {type: 'g', index: 28},
+    ];
+    const totalClips = clips.length;
+    let currentIndex = 0;
+    let isGreeting = false;
+
+    function getStandbyPath(clipIndex) {
+      const clip = clips[clipIndex];
+      return `zero_mp4/${clip.type}-0-${clip.index}.mp4`;
+    }
+
+    function getGreetingPath(clipIndex) {
+      const clip = clips[clipIndex];
+      return `ninety_mp4/${clip.type}-90-${clip.index}.mp4`;
+    }
+
+    function stopAll() {
+      standbyVideo.pause();
+      greetingVideo.pause();
+      greetingVideo.classList.remove('active');
+      isGreeting = false;
+    }
+
+    function loadClip(index) {
+      stopAll();
+      currentIndex = index;
+      const clip = clips[index];
+      clipInfo.textContent = `${clip.type === 'b' ? 'Boy' : 'Girl'} #${clip.index + 1}`;
+
+      standbyVideo.src = getStandbyPath(index);
+      greetingVideo.src = getGreetingPath(index);
+
+      standbyVideo.load();
+      greetingVideo.load();
+
+      standbyVideo.oncanplay = () => {
+        standbyVideo.play().catch(() => {});
+      };
+    }
+
+    function triggerGreeting() {
+      if (isGreeting) return;
+
+      isGreeting = true;
+      standbyVideo.pause();
+      greetingVideo.classList.add('active');
+      greetingVideo.currentTime = 0;
+      greetingVideo.play();
+    }
+
+    greetingVideo.addEventListener('ended', () => {
+      isGreeting = false;
+      greetingVideo.classList.remove('active');
+      standbyVideo.play();
+    });
+
+    // 첫 영상 muted로 자동재생
+    standbyVideo.src = getStandbyPath(0);
+    greetingVideo.src = getGreetingPath(0);
+    clipInfo.textContent = `${clips[0].type === 'b' ? 'Boy' : 'Girl'} #${clips[0].index + 1}`;
+    standbyVideo.play();
+
+    // 시작 버튼 - mute 해제하고 컨트롤 보여주기
+    startBtn.addEventListener('click', () => {
+      startOverlay.classList.add('hidden');
+      controls.classList.remove('hidden');
+      standbyVideo.muted = false;
+      greetingVideo.muted = false;
+    });
+
+    // 90도 인사 버튼
+    bowBtn.addEventListener('click', triggerGreeting);
+
+    // 다음 사람 버튼
+    nextBtn.addEventListener('click', () => {
+      const nextIndex = (currentIndex + 1) % totalClips;
+      loadClip(nextIndex);
+    });
+
+    // 전체화면 버튼
+    const fullscreenBtn = document.getElementById('fullscreenBtn');
+    const playerEl = document.querySelector('.player');
+
+    // iOS 감지 - iOS에서는 전체화면 버튼 숨김
+    const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent);
+    if (isIOS) {
+      fullscreenBtn.style.display = 'none';
+    }
+
+    fullscreenBtn.addEventListener('click', () => {
+      if (!document.fullscreenElement) {
+        playerEl.requestFullscreen();
+      } else {
+        document.exitFullscreen();
+      }
+    });
+
+    // 키보드 조작
+    document.addEventListener('keydown', (e) => {
+      if (!startOverlay.classList.contains('hidden')) return;
+
+      if (e.code === 'Space') {
+        e.preventDefault();
+        triggerGreeting();
+      }
+      if (e.code === 'ArrowRight') {
+        loadClip((currentIndex + 1) % totalClips);
+      }
+      if (e.code === 'ArrowLeft') {
+        loadClip((currentIndex - 1 + totalClips) % totalClips);
+      }
+    });
+  </script>
+</body>
+</html>

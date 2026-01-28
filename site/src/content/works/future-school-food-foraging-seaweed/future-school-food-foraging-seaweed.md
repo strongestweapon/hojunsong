@@ -19,3 +19,31 @@ It's striking how this seemingly insignificant seaweed connects to major global 
 ![Future School Miyeok Dance](03-Future School Miyeok Dance.jpg)
 ![Future School Food Foraging Recipie](04-Future School Food Foraging Recipie.png)
 ![What We Waste What We Eat](05-What We Waste What We Eat.png)
+
+[youtube](https://www.youtube.com/watch?v=EWtMhJ3FNlw)
+
+## Credits
+17th Venice Architecture Biennale Korean Pavilion Program
+Yaksan-myun, Wando-gun, South Korea
+
+- Project director - Hojun Song
+- Artist - Hojun Song, Leo James Smith (Italy)
+- Chef - Hyunchung Kim (Tongyeong Owall)
+- Wando Yaksan coordinator - Sungjin Kim
+- Photography - Hojun Song, Wontae Suh, Dongkoo Jung
+- Livestreaming - Hojun Song
+- Accomodation & goat - Dowon Pension
+
+Foraging guide 
+- Wando county office 
+- Wando seaweed Expo team 
+- Tongyeong lilibongbong Cafe - Jiyoung Kim
+- Science Bookshop GALDAR Manager - Miyoung Lee
+- Ahn Eun Me Future School Movement - Eunme Ahn 
+- Ahn Eun Me Future School Movement - Marie Jean
+- Ahn Eun Me Future School Movement-  Hyegyung
+- Climate Citizen 3.5 Direcotr - Hyewon Lee
+- Art X Tech Seoul
+- Venice Biennale Food Team Director - Hyewon Lee
+- Venice Biennale Korean Pavilion Office - Jiyoon Ahn
+- Venice Biennale Korean Pavilion Director - Hyewon Shin

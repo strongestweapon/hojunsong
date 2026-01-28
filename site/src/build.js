@@ -9,6 +9,15 @@ const LICENSE = {
   name: 'Creative Commons Attribution 4.0 International'
 };
 
+const GA_SCRIPT = `<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZLYQTCD8FK"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-ZLYQTCD8FK');
+</script>`;
+
 // Simple frontmatter parser (no dependencies)
 function parseFrontmatter(content) {
   const match = content.match(/^---\n([\s\S]*?)\n---\n([\s\S]*)$/);
@@ -181,6 +190,12 @@ function markdownToHtml(md, imagesBasePath = null) {
         return;
       }
 
+      // Embed iframe (for interactive content)
+      if (text.toLowerCase() === 'embed') {
+        const embedSrc = href.startsWith('http') ? href : `${imagesBasePath.replace('/images', '')}/${href}`;
+        result.push(`<div class="embed"><iframe src="${embedSrc}" frameborder="0" allowfullscreen></iframe></div>`);
+        return;
+      }
 
       // YouTube embed
       if (text.toLowerCase() === 'youtube') {
@@ -431,6 +446,7 @@ ${relatedLinks}
   return `<!DOCTYPE html>
 <html lang="en">
 <head>
+  ${GA_SCRIPT}
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>${escapeHtml(work.title)} - Hojun Song</title>
@@ -516,6 +532,7 @@ function generatePresentationHtml(work, presentation) {
   return `<!DOCTYPE html>
 <html lang="en">
 <head>
+  ${GA_SCRIPT}
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>${escapeHtml(presentation.title)} (${presentation.year}) - Hojun Song</title>
@@ -573,6 +590,7 @@ function generateProjectHtml(project) {
   return `<!DOCTYPE html>
 <html lang="en">
 <head>
+  ${GA_SCRIPT}
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>${escapeHtml(project.title)} - Hojun Song</title>
@@ -634,6 +652,7 @@ function generateProjectsIndexHtml(projects) {
   return `<!DOCTYPE html>
 <html lang="en">
 <head>
+  ${GA_SCRIPT}
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Projects - Hojun Song</title>
@@ -665,6 +684,7 @@ function generateAboutHtml(about) {
   return `<!DOCTYPE html>
 <html lang="en">
 <head>
+  ${GA_SCRIPT}
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>About - Hojun Song</title>
@@ -706,6 +726,7 @@ function generateIndexHtml(works) {
   return `<!DOCTYPE html>
 <html lang="en">
 <head>
+  ${GA_SCRIPT}
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Hojun Song</title>
@@ -894,6 +915,37 @@ function build() {
     console.log('Copying images for about...');
     copyDir(srcAboutImagesDir, destAboutImagesDir);
   }
+
+  // Generate sitemap.xml
+  console.log('Generating sitemap.xml...');
+  const today = new Date().toISOString().split('T')[0];
+  let sitemapUrls = [
+    { loc: 'https://hojunsong.com/', priority: '1.0' },
+    { loc: 'https://hojunsong.com/about/', priority: '0.8' },
+    { loc: 'https://hojunsong.com/projects/', priority: '0.8' }
+  ];
+
+  // Add work pages
+  works.forEach(work => {
+    sitemapUrls.push({ loc: `https://hojunsong.com/works/${work.slug}/`, priority: '0.9' });
+    // Add presentation pages
+    if (work.presentations) {
+      work.presentations.forEach(pres => {
+        sitemapUrls.push({ loc: `https://hojunsong.com/works/${work.slug}/${pres.slug}/`, priority: '0.7' });
+      });
+    }
+  });
+
+  const sitemapXml = `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+${sitemapUrls.map(url => `  <url>
+    <loc>${url.loc}</loc>
+    <lastmod>${today}</lastmod>
+    <priority>${url.priority}</priority>
+  </url>`).join('\n')}
+</urlset>`;
+
+  fs.writeFileSync(path.join(publicDir, 'sitemap.xml'), sitemapXml);
 
   console.log('Build complete!');
 }
