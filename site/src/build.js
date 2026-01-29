@@ -571,6 +571,8 @@ function generatePresentationHtml(work, presentation) {
   <p>${escapeHtml(presentation.type)}, ${escapeHtml(presentation.location)}, ${presentation.year}</p>
 </div>
 ${overviewHtml}${sectionsHtml}
+<p class="back-link">← Back to /<a href="../">${escapeHtml(work.title)}</a></p>
+
 <script>
 document.querySelectorAll('.video-player').forEach(p=>{
   const v=p.querySelector('video'),b=p.querySelector('.play-btn');

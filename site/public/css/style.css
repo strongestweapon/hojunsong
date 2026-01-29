@@ -239,3 +239,8 @@ nav {
     margin-right: 1.5rem;
   }
 }
+
+.back-link {
+  margin: 2rem 0 3rem 0;
+  font-size: 1.2rem;
+}
