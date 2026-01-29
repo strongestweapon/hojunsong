@@ -12,6 +12,10 @@ presentations:
   - 2020-DeathTastingLive
 ---
 
-Uranium Necklace is for those contemplating suicide—a way to taste death before making a final decision. Drugs aren't potent enough; we need stronger materials. Upon purchase, the stainless steel wire necklace is locked so it cannot be removed. An attempt to sell one on eBay for $900,000 drew a comment that a life was worth less.
+Uranium Necklace is for those contemplating suicide—a way to taste death before making a final decision. Drugs aren't potent enough; we need stronger materials. 
 
-![Uranium Neckrace](Uranium Neckrace.jpeg)
+Upon purchase, the stainless steel wire necklace is locked so it cannot be removed. An attempt to sell one on eBay for $900,000 drew a comment that a life was worth less.
+
+![Uranium Neckrace, 2010](Uranium Neckrace.jpeg)
+![Uranium Neckrace on eBay, 2010](HoJunSong_004_06.png)
+![Death Tasting Live, 2020](deathtasting_webA.png)

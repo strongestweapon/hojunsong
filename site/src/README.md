@@ -257,3 +257,16 @@ description: 짧은 설명
 - on-off-everything: 2019-ArtienceDaejeon, 2019-Mumokjeok
 - dont-compress-me: 2015-BlackoutBasel, 2015-FutureNow, 2018-StoryOfGoa, 2019-EchoChamber, 2020-OMAF, 2021-DCMAbstracted, 2021-DCMOnline, 2023-DCMWC-Rome, 2024-PackUnpack
 - the-strongest-weapon-in-the-world: 2007-WeaponsOfMassHappiness, 2009-RosettaStone, 2010-ILoveU
+
+### 2026-01-29
+- Google Analytics 추가 (G-ZLYQTCD8FK)
+- robots.txt 생성
+- sitemap.xml 자동 생성 (빌드 시)
+- 세부 페이지 하단에 "← Back to /[작품명]" 링크 추가
+- 비디오 poster 지원 개선:
+  - poster 이미지(`영상명-poster.jpg`)가 있으면 사용
+  - 없으면 `preload="metadata"`로 첫 프레임 표시 (iOS 제외)
+  - iOS용은 ffmpeg로 poster 생성: `ffmpeg -i video.mp4 -ss 00:00:00 -vframes 1 video-poster.jpg`
+
+**새 세부 프로젝트:**
+- uranium-necklace: 2010-ThePenguinThatGoesToTheMountain, 2015-BlackoutBasel, 2020-DeathTastingLive

@@ -174,7 +174,7 @@ function markdownToHtml(md, imagesBasePath = null) {
       const posterFileName = src.replace(/\.mp4$/i, '-poster.jpg');
       const posterFilePath = imagesBasePath.replace(/^\//, '') + '/' + posterFileName;
       const posterExists = fs.existsSync(path.join(__dirname, 'content', posterFilePath.replace(/^works\//, 'works/')));
-      const posterAttr = posterExists ? `poster="${imagesBasePath}/${posterFileName}"` : '';
+      const posterAttr = posterExists ? `poster="${imagesBasePath}/${posterFileName}"` : 'preload="metadata"';
       const captionHtml = caption ? `<figcaption>${caption}</figcaption>` : '';
       result.push(`<figure class="video-player"><video playsinline ${posterAttr}><source src="${videoSrc}" type="video/mp4"></video><button class="play-btn" aria-label="Play"></button>${captionHtml}</figure>`);
       return;
