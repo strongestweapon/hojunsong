@@ -73,6 +73,24 @@ function escapeHtml(text) {
     .replace(/>/g, '&gt;');
 }
 
+// Process inline markdown (links, bold, italic) within text
+function processInlineMarkdown(text) {
+  // Bold: **text** or __text__
+  text = text.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
+  text = text.replace(/__([^_]+)__/g, '<strong>$1</strong>');
+  // Italic: *text* or _text_
+  text = text.replace(/\*([^*]+)\*/g, '<em>$1</em>');
+  text = text.replace(/_([^_]+)_/g, '<em>$1</em>');
+  // Links: [text](url)
+  text = text.replace(/\[([^\]]+)\]\(([^)]+)\)/g, (match, linkText, url) => {
+    if (url.startsWith('http://') || url.startsWith('https://')) {
+      return `<a href="${url}" target="_blank" rel="noopener">${linkText}</a>`;
+    }
+    return `<a href="${url}">${linkText}</a>`;
+  });
+  return text;
+}
+
 // Generate image HTML with 404 fallback
 function generateImageHtml(src, caption, imagesBasePath) {
   const escapedCaption = escapeHtml(caption);
@@ -157,6 +175,14 @@ function markdownToHtml(md, imagesBasePath = null) {
       return;
     }
 
+    // Blockquote: > text or >text
+    if (trimmed.startsWith('>')) {
+      if (inList) { result.push('</ul>'); inList = false; }
+      const quoteText = trimmed.startsWith('> ') ? trimmed.slice(2) : trimmed.slice(1);
+      result.push(`<blockquote>${processInlineMarkdown(quoteText)}</blockquote>`);
+      return;
+    }
+
     // Single image (outside grid) - supports filenames with parentheses
     if (trimmed.match(/^!\[([^\]]*)\]\((.+)\)$/)) {
       if (inList) { result.push('</ul>'); inList = false; }
@@ -238,12 +264,12 @@ function markdownToHtml(md, imagesBasePath = null) {
         result.push('<ul>');
         inList = true;
       }
-      result.push(`<li>${content}</li>`);
+      result.push(`<li>${processInlineMarkdown(content)}</li>`);
       return;
     }
 
     if (inList) { result.push('</ul>'); inList = false; }
-    result.push(`<p>${trimmed}</p>`);
+    result.push(`<p>${processInlineMarkdown(trimmed)}</p>`);
   });
 
   if (inList) result.push('</ul>');
@@ -312,15 +338,20 @@ function readWorks(contentDir) {
 
       subBody.split('\n').forEach(line => {
         if (line.startsWith('## ')) {
-          currentSection = line.slice(3).toLowerCase().replace(/\s+/g, '');
+          const sectionTitle = line.slice(3);
+          currentSection = sectionTitle.toLowerCase().replace(/\s+/g, '');
           sections[currentSection] = [];
+          // Store original title for display
+          sections[`_sectionTitle_${currentSection}`] = sectionTitle;
         } else if (currentSection && line.trim()) {
           sections[currentSection].push(line);
         }
       });
 
       Object.keys(sections).forEach(key => {
-        sections[key] = sections[key].join('\n').trim();
+        if (!key.startsWith('_sectionTitle_')) {
+          sections[key] = sections[key].join('\n').trim();
+        }
       });
 
       presentations.push({
@@ -513,13 +544,22 @@ function generatePresentationHtml(work, presentation) {
 `;
   }
 
-  // Other sections
-  const otherSections = ['context', 'focus', 'development', 'credits', 'technicalnotes'];
+  // Other sections - render all sections found in the markdown (except overview which is already rendered)
+  const knownSectionTitles = {
+    'context': 'Context',
+    'focus': 'Focus',
+    'development': 'Development',
+    'credits': 'Credits',
+    'technicalnotes': 'Technical Notes'
+  };
   let sectionsHtml = '';
-  otherSections.forEach(section => {
+  Object.keys(presentation).forEach(section => {
+    // Skip non-content fields, internal keys, and overview (already rendered above)
+    if (['slug', '_folderName', 'title', 'event', 'type', 'location', 'year', 'description', 'overview'].includes(section)) return;
+    if (section.startsWith('_sectionTitle_')) return;
     if (presentation[section]) {
-      const title = section === 'technicalnotes' ? 'Technical Notes' :
-                    section.charAt(0).toUpperCase() + section.slice(1);
+      // Use known title if available, otherwise use the original section name from markdown
+      const title = knownSectionTitles[section] || presentation[`_sectionTitle_${section}`] || section.charAt(0).toUpperCase() + section.slice(1);
       sectionsHtml += `
 <div class="work">
   <h2>${title}</h2>
