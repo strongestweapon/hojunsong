@@ -1,11 +1,11 @@
 ## Hojun Song [[EN]](hojunsong.md) [[KR]](hojunsong_KR.md)
 b. 1978
 
-Hojun Song's work is about creating narratives and bringing questions by making absurd objects like radiation jewelry, the strongest weapon in the world or by setting up a semi-functional organizaion like Open Source Satellite Inititiative. In 2013, he launched his own small satellite in Kasachstan, Baikonur. His satellite project encompasses from D.I.Y. engineering to T shirts selling to challenge the stereotypical preconception of space program but was not enough to change the notion of so-called the greatness of the space program. 
+Hojun Song’s work constructs narratives and raises questions through the creation of absurd objects—such as radiation jewelry or “the strongest weapon in the world”—and through semi-functional organizations like the Open Source Satellite Initiative. In 2013, he launched his own small satellite from Baikonur, Kazakhstan. This satellite project spans DIY engineering, merchandise such as T-shirts, and public engagement, challenging stereotypical perceptions of space programs.
 
-Naturally, his recent work deals with ironical relationship between romanticism and deconstructionism, especially how society makes heroes and how those heroes are destroying diviersites, by referring new trends of science and technology like artificial intelligence, complexity system, and blockchain which embrace uncertainties and decentralization.
+His recent works explore the ironic relationship between romanticism and deconstructionism, examining how societies create heroes and how those heroes can suppress diversity. Drawing on contemporary scientific and technological discourses—such as artificial intelligence, complex systems, and blockchain—his practice embraces uncertainty and decentralization.
 
-He shares his work and its process to be functional in the society, rather than in museum or at gallery, by employing live streaming, sound performance, mass production, buying and selling, and hard core engineering and tries to seek humorous ways to question conventional thoughts on art, design and technology while linking those to our daily issues.
+Rather than confining his work to museums or galleries, Song situates it within society through live streaming, sound performance, mass production, commerce, and hands-on engineering, using humor to question conventional ideas of art, design, and technology while connecting them to everyday life.
 ### 2026
 - LED That Blinks Once Every 100 Years, Galaxy Coporatioin, Seoul
 
