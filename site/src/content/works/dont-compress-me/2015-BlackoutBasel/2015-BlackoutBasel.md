@@ -11,6 +11,12 @@ description: Don't Compress Me at Blackout Basel
 ## Overview
 Don't Compress Me Competition Head Only Version at Blackout Basel, Basel, Switzerland, 2015
 
+Unlike the regular "Don't Compress Me" competition where participants use their entire body, this version requires participants to move only their head for 10 seconds to resist video compression.
+
+Artists from various countries participated in the competition, and certain patterns seemed to emerge in their movements and sound.
+
+[youtube](https://www.youtube.com/watch?v=IOqOhhbSaXI)
+
 ![Don't Compress Me Head Only,Blackout Basel, 2015](all.jpg)
 
 
