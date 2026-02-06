@@ -14,3 +14,5 @@ How can we fool A.I. speech recognition while remaining understandable to humans
 By altering intonation and inserting white noise between syllables, we can deceive Google Cloud Speech Recognition.
 
 A.I. kills diversity. Deny the bias.
+
+[video][ANTI AI Volcalization Techniques Workshop Teaser, 2018](Day1 - HD 1080p.mp4)
