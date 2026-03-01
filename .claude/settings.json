@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node build.js:*)",
+      "Bash(node src/build.js:*)"
+    ]
+  }
+}
