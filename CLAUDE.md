@@ -11,28 +11,28 @@
 
 ### 빌드
 ```bash
-node /Users/hojunsong/Documents/Github/hojunsong/site/src/build.js
+node site/src/build.js
 ```
 
 ### 로컬 서버
 ```bash
-cd /Users/hojunsong/Documents/Github/hojunsong/site/public && python3 -m http.server 8000
+cd site/public && python3 -m http.server 8000
 ```
 - 백그라운드로 실행할 것
 
 ### S3 싱크
 ```bash
-/usr/local/bin/aws s3 sync /Users/hojunsong/Documents/Github/hojunsong/site/public s3://hojunsong-com
+aws s3 sync site/public s3://hojunsong-com
 ```
 
 ### CloudFront 인밸리데이션
 ```bash
-/usr/local/bin/aws cloudfront create-invalidation --distribution-id E28EYQUKVHIIRP --paths "/*"
+aws cloudfront create-invalidation --distribution-id E28EYQUKVHIIRP --paths "/*"
 ```
 
 ### 빌드 + 싱크 + 인밸리 (한번에)
 ```bash
-node /Users/hojunsong/Documents/Github/hojunsong/site/src/build.js && /usr/local/bin/aws s3 sync /Users/hojunsong/Documents/Github/hojunsong/site/public s3://hojunsong-com && /usr/local/bin/aws cloudfront create-invalidation --distribution-id E28EYQUKVHIIRP --paths "/*"
+node site/src/build.js && aws s3 sync site/public s3://hojunsong-com && aws cloudfront create-invalidation --distribution-id E28EYQUKVHIIRP --paths "/*"
 ```
 
 ## 비디오 변환 (MOV → MP4)
