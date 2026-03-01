@@ -1,8 +1,9 @@
 {
   "permissions": {
     "allow": [
-      "Bash(node build.js:*)",
-      "Bash(node src/build.js:*)"
+      "Bash(node site/src/build.js:*)",
+      "Bash(aws s3 sync:*)",
+      "Bash(aws cloudfront create-invalidation:*)"
     ]
   }
 }
