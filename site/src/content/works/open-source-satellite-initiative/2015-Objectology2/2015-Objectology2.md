@@ -23,6 +23,6 @@ These forms of practical knowledge—often referred to as know-how—are much ha
 
 
 Audiences can see the explanations of the items via website. 
+![OSSI-1 Satellite Manufacturing Techniques Manual, 2015](objectology2manual.jpg)
 ![OSSI-1 Satellite Manufacturing Techniques, 2015](ObjectologyCatalog4.jpg)
-
 ![OSSI-1 Satellite Manufacturing Techniques, 2015](Scan 14.jpeg)
