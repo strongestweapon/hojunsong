@@ -1,0 +1,650 @@
+# Hojun Song / 송호준
+> Artist and engineer working at the intersection of art, technology, and social commentary.
+> 예술과 기술, 사회적 코멘터리의 교차점에서 작업하는 아티스트이자 엔지니어.
+
+Website: https://hojunsong.com
+Machine-readable data: https://hojunsong.com/data/works.json
+License: Creative Commons Attribution 4.0 International (https://creativecommons.org/licenses/by/4.0/)
+
+---
+
+## Biography (English)
+
+b. 1978, South Korea
+
+Hojun Song is an artist and engineer whose practice sits at the intersection of art, technology, and social commentary. Working across DIY engineering, performance, mass production, live streaming, and music, he creates absurd yet functional objects and systems that question how society constructs heroes, produces knowledge, and surrenders diversity to efficiency.
+
+In 2013, Song launched OSSI-1 (Open Source Satellite Initiative) from Baikonur, Kazakhstan, the first satellite ever built and launched by an individual. Rather than celebrating the achievement, he turned the project into a critique of heroism and nationalism in science, funding it through T-shirt sales and documenting the process through performance and music. The satellite was less the point than the questions it raised: who gets to access space, and why do we need heroes to do it?
+
+This skepticism runs through his entire body of work. The Strongest Weapon in the World (2007–2010) is an indestructible object that does not attack; when struck with a hammer, it says "I love you." Uranium Necklace (2010–2020) offers radioactive jewelry as a way to "taste death." LED That Blinks Once Every 100 Years (2010–2026), rejected by a committee that wanted it to blink annually, finally emitted its first light on January 14, 2026. The next blink is scheduled for 2126.
+
+His ongoing series Don't Compress Me (2009–) is a global competition where participants move for 10 seconds to resist video compression algorithms. Random movements should defeat codecs like H.264, but humans consciously trying to be random cannot truly be random. The competition, held in Basel, Goa, Rome, Seoul, and Daejeon, is framed as a search for "a human who can live beyond the predictions of artificial intelligence." ANTI-A.I. Vocalization Techniques (2018) explores how we might fool speech recognition while remaining understandable to other humans.
+
+Song's work extends into experimental music with dssb, a death metal duo formed in response to the 2014 Sewol ferry disaster, and gold & silver, an improvisation duo that charges negative admission so they can fail freely. Future School Food Foraging – Seaweed (2021), presented at the 17th Venice Architecture Biennale, connects Korean seaweed culture to climate change and diaspora. Time to Leave the Land (2020–2022) uses a sailboat as a floating studio for science fiction writing.
+
+His work has been presented at the Venice Architecture Biennale, Poznan Mediations Biennale, Zero1 Biennial, Leeum Samsung Museum of Art, MMCA Seoul, and Art Sonje Center. He has spoken at MIT, RCA London, and Wired UK Conference, and has been featured in BBC, Wired, New Scientist, and Reuters.
+### 2026
+- LED That Blinks Once Every 100 Years, Galaxy Coporatioin, Seoul
+
+### 2025
+- Don't Compress Me, UnfoldX, Seoul Culture Center 284, Seoul
+
+### 2024
+- Don't Compress Me, Pack-Unpack, Total Museum, Seoul
+### 2023
+- Future of The Future, SCOPES Seoul, Seoul
+- No Fart For Humanity, MOCA, Busan
+- Don't Compress Me World Competition Rome, Videocittà, Rome
+- Cabinet of the Ephemeral, art center nabi, Seoul
+### 2022
+- Don't Compress Me World Competition Seoul, Seoul
+- Miyeok Graffiti, Making Lemonade, Seoul
+### 2021
+- The Old Man And Sea Plastics, Mobile Web Comic Environmental Game, Director
+- 17th Venice Architecture Biennale Korean Pavillion Opening, Seoul & Venice
+- Hold Your Fart, Mobile Web Comic Environmental Game, Director
+- Time to leave the land: publishing a environmentally friendly ocean art crypto coin, West Sea, Korea
+- Future School Food Foraging - Seaweed, 17th Venice Architecture Biennale, Wando island, Korea
+- Don't Compress Me Online, Making Lemonade, Seoul
+- Don't Compress Me: Abstracted, Shinsegae Gallery, Busan
+- Time to leave the land - The beginning, This Weekend Room, Seoul
+### 2020	
+- The Great Explosion: Covid-19, KIM HEE SOO Art Center, Seoul
+- Don’t Compress Me 2020, Open Media Art Festival, Seoul  
+- Meta Performance: Future Theater, Gyeonggi Art Center  
+- Death Tasting Live, Eulji Art Center, Seoul  
+- Online Live Auction, This Weekend Room, Seoul  
+- Chung-gye seesaw project,Seoul  
+### 2019	
+- Electric Universe, Culture Station Seoul 284, Seoul  
+- Echo Chamber, Sound Effects Seoul, Seoul  
+- Artiecne Daejeon, Daejeon  
+- On Off Everything, Mumokjeok, Seoul  
+### 2018 	
+- The Story of Space, Goa, India  
+### 2017	
+- Seoul Biennale of Architecture and Urbanism, Seoul  
+### 2016	
+- Water Preppers, DDP, Seoul  
+- Gori, Indie Art Hall Gong, Seoul  
+- GODLED Electronics Showcase Solo, This Weekend Room, Seoul  
+### 2015	
+- Blackout Basel, Basel, Switzerland  
+- Poomba, Ilmac Art Prize Solo Exhibition, Artspace Boan, Seoul  
+- Don't Compress Me, Future Now, SomoS Art House, Berlin  
+- Objectology II: Make, MMCA, Gwachoen  
+### 2014	
+- A Room of His Own: Masculinities in Korea and the Middle East, Art Sonje Center, Seoul  
+- Please Respond Artists, Space O'NewWall, Seoul  
+- Poznan Mediation Biennale, Poznan, Poland & Berlin, Germany  
+- Art Spectrum Exhibition, Leeum Samsung Museum of Art, Seoul  
+- OSSI Satellite Electronic Parts Rap Music Performance, Festival Bo:m, Seoul  
+### 2013	
+- ANTI- Climax Performance, MMCA, Seoul  
+- Ficções Radicais, São Paulo, Brazil  
+- Satellite Launch, Baikonur, Kazakhstan  
+### 2012	
+- Galapagos Exhibition, Ilmin Museum, Seoul  
+- Zero1 biennial, San Jose, US  
+### 2011	
+- Familia Robot, Buenos Aires, Argentina  
+- Labour of Love, Revisited, Arko Art Center, Seoul  
+### 2010	
+- The penguin that goes to the mountain, NJP Art Center, Yongin  
+- The Lack of Electricity II. Space Can  
+- No More Daughters & Heroes , Aram Nuri , Goyang  
+- Second Order, Space Hamilton, Seoul  
+### 2009	
+- Resonance Green Korea, Frederiksberg Townhall, Denmark  
+### 2008	
+- !: enlighten me, Templum, Seoul  
+### 2007	
+- Integrating, Asian Culture Center, Gwangju  
+### 2006	
+- Modern Media Art - Light, Seongnam Arts Center, Seongnam  
+### 2005	
+- 10 years after, National Science Museum, Daejeon  
+
+### Talk
+IDCC 2020 Seoul, AGI Congress 2016, Wired UK Conference (London), MIT (Boston), RCA (London), Machine Project (L.A.),
+Lift Conf. (Swiss), The Conference (Malmö), and etc
+
+### Media
+BBC, France24 TV, Telegraph, Reuter, Radio Nederland Worldwide, Deutschland Radio
+New Scientist Magazine, Wired (UK/US) Magazine, Vogue Korea, Dazed & Confused Korea, and etc
+
+---
+
+## 약력 (한국어)
+
+1978년생, 한국
+
+송호준은 예술과 기술, 사회적 코멘터리의 교차점에서 작업하는 아티스트이자 엔지니어다. DIY 공학, 퍼포먼스, 대량생산, 라이브 스트리밍, 음악을 넘나들며 부조리하지만 작동하는 사물과 시스템을 만든다. 그의 작업은 사회가 영웅을 만들어내는 방식, 지식을 생산하는 방식, 다양성을 효율에 내어주는 방식에 질문을 던진다.
+
+2013년 카자흐스탄 바이코누르에서 OSSI-1 (오픈소스 인공위성 프로젝트) 을 발사했다. 개인이 인공위성을 만들어 발사한 세계 최초의 사례였다. 그는 이 성취를 축하하는 대신, 과학에서의 영웅주의와 국가주의를 비판하는 프로젝트로 전환했다. 티셔츠 판매로 자금을 조달하고, 퍼포먼스와 음악으로 과정을 기록했다. 위성을 만든 건 그 자체가 목적이라기보다, 우주에 대한 접근이 왜 특정한 사람들에게만 허용되는지 그리고 왜 우주 과학은 영웅 서사가 필요한지 묻고 싶었기 때문이다. 
+
+비슷한 관심이 다른 작업에도 이어진다. 세상에서 가장 강한 무기(2007–2010)는 파괴되지 않지만 공격하지 않는 물체다. 망치로 내리치면 "사랑해"라고 말한다. 우라늄 목걸이(2010–2020)는 방사성 보석으로 "죽음을 맛보는" 경험을 제안한다. 100년에 한 번 깜빡이는 LED(2010–2026)는 1년에 한 번으로 바꾸라는 심사위원단의 요구를 거부한 끝에, 2026년 1월 14일 첫 빛을 냈다. 다음 깜빡임은 2126년이다.
+
+진행 중인 시리즈 압축하지마(2009–)는 참가자들이 10초간 움직여 비디오 압축 알고리즘에 저항하는 글로벌 대회다. 무작위 움직임은 H.264 같은 코덱을 무력화할 수 있지만, 의식적으로 무작위적이려는 인간은 진정으로 무작위적일 수 없다. 바젤, 고아, 로마, 서울, 대전에서 열린 이 대회는 "인공지능의 예측에서 벗어나 살 수 있는 인간"을 찾기위해 만들어졌다. 반인공지능 발성법(2018)은 음성인식을 속이면서도 다른 인간에게는 이해 가능한 말하기 방식을 탐구하는 대회이다.
+
+음악 활동으로는 2014년 세월호 참사에 대한 응답으로 결성한 데스메탈 듀오 dssb, 관객에게 돈을 지불하는 마이너스 입장료로 자유롭게 실패하는 즉흥 듀오 gold & silver가 있다. 제17회 베니스 건축 비엔날레에서 발표한 미래학교 식량 채집 – 해초(2021)는 한국의 해초 문화를 기후변화, 디아스포라와 연결한다. 이제는 육지를 떠날 때(2020–2022)는 요트를 떠다니는 스튜디오로 삼아 SF 글쓰기를 시도한 프로젝트다.
+
+베니스 건축 비엔날레, 포츠난 미디어 비엔날레, Zero1 비엔니얼, 리움삼성미술관, 국립현대미술관, 아트선재센터 등에서 작품을 발표했다. MIT, RCA 런던, Wired UK 컨퍼런스에서 강연했으며, BBC, Wired, New Scientist, Reuters 등에 소개되었다.
+
+### 2026
+- 100년에 한번 깜박이는 LED, 갤럭시 코퍼레이션, 서울
+### 2025
+- 압축하지마, 언폴드X, 서울문화역 284, 서울
+### 2024
+- 압축하지마, 팩언팩, 토탈 미술관, 서울
+### 2023
+- Future of The Future, SCOPES Seoul, 서울
+- 인류를 위하여 방구 끼지마, 부산현대미술관, 부산
+- 압축하지마 세계대회 로마, Videocittà, 로마
+- Cabinet of the Ephemeral, 아트센터나비, 서울
+### 2022
+- 압축하지마 세계대회 서울, 서울
+- 미역 그래피티, 메이킹레모네이드 전, 서울
+### 2021
+- 노인과 바다 플라스틱, 코믹 환경 웹 모바일 게임, 디렉터
+- 베니스 건축 비엔날레 한국관 오프닝, 서울 & 베니스
+- 방구를 참아라, 코믹 환경 웹 모바일 게임, 디렉터
+- 이제는 육지를 떠날 때 - 친환경 바다 예술 코인 발행, 서해
+- 미래학교 식량채집 - 해조류 편, 베니스 건축 비엔날레, 완도
+- 압축하지마 온라인, 메이킹레모네이드 전, 서울
+- 압축하지마: 추상, 신세계 갤러리, 부산
+- 이제는 육지를 떠날 때 - 더 비기닝, 디스위켄드룸, 서울
+### 2020	
+- 위대한폭발: 코로나19, 김희수 아트센터, 서울
+- 압축하지마, 오픈미디어아트페스티발, 서울
+- 메타퍼포먼스: 미래극장, 경기도
+- 죽음시음 라이브, 을지판타지아, 서울
+- 라이브옥션, 디스위켄드룸, 서울
+- 청계시소, 서울
+### 2019	
+- 전기 우주, 문화역 서울 284, 서울
+- 에코챔버, 사운드 이펙트 서울, 서울
+- 아티언스 대전, 대전
+- On Off Everything, 무목적, 서울
+### 2018 	
+- The Story of Space, Goa, 인도
+### 2017	
+- 서울 도시건축 비엔날레, 서울
+### 2016  	
+- 준비족 연대기: 물, DDP, 서울
+- 고리, 공, 서울
+- GODLED electronics 쇼케이스 전, 디스위크엔드룸, 서울
+### 2015	
+- 웃으면 공이와요, 공, 서울
+- Blackout Basel, 바젤, 스위스
+- 품바, 제3회 일맥 아트프라이즈 수상전, 보안여관, 서울
+- 압축하지마, Future Now, SomoS Art House, 베를린
+- 사물학 2, 국립현대, 과천
+### 2014	
+- 그만의 방: 한국과 중동의 남성성 전, 아트선재센터, 서울
+- 응답하라 작가들 전, 오뉴월 갤러리, 서울
+- Poznan Mediations 비엔날레, Poznan & 베를린
+- 아트스펙트럼 전, 삼성 리움 미술관
+- OSSI 인공위성 전자 부품 랩 (Rap) 퍼포먼스, 페스티벌 봄, 서울
+### 2013	
+- ANTI- Climax 퍼포먼스, 국립현대 서울관
+- Ficções Radicais, 상파울로, 브라질
+- 인공위성 발사, 바이코누르, 카자흐스탄
+### 2012	
+- 갈라파고스 전, 일민미술관, 서울
+- Zero1 비엔날레, 산호세, 미국
+### 2011	
+- Familia Robot, 부에노스 아이레스,
+- Labour of Love, Revisited 전, 아르코미술관, 서울
+### 2010
+- ‘산으로 간 펭귄 전', 백남준아트센터, 용인
+- The Lack of Electricity II. 스페이스 캔
+- 남녀의 미래: No More Daughters & Heroes 전, 아람누리 , 고양
+- 제 2의 질서, 공간 해밀톤, 서울
+### 2009	
+- Resonance Green Korea 전, Frederiksberg Townhall, 코펜하겐
+### 2008	
+- !: enlighten me 전, Templum 갤러리, 서울
+### 2007	
+- 인티그레이팅 전, 아시아문화전당, 광주
+### 2006	
+- 현대매체미술라이트 전, 성남아트센터, 성남
+### 2005	
+- 10년 후, 국립중앙과학관, 대전
+
+### 강연
+IDCC 2020, 서울 AGI 콩그레스 2016, 서울 Wired 컨퍼런스, 런던, 영국 MIT 콜로키움, 보스턴, 미국 RCA, 런던, 영국 The Conference 키노트 강연, 말뫼, 스웨덴 삼성 반도체 강연 멘사 코리아 강연 미래창조부 ICT DIY 키노트 강연 SK 플래닛 키노트 강연 G 마켓 드리밍 G 강연 청춘페스티벌 강연 외
+
+### 매체
+BBC, France24 TV, 텔레크래프, 로이터, 네덜란드 국영 라디오, 독일 국영 라디오 외  
+YTN 과학 뉴스, KBS 과학카페, MBC 라디오 스타, XTM F학점 공대형, MBC 에브리원 요트원정대 외  
+New Scientist 매거진, Wired 영국, 미국 매거진, 보그, 동아 사이언스, 조선, 동아, 경향 외
+
+---
+
+## Works / 작품
+
+### Open Source Satellite Initiative / 오픈소스 인공위성 프로젝트 (OSSI)
+**Year / 연도:** 2008–2018
+**URL:** https://hojunsong.com/works/open-source-satellite-initiative/
+
+The OSSI-1 satellite was launched by Hojun Song in April 2013 at Baikonur, Kazakhstan—the first satellite ever built and launched by an individual.
+2013년 카자흐스탄 바이코누르에서 송호준이 발사한 OSSI-1 인공위성. 개인이 인공위성을 만들어 발사한 세계 최초의 사례다.
+
+Hojun Song launched the OSSI-1 satellite in April 2013 at Baikonur, Kazakhstan—the first satellite ever built and launched by an individual.
+
+While audiences are drawn to this achievement, Hojun Song shifts attention to broader themes: heroism and nationalism in science, the role of amateurs today, and the sharing of sensitive technologies. He explores these ideas through comedic and satirical performances.
+
+Korean Artist + UK Magazine -> U.S. Flag behind.
+
+**Presentations / 전시 이력:**
+- Labor Of Love, Revisited, Arko Art Center, Seoul, 2011
+- Zero1 Biennial, San Jose, California, 2012
+  Presenting Open Source Satellite Initiative project at the Zero1 Biennial in San Jose, California. NASA Ames Center was near by so many scientis stopped by to talk.
+- Art Spectrum, Leeum Museum of Art, Seoul, 2014
+  The core idea of the OSSI satellite project is to share the entire process of building and launching a satellite. Therefore, even though it was presented in a renowned exhibition such as Art Spectrum, the work was presented in a deliberately approachable and accessible manner. The main idea behind the presentation format was inspired by kiosks found in local community offices and post offices. 
+  By encouraging active audience participation—watching videos and solving quizzes—the project aimed to help viewers realize that the technologies discussed in the satellite project are in fact connected to broader themes such as society, politics, and people’s dreams.
+  Before the exhibition, more than 100 elementary school students in Seoul sent handwritten letters titled “To Scientist Hojun Song, Who Launched a Satellite into Space.” The students and their science teacher were invited to the art exhibition, where a gathering was held to share conversations together.
+- Festival Bom, Seoul, 2014
+  Open Source Satellite Initiative project presented at Festival BO:M 2014 as rap music performance.
+- Objectology 2, Gwacheon, MMCA, 2015
+  OSSI-1 Satellite Manufacturing Techniques, 2015
+  This work presents stories about manufacturing techniques based on practical knowledge of satellite construction. Rather than focusing on the operating principles of satellites, it highlights hands-on processes such as wire selection, wire stripping, soldering, aluminum machining, spring fabrication, antenna making, and selecting adhesives capable of functioning in space. 
+  These forms of practical knowledge—often referred to as know-how—are much harder to find than theoretical principles organized in textbooks. The exhibition presents actual fabricated satellite components alongside stories of the people, communities, and online knowledge encountered throughout the production process.
+  Audiences can see the explanations of the items via website.
+- OSSI Goods, Various, 2008–2018
+- OSSI Videos, Various, 2008–2018
+
+---
+
+### On Off Everything / On Off Everything
+**Year / 연도:** 2018–2019
+**URL:** https://hojunsong.com/works/on-off-everything/
+
+Audiences bring their own electronic devices to this project. Each device has its own timing, lights, and sounds when switching on and off.
+관객이 직접 전자 기기를 가져오는 프로젝트. 각 기기는 켜고 끌 때 고유한 타이밍, 빛, 소리를 가진다.
+
+Audiences bring their own electronic devices to this project. Each device is a system with its own timing, lights, and sounds when switching on and off.
+
+When all devices are connected to the installation and the central power cycles on and off, unexpected audiovisual combinations emerge.
+
+**Presentations / 전시 이력:**
+- Artience Daejeon, Daejeon, 2019
+- On Off Everything, Mumokjeok, Seoul, 2019
+  On Off Everything, a new project by media artist Hojun Song, is an exhibition that repeatedly turns electronic and mechanical devices on and off. The artist’s core approach—creating narratives through technology—lies in hoping that the simultaneous switching on and off of multiple devices resonates with the many stories of the world. In this exhibition, Song explores unexpected synesthetic effects through combinations and operations of various devices.
+  The first edition of On Off Everything begins at the space “Mumokjeok.”
+  Fifty power outlets are waiting for you.
+  - Dates: July 26–28
+  - Opening Party: July 26, 8:00 PM (DJ Jeon yonghyeon)
+
+---
+
+### Time To Leave The Land / 이제는 육지를 떠날 때
+**Year / 연도:** 2020–2022
+**URL:** https://hojunsong.com/works/time-to-leave-the-land/
+
+This project uses a sailboat as a floating, isolated studio for near-future storytelling. It explores off-grid ocean living in an era of pandemics and virtual reality.
+요트를 떠다니는 고립된 스튜디오로 삼아 근미래 이야기를 쓰는 프로젝트. 팬데믹과 가상현실 시대의 오프그리드 바다 생활을 탐구한다.
+
+This project uses a sailboat as a floating, isolated studio for near-future storytelling. It explores off-grid ocean living in an era of pandemics and virtual reality.
+
+Scientists, artists, musicians, and writers sail together to create a short science fiction zine. Conversations on board are live-streamed for real-time collaboration with audiences. The sailing and publishing happen quarterly.
+
+---
+
+### Future School Food Foraging - Seaweed / 미래학교 식량 채집 – 해조류 편
+**Year / 연도:** 2021
+**URL:** https://hojunsong.com/works/future-school-food-foraging-seaweed/
+
+Seaweeds like Miyeok and Dasima are now considered among the most invasive species globally, yet they are traditional postpartum food in Korea.
+미역과 다시마는 전 세계에서 가장 침략적인 종으로 여겨지지만, 한국에서는 전통적인 산후 음식이다. 해초 문화를 기후변화, 디아스포라와 연결하는 프로젝트.
+
+Seaweeds like Miyeok (Undaria pinnatifida) and Dasima (Laminaria japonica) travel with ocean currents and settle wherever they land. Now considered among the most invasive species globally, they are also traditional postpartum food in Korea.
+
+We know that ocean seaweed captures more carbon than the Amazon rainforest, yet few international institutions officially recognize this.
+
+It's striking how this seemingly insignificant seaweed connects to major global issues: future food, climate change, decolonization, and diaspora.
+
+## Credits
+17th Venice Architecture Biennale Korean Pavilion Program
+Yaksan-myun, Wando-gun, South Korea
+
+- Project director - Hojun Song
+- Artist - Hojun Song, Leo James Smith (Italy)
+- Chef - Hyunchung Kim (Tongyeong Owall)
+- Wando Yaksan coordinator - Sungjin Kim
+- Photography - Hojun Song, Wontae Suh, Dongkoo Jung
+- Livestreaming - Hojun Song
+- Accomodation & goat - Dowon Pension
+
+Foraging guide 
+- Wando county office 
+- Wando seaweed Expo team 
+- Tongyeong lilibongbong Cafe - Jiyoung Kim
+- Science Bookshop GALDAR Manager - Miyoung Lee
+- Ahn Eun Me Future School Movement - Eunme Ahn 
+- Ahn Eun Me Future School Movement - Marie Jean
+- Ahn Eun Me Future School Movement-  Hyegyung
+- Climate Citizen 3.5 Direcotr - Hyewon Lee
+- Art X Tech Seoul
+- Venice Biennale Food Team Director - Hyewon Lee
+- Venice Biennale Korean Pavilion Office - Jiyoon Ahn
+- Venice Biennale Korean Pavilion Director - Hyewon Shin
+
+---
+
+### Don't Compress Me / 압축하지마
+**Year / 연도:** 2009–
+**URL:** https://hojunsong.com/works/dont-compress-me/
+
+Participants try to create movements for 10 seconds that resist video compression.
+참가자들이 10초간 움직여 비디오 압축 알고리즘에 저항하는 글로벌 대회. "인공지능의 예측에서 벗어나 살 수 있는 인간"을 찾는 프로젝트.
+
+> “How can we think and act In the age of A.I. ?”
+
+Participants try to create movements for 10 seconds that resist video compression. They stand before a camera and record; the person whose video stays largest after compression wins.
+
+Random movements should defeat codecs like H.264, but there's an irony: once people consciously try to be random, they can't truly be random.
+
+The competition has been held all over the world, including:
+* Basel, Switzerland 🇨🇭
+* Goa, India 🇮🇳
+* Rome, Italy 🇮🇹
+* Seoul and Daejeon, South Korea 🇰🇷
+
+In 2022, Don't Compress Me World Competition started.
+ 
+The artist Hojun Song says he started the competition to find a human who can live beyond the predictions of artificial intelligence.
+
+The competition will continue to be held in various cities around the world. 
+
+The winner in each city will receive 1 Ethereum as a prize, and the winner of the World Series to be held in Korea will receive 1 Bitcoin.
+
+> Join the “Don’t Compress Me” competition to become a New Human. 
+
+The work, contemplated since 2009, was first realized and presented at Future Now, Berlin, 2015.
+
+Unlike the regular "Don't Compress Me" competition where participants use their entire body, this version requires participants to move only their head for 10 seconds to resist video compression.
+
+Artists from various countries participated in the competition, and certain patterns seemed to emerge in their movements and sound.
+
+At "Don't Compress," shown at Unfold X in late 2025, many people participated in groups. Individuals could not overcome the dynamics of the group.
+
+**Presentations / 전시 이력:**
+- Blackout Basel, Basel, Switzerland, 2015
+  Don't Compress Me Competition Head Only Version at Blackout Basel, Basel, Switzerland, 2015
+  Unlike the regular "Don't Compress Me" competition where participants use their entire body, this version requires participants to move only their head for 10 seconds to resist video compression.
+  Artists from various countries participated in the competition, and certain patterns seemed to emerge in their movements and sound.
+- Future Now, SomoS Art House, Berlin, 2015
+- The Story of Space, Goa, India, 2018
+- Echo Chamber, Sound Effects Seoul, Seoul, 2019
+- Open Media Art Festival, Seoul, 2020
+- Don't Compress Me Abstracted, Shinsegae Gallery, Busan, 2021
+  The more one tries to reveal existence, the more it appears in high resolution. 
+  If you remain still, you are nothing more than a pixel at the lowest resolution.
+- Making Lemonade, Making Lemonade, Seoul, 2021
+- Don't Compress Me World Competition Seoul, Mother Offline, 2022
+  Artist Hojun Song's
+  🌐 Don’t Compress Me World Competition Begins 📢
+  👽 Finding a new type of human in the era of artificial intelligence and uncertainty.
+  🏆 Awarding 1 BTC to the final winner of the least compressed at  the world competition after moving the body for 10 seconds in front of the camera.
+  You need to move as fast and randomly as possible with colorful outfits in order not to get compressed.
+  - The 1st City:  Seoul (Prize 1 ETH)
+  - When: 7.22 Fri 6PM Registration, 8PM Competition
+  - Venue: Mother Offline Yongsan-gu, Hannam-dong, Itaewon-ro 55na-gil, 6
+  - Music: DJ Maktoop, DJ DGURU 
+  - Sponsor: NFT Mania, Mother Media
+- DCMWC Rome, Videocittà, Rome, 2023
+- Pack-Unpack, Total Museum, Seoul, 2024
+- Unfold X, Culture Station Seoul 284, 2025
+  Interactive installation presented at the Unfold X 2025. Participants stood in front of a camera and moved freely for 10 seconds. 
+  More than 1000 people participated this time. Many group sessions were recorded. Individuals could not overcome the dynamics of the group.
+
+---
+
+### The Great Explosion / 위대한 폭발
+**Year / 연도:** 2020
+**URL:** https://hojunsong.com/works/the-great-explosion/
+
+This project collects participants' voices as material for an explosion simulation.
+참가자들의 목소리를 모아 폭발 시뮬레이션의 재료로 사용하는 프로젝트.
+
+This project collects participants' voices as material for an explosion simulation. Voices are mapped to fragment energies and trajectories, then detonated.
+
+The noise of all voices playing at once, the overloaded computer, and visuals shifting between order and chaos invite us to think about the space between simulated disasters and real ones like COVID-19.
+
+---
+
+### ANTI-A.I. Vocalization Techniques / 반인공지능 발성법
+**Year / 연도:** 2018
+**URL:** https://hojunsong.com/works/anti-ai-vocalization-techniques/
+
+How can we fool A.I. speech recognition while remaining understandable to humans—without changing what we say?
+AI 음성인식을 속이면서도 다른 인간에게는 이해 가능한 말하기 방식을 탐구하는 대회.
+
+How can we fool A.I. speech recognition while remaining understandable to humans—without changing what we say?
+
+By altering intonation and inserting white noise between syllables, we can deceive Google Cloud Speech Recognition.
+
+A.I. kills diversity. Deny the bias.
+
+---
+
+### gold & silver / gold & silver (즉흥 듀오)
+**Year / 연도:** 2017–
+**URL:** https://hojunsong.com/works/gold-and-silver/
+
+gold & silver is a two-member experimental improvisation band: Hojun Song and Sangback Choe.
+송호준과 최상백의 실험적 즉흥 연주 듀오. 마이너스 입장료를 부과해 자유롭게 실패할 수 있는 환경을 만든다.
+
+gold & silver is a two-member experimental improvisation band: Hojun Song and Sangback Choe. The band makes experimental music accessible by actively explaining what they're doing and why during performances.
+
+They share improvised song titles and the thinking behind them, helping audiences imagine along. When it works, audiences can even sing along to improvised sounds.
+
+The band has charged negative admission—paying audiences to attend—so they can fail freely without guilt. Current setup: modular synthesizers and acoustic drums.
+
+[Apple Music](https://music.apple.com/kr/album/hello-world-ep/1802809497?l=en-GB)
+[Spotify Music](https://open.spotify.com/album/4frAnlsHYnjVGZuOjjS2BU)
+
+---
+
+### GODLED Electronics / GODLED 전자
+**Year / 연도:** 2010–2016
+**URL:** https://hojunsong.com/works/godled-electronics/
+
+GODLED Electronics is Hojun Song's company for mass-producing God-shaped LED electronics.
+신 모양의 LED 전자제품을 대량생산하는 송호준의 회사. 신과 전자부품의 결합.
+
+GODLED Electronics is Hojun Song's company for mass-producing God-shaped LED electronics. The idea began in 2010; the first prototypes appeared in 2016. 
+
+Current lineup: Buddha (LG-BUD-6036), Jesus (LW-JES-7620), Mary (LB-MAR-4125), and Ganesh (LR-GAN-6036), with production planned for Q3 2021.
+
+For this brief time, you cannot see the lights but can count photons with photomultiplier tube.
+
+---
+
+### For Humanity - Einstein Merong / 인류를 위하여 – 아인슈타인 메롱
+**Year / 연도:** 2016
+**URL:** https://hojunsong.com/works/for-humanity-einstein-merong/
+
+Even after the Trinity test revealed the bomb's power, and even after Germany's defeat, the Manhattan Project continued. The question remains: couldn't these geniuses have stopped it?
+트리니티 핵실험 이후에도, 독일 항복 이후에도 맨해튼 프로젝트는 계속됐다. 천재들은 그것을 멈출 수 없었을까?
+
+Even after the Trinity test revealed the bomb's power, and even after Germany's defeat, the Manhattan Project continued—dropping nuclear bombs on two Japanese cities. Many scientists, including Einstein, later expressed regret. But the question remains: couldn't these geniuses have stopped it before the bombing? 
+
+In this installation, as viewers examine a tiny, gold-framed text about the Manhattan Project up close, a nearby video of Einstein transitions from his normal expression to his famous tongue-out gesture—supposedly made "for humanity." Gotcha!
+
+---
+
+### Divided We Stand, United We Fall / 나뉘면 서고, 합치면 무너진다
+**Year / 연도:** 2015
+**URL:** https://hojunsong.com/works/divided-we-stand-united-we-fall/
+
+Divided We Stand, United We Fall. The deconstruction of a hero. A manifesto for diversity. ANTI-A.I.
+영웅의 해체. 다양성을 위한 선언. 반인공지능.
+
+Divided We Stand, United We Fall. The deconstruction of a hero. A manifesto for diversity. ANTI-A.I.
+
+---
+
+### Poomba / 품바
+**Year / 연도:** 2015
+**URL:** https://hojunsong.com/works/poomba/
+
+Winner of the Ilmac Art Prize 2015, Hojun Song's solo exhibition featured no physical artworks. The poomba was a Korean figure: satirist, clown, beggar, and street monk.
+2015년 일맥 아트프라이즈 수상전. 물리적 작품이 없는 전시. 품바는 한국의 풍자가, 광대, 거지, 거리의 승려였다.
+
+Winner of the Ilmac Art Prize 2015, Hojun Song's solo exhibition featured no physical artworks. Deconstructing heroes and restoring romance collided—the artist could only ask questions, since making and showing things felt like violence. The poomba was a Korean figure from the late Goryeo dynasty: satirist, clown, beggar, and street monk, respected for wisdom. A self-deprecating, hero-deconstructing hero. The exhibition explored what a future poomba might be. Four talks and four workshops were held at the gallery and a nearby construction site, all live-streamed. Activities included camping and swimming at the construction site, with nightly gatherings for drinks.
+
+---
+
+### LED That Blinks Once Every 100 Years / 100년에 한 번 깜빡이는 LED
+**Year / 연도:** 2010–2015, 2025
+**URL:** https://hojunsong.com/works/led-that-blinks-once-every-100-years/
+
+A small, cheap 5mm LED that blinks once every 100 years. The project was rejected after Hojun Song refused to make the LED blink every year instead.
+100년에 한 번 깜빡이는 5mm LED. 1년에 한 번으로 바꾸라는 심사위원단의 요구를 거부한 끝에 탄생한 프로젝트. 2026년 1월 14일 첫 빛을 냈고, 다음 깜빡임은 2126년.
+
+A small, cheap 5mm LED that blinks once every 100 years. The idea began in 2010 and nearly became a public art project in 2015. A two-meter spherical structure would house an LED module in an inert gas-filled vacuum chamber. Nuclear batteries would provide 100 years of power, with a passive heating system designed through thermal simulation. The project was rejected after Hojun Song refused the committee's proposal to make it blink every year.
+
+Twelve years later in 2026, [the first version](/works/led-that-blinks-once-every-100-years/2025-Ver001/) was built. 
+
+> The first light was emitted at 8:00 PM on January 14, 2026. The next blink will occur at the same time on **January 14, 2126**.
+
+**Presentations / 전시 이력:**
+- Public Installation, Naju, 2014
+- Galaxy Corporation Collection, Seoul, 2025
+  > The LED blinks only once every 100 years. The first light was emitted at 8:00 PM on January 14, 2026. The next blink will occur at the same time on **January 14, 2126**.
+   The average data retention period of semiconductor electronics is merely 20 years. All our digital records could be lost in an instant.
+  The most powerful thing in the world is a record that endures the longest. [The OSSI satellite](/works/open-source-satellite-initiative/) project and [The Strongest Weapon in the World](/works/the-strongest-weapon-in-the-world/) emerged from this belief.
+
+---
+
+### dssb / dssb (데스메탈 듀오)
+**Year / 연도:** 2014
+**URL:** https://hojunsong.com/works/dssb/
+
+dssb is a death metal-inspired duo: Hojun Song and Jinhwa Jeong. The band formed in response to the Sewol ferry disaster in 2014.
+송호준과 정진화의 데스메탈 듀오. 2014년 세월호 참사에 대한 응답으로 결성.
+
+dssb is a death metal-inspired duo: Hojun Song and Jinhwa Jeong. The band formed in response to the Sewol ferry disaster, which killed 304 passengers and left Korean society feeling helpless in 2014.
+
+[Apple Music](https://music.apple.com/kr/album/beautiful-nation-single/1561357862?l=en-GB)
+
+---
+
+### Hello 90 / Hello 90 (직각인사)
+**Year / 연도:** 2014
+**URL:** https://hojunsong.com/works/hello-90/
+
+In Korea, bowing expresses greeting or gratitude. But when combined with extreme machismo, it becomes a fear response. Hello 90 is an interactive video installation.
+한국에서 인사는 감사나 존경을 표현하지만, 극단적인 남성성과 결합하면 공포의 반응이 된다. 인터랙티브 영상 설치 작업.
+
+In Korea, bowing expresses greeting or gratitude. But when combined with extreme machismo, it becomes a fear response. A normal bow is 30-40 degrees; the extreme macho bow is a full 90 degrees—faster, with a louder greeting. This bowing style is common among gangsters and military personnel, but also in college clubs and among K-pop idols. 
+
+Hello 90 is an interactive video installation where people on screen bow at 90 degrees when you enter.
+
+---
+
+### "Prove It: For Mankind" / 증명해봐: 인류를 위하여
+**Year / 연도:** 2014
+**URL:** https://hojunsong.com/works/prove-it-for-mankind/
+
+Air bending versus the Large Hadron Collider. Why do few care about air bending while nations spend billions on the LHC at CERN?
+공기 구부리기 대 거대강입자충돌기(LHC). 왜 공기 구부리기에는 관심이 없으면서 CERN의 LHC에는 수십억을 쓰는가?
+
+A curatorial research project and exhibition plan for the Asian Culture Center opening in Gwangju, Korea. Air bending versus the Large Hadron Collider. Why do few care about air bending while nations spend billions on the LHC at CERN? Is this about pseudoscience versus real science? Or about what actually improves the world? What is "betterment"? Experts prove; people believe—because most can't understand either way. The project places different "proofs" side by side: air bending vs. LHC, a man hiking with an atomic clock to feel time, human echolocation by blind people, a Dynasphere machine generating love Qi for world peace, quantum consciousness, and more. *The exhibition was never realized due to a change in director.
+
+---
+
+### ANTI-Climax / ANTI-Climax
+**Year / 연도:** 2013
+**URL:** https://hojunsong.com/works/anti-climax/
+
+A performance at the opening of MMCA Seoul. The show explored deconstructing the authority of previous artworks to create new ones.
+국립현대미술관 서울관 개관 퍼포먼스. 기존 작품의 권위를 해체하여 새로운 작품을 만드는 과정을 탐구.
+
+A performance at the opening of MMCA Seoul. Collaborating with actor Taeyoung Kang, actress Eun-ah Suh, and the band Idiotape, the show explored deconstructing the authority of previous artworks to create new ones. It began with LED poets spouting nonsense, moved through improvised confessions via computer chat, calling out every audience member's name, and flower-rope suicides, ending with loud music in the quiet museum. Deliberately clumsy graphics and fake sculptures were displayed prominently while technology stayed hidden. Only 3 of hundreds danced.
+
+---
+
+### Apple / 사과 (Apple)
+**Year / 연도:** 2010–2018
+**URL:** https://hojunsong.com/works/apple/
+
+The apple ripens when it receives attention. When someone photographs it with a flash, it slowly turns from green to red and emits eerie sounds.
+관심을 받으면 익는 사과. 누군가 플래시를 터뜨리면 초록에서 빨강으로 변하며 기이한 소리를 낸다.
+
+The apple ripens when it receives attention. When someone photographs it with a flash, it slowly turns from green to red and emits eerie sounds. 400 independent light and sound modules gradually synchronize.
+
+---
+
+### Uranium Necklace / 우라늄 목걸이
+**Year / 연도:** 2010–2020
+**URL:** https://hojunsong.com/works/uranium-necklace/
+
+Uranium Necklace is for those contemplating suicide—a way to taste death before making a final decision.
+자살을 고민하는 이들을 위한 우라늄 목걸이. 최종 결정 전에 죽음을 맛볼 수 있는 방사성 보석.
+
+Uranium Necklace is for those contemplating suicide—a way to taste death before making a final decision. Drugs aren't potent enough; we need stronger materials. 
+
+Upon purchase, the stainless steel wire necklace is locked so it cannot be removed. An attempt to sell one on eBay for $900,000 drew a comment that a life was worth less.
+
+**Presentations / 전시 이력:**
+- The Penguin That Goes to the Mountain, NJP Art Center, Yongin, 2010
+- Blackout Basel, Basel, Switzerland, 2015
+  Uranium Necklace exhibited in an attic opened to the public for the first time in several hundred years.
+  Some audiences contacted the organizers afterward to ask whether their health was safe.
+  It was actually safe—the radiation level of the uranium ore was comparable to everyday exposure—but saying that would undermine the work.
+- Death Tasting Live, Eulji Art Center, Seoul, 2020
+  The Uranium Necklace is a necklace for people who wish to die, created by artist Hojun Song using actual uranium ore, gold, and stainless steel wire.
+  As part of the “Eulji Drama” event, this program offers participants the opportunity to directly experience “death tasting” by wearing the Uranium Necklace for 10 minutes.
+  Through one-on-one conversations with the artist about death, the event aims to explore clichéd yet fundamental questions in a lighthearted manner.
+  A total of five participants will be selected, and each selected participant will be provided with a photograph of themselves wearing the Uranium Necklace.
+  The event will be live-streamed online, and voice modulation and mosaic masking are available upon the participant’s request.
+
+---
+
+### The Strongest Weapon In The World / 세상에서 가장 강한 무기
+**Year / 연도:** 2007–2010
+**URL:** https://hojunsong.com/works/the-strongest-weapon-in-the-world/
+
+A series of attempts to build an indestructible weapon that does NOT attack. When struck with a hammer, it says 'I love you.'
+파괴되지 않지만 공격하지 않는 무기를 만드는 시도. 망치로 내리치면 "사랑해"라고 말한다.
+
+A series of attempts to build an indestructible weapon that does NOT attack. The first version, Weapons of Mass Happiness, was a heavy cast-aluminum sphere with a Geiger counter and a printer that outputs messages when triggered by nuclear explosion. 
+
+The second was built with K-SAD students, featuring letters engraved on cow bones—emphasizing that indestructible data is the ultimate weapon. 
+
+In 2010, the third version appeared: I Love You. Armored in thick SC45 steel with a piezo sensor inside, it says "I love you" when struck with a hammer.
+
+**Presentations / 전시 이력:**
+- Integrating, Asian Culture Center, Gwangju, 2007
+  A series of attempts to build an indestructible weapon that does NOT attack. The first version, Weapons of Mass Happiness, was a heavy cast-aluminum sphere with a Geiger counter and a printer that outputs messages when triggered by nuclear explosion.
+- Workshop 27, K-SAD,Gyeonggi, 2009
+  Made with K-SAD students as the result of Workshop 27, Rosetta Stone 2009 features letters engraved on cow bones, suggesting that indestructible data is the ultimate weapon.
+- The Lack of Electricity II, Space Can, Seoul, 2010
+  In 2010, the third version of Strongest Weapon In the World appeared: I Love You. Armored in thick SC45 steel with a piezo sensor inside, it says "I love you" when struck with a hammer.
+
+---
+
+### Sync-O-Light / Sync-O-Light
+**Year / 연도:** 2006–2017
+**URL:** https://hojunsong.com/works/sync-o-light/
+
+Inspired by Steven Strogatz's book SYNC, this project creates artificial fireflies using 200 sound-reactive UV light modules that shift between synchronized and chaotic states.
+Steven Strogatz의 책 SYNC에서 영감을 받아, 200개의 소리 반응 UV 조명 모듈로 동기화와 혼돈 사이를 오가는 인공 반딧불이를 만든 프로젝트.
+
+Inspired by Steven Strogatz's book SYNC, this project creates artificial fireflies using 200 sound-reactive UV light modules that shift between synchronized and chaotic states.
+
+---
+
+## Contact / 연락처
+- Website: https://hojunsong.com
+- Instagram: https://www.instagram.com/hojunsong_studio
+- YouTube: https://www.youtube.com/@hojunsong
+
+## License / 라이선스
+All content is licensed under Creative Commons Attribution 4.0 International (https://creativecommons.org/licenses/by/4.0/).
+Content can be freely shared and adapted with attribution to Hojun Song (송호준).
+이 콘텐츠는 크리에이티브 커먼즈 저작자표시 4.0 국제 라이선스에 따라 이용할 수 있습니다. 송호준을 출처로 표시하면 자유롭게 공유 및 변형할 수 있습니다.

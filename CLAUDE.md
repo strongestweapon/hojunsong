@@ -22,8 +22,9 @@ cd site/public && python3 -m http.server 8000
 
 ### S3 싱크
 ```bash
-aws s3 sync site/public s3://hojunsong-com
+aws s3 sync site/public s3://hojunsong-com && aws s3 cp site/public/llms.txt s3://hojunsong-com/llms.txt --content-type "text/plain; charset=utf-8" && aws s3 cp site/public/llms-full.txt s3://hojunsong-com/llms-full.txt --content-type "text/plain; charset=utf-8"
 ```
+- txt 파일은 charset=utf-8 헤더 필수 (한글 깨짐 방지)
 
 ### CloudFront 인밸리데이션
 ```bash
@@ -32,7 +33,7 @@ aws cloudfront create-invalidation --distribution-id E28EYQUKVHIIRP --paths "/*"
 
 ### 빌드 + 싱크 + 인밸리 (한번에)
 ```bash
-node site/src/build.js && aws s3 sync site/public s3://hojunsong-com && aws cloudfront create-invalidation --distribution-id E28EYQUKVHIIRP --paths "/*"
+node site/src/build.js && aws s3 sync site/public s3://hojunsong-com && aws s3 cp site/public/llms.txt s3://hojunsong-com/llms.txt --content-type "text/plain; charset=utf-8" && aws s3 cp site/public/llms-full.txt s3://hojunsong-com/llms-full.txt --content-type "text/plain; charset=utf-8" && aws cloudfront create-invalidation --distribution-id E28EYQUKVHIIRP --paths "/*"
 ```
 
 ## 비디오 변환 (MOV → MP4)

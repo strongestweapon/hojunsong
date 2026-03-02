@@ -3,11 +3,18 @@ const path = require('path');
 
 const BUILD_VERSION = Date.now();
 
+const SITE_URL = 'https://hojunsong.com';
+
 const LICENSE = {
   type: 'CC BY 4.0',
   url: 'https://creativecommons.org/licenses/by/4.0/',
   name: 'Creative Commons Attribution 4.0 International'
 };
+
+const SAME_AS = [
+  'https://www.instagram.com/hojunsong_studio',
+  'https://www.youtube.com/@hojunsong',
+];
 
 const GA_SCRIPT = `<!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZLYQTCD8FK"></script>
@@ -17,6 +24,33 @@ const GA_SCRIPT = `<!-- Google tag (gtag.js) -->
   gtag('js', new Date());
   gtag('config', 'G-ZLYQTCD8FK');
 </script>`;
+
+// Extract first image filename from markdown text
+function extractFirstImage(mdText) {
+  if (!mdText) return null;
+  const text = Array.isArray(mdText) ? mdText.join('\n') : mdText;
+  const match = text.match(/!\[[^\]]*\]\(([^)]+)\)/);
+  return match ? match[1] : null;
+}
+
+// Generate Open Graph + Twitter Card meta tags
+function generateOgMeta({ title, description, url, imageUrl, type = 'article' }) {
+  const tags = [
+    `<meta property="og:title" content="${escapeHtml(title)}">`,
+    `<meta property="og:description" content="${escapeHtml(description)}">`,
+    `<meta property="og:url" content="${url}">`,
+    `<meta property="og:type" content="${type}">`,
+    `<meta property="og:site_name" content="Hojun Song">`,
+    `<meta name="twitter:card" content="${imageUrl ? 'summary_large_image' : 'summary'}">`,
+    `<meta name="twitter:title" content="${escapeHtml(title)}">`,
+    `<meta name="twitter:description" content="${escapeHtml(description)}">`,
+  ];
+  if (imageUrl) {
+    tags.push(`<meta property="og:image" content="${imageUrl}">`);
+    tags.push(`<meta name="twitter:image" content="${imageUrl}">`);
+  }
+  return tags.join('\n  ');
+}
 
 // Simple frontmatter parser (no dependencies)
 function parseFrontmatter(content) {
@@ -474,6 +508,10 @@ ${relatedLinks}
 `
     : '';
 
+  const firstImg = extractFirstImage(work.overview);
+  const ogImageUrl = firstImg ? `${SITE_URL}/works/${work.slug}/images/${firstImg}` : null;
+  const pageUrl = `${SITE_URL}/works/${work.slug}/`;
+
   return `<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -482,7 +520,8 @@ ${relatedLinks}
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>${escapeHtml(work.title)} - Hojun Song</title>
   <meta name="description" content="${escapeHtml(work.description)}">
-  <link rel="canonical" href="https://hojunsong.com/works/${work.slug}/">
+  <link rel="canonical" href="${pageUrl}">
+  ${generateOgMeta({ title: `${escapeHtml(work.title)} - Hojun Song`, description: work.description, url: pageUrl, imageUrl: ogImageUrl })}
   <link rel="stylesheet" href="../../css/style.css?v=${BUILD_VERSION}">
   <script type="application/ld+json">
   {
@@ -490,9 +529,11 @@ ${relatedLinks}
     "@type": "CreativeWork",
     "name": "${escapeHtml(work.title)}",
     "description": "${escapeHtml(work.description)}",
-    "creator": {
+    "url": "${pageUrl}",
+    ${ogImageUrl ? `"image": "${ogImageUrl}",\n    ` : ''}"creator": {
       "@type": "Person",
-      "name": "Hojun Song"
+      "name": "Hojun Song",
+      "url": "${SITE_URL}"
     },
     "dateCreated": "${work.year.split('–')[0]}",
     "license": "${LICENSE.url}"
@@ -569,6 +610,10 @@ function generatePresentationHtml(work, presentation) {
     }
   });
 
+  const presFirstImg = extractFirstImage(presentation.overview);
+  const presOgImageUrl = presFirstImg ? `${SITE_URL}/works/${work.slug}/${presentation.slug}/images/${presFirstImg}` : null;
+  const presPageUrl = `${SITE_URL}/works/${work.slug}/${presentation.slug}/`;
+
   return `<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -577,7 +622,8 @@ function generatePresentationHtml(work, presentation) {
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>${escapeHtml(presentation.title)} (${presentation.year}) - Hojun Song</title>
   <meta name="description" content="${escapeHtml(presentation.description)}">
-  <link rel="canonical" href="https://hojunsong.com/works/${work.slug}/${presentation.slug}/">
+  <link rel="canonical" href="${presPageUrl}">
+  ${generateOgMeta({ title: `${escapeHtml(presentation.title)} (${presentation.year}) - Hojun Song`, description: presentation.description, url: presPageUrl, imageUrl: presOgImageUrl })}
   <link rel="stylesheet" href="../../../css/style.css?v=${BUILD_VERSION}">
   <script type="application/ld+json">
   {
@@ -585,14 +631,16 @@ function generatePresentationHtml(work, presentation) {
     "@type": "ExhibitionEvent",
     "name": "${escapeHtml(presentation.title)}",
     "description": "${escapeHtml(presentation.description)}",
-    "location": {
+    "url": "${presPageUrl}",
+    ${presOgImageUrl ? `"image": "${presOgImageUrl}",\n    ` : ''}"location": {
       "@type": "Place",
       "name": "${escapeHtml(presentation.location)}"
     },
     "startDate": "${presentation.year}",
     "organizer": {
       "@type": "Person",
-      "name": "Hojun Song"
+      "name": "Hojun Song",
+      "url": "${SITE_URL}"
     },
     "license": "${LICENSE.url}"
   }
@@ -629,6 +677,10 @@ document.querySelectorAll('.video-player').forEach(p=>{
 function generateProjectHtml(project) {
   const imagesBasePath = `/projects/${project.slug}/images`;
 
+  const projFirstImg = extractFirstImage(project.overview);
+  const projOgImageUrl = projFirstImg ? `${SITE_URL}/projects/${project.slug}/images/${projFirstImg}` : null;
+  const projPageUrl = `${SITE_URL}/projects/${project.slug}/`;
+
   return `<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -637,7 +689,8 @@ function generateProjectHtml(project) {
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>${escapeHtml(project.title)} - Hojun Song</title>
   <meta name="description" content="${escapeHtml(project.description)}">
-  <link rel="canonical" href="https://hojunsong.com/projects/${project.slug}/">
+  <link rel="canonical" href="${projPageUrl}">
+  ${generateOgMeta({ title: `${escapeHtml(project.title)} - Hojun Song`, description: project.description, url: projPageUrl, imageUrl: projOgImageUrl })}
   <link rel="stylesheet" href="../../css/style.css?v=${BUILD_VERSION}">
   <script type="application/ld+json">
   {
@@ -645,9 +698,11 @@ function generateProjectHtml(project) {
     "@type": "CreativeWork",
     "name": "${escapeHtml(project.title)}",
     "description": "${escapeHtml(project.description)}",
-    "creator": {
+    "url": "${projPageUrl}",
+    ${projOgImageUrl ? `"image": "${projOgImageUrl}",\n    ` : ''}"creator": {
       "@type": "Person",
-      "name": "Hojun Song"
+      "name": "Hojun Song",
+      "url": "${SITE_URL}"
     },
     "dateCreated": "${project.year.split('–')[0]}",
     "license": "${LICENSE.url}"
@@ -691,6 +746,9 @@ function generateProjectsIndexHtml(projects) {
     </div>`)
     .join('\n');
 
+  const projsDescription = 'Projects by Hojun Song - game development, planning, and more.';
+  const projsUrl = `${SITE_URL}/projects/`;
+
   return `<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -698,8 +756,9 @@ function generateProjectsIndexHtml(projects) {
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Projects - Hojun Song</title>
-  <meta name="description" content="Projects by Hojun Song - game development, planning, and more.">
-  <link rel="canonical" href="https://hojunsong.com/projects/">
+  <meta name="description" content="${projsDescription}">
+  <link rel="canonical" href="${projsUrl}">
+  ${generateOgMeta({ title: 'Projects - Hojun Song', description: projsDescription, url: projsUrl })}
   <link rel="stylesheet" href="../css/style.css?v=${BUILD_VERSION}">
 </head>
 <body>
@@ -723,6 +782,9 @@ ${projectsList}
 function generateAboutHtml(about) {
   const contentHtml = about.content ? markdownToHtml(about.content, '/about/images') : '<p>(직접 작성)</p>';
 
+  const aboutDescription = 'About Hojun Song - artist working with technology, science, and social issues.';
+  const aboutUrl = `${SITE_URL}/about/`;
+
   return `<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -730,8 +792,9 @@ function generateAboutHtml(about) {
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>About - Hojun Song</title>
-  <meta name="description" content="About Hojun Song - artist working with technology, science, and social issues.">
-  <link rel="canonical" href="https://hojunsong.com/about/">
+  <meta name="description" content="${aboutDescription}">
+  <link rel="canonical" href="${aboutUrl}">
+  ${generateOgMeta({ title: 'About - Hojun Song', description: aboutDescription, url: aboutUrl })}
   <link rel="stylesheet" href="../css/style.css?v=${BUILD_VERSION}">
 </head>
 <body>
@@ -765,6 +828,8 @@ function generateIndexHtml(works) {
     </div>`)
     .join('\n');
 
+  const indexDescription = 'Hojun Song is an artist working with technology, science, and social issues.';
+
   return `<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -772,17 +837,25 @@ function generateIndexHtml(works) {
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Hojun Song</title>
-  <meta name="description" content="Hojun Song is an artist working with technology, science, and social issues.">
-  <link rel="canonical" href="https://hojunsong.com/">
+  <meta name="description" content="${indexDescription}">
+  <link rel="canonical" href="${SITE_URL}/">
+  ${generateOgMeta({ title: 'Hojun Song', description: indexDescription, url: `${SITE_URL}/`, type: 'website' })}
   <link rel="stylesheet" href="css/style.css?v=${BUILD_VERSION}">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "Person",
     "name": "Hojun Song",
-    "url": "https://hojunsong.com",
-    "sameAs": [],
-    "jobTitle": "Artist"
+    "url": "${SITE_URL}",
+    "sameAs": ${JSON.stringify(SAME_AS)},
+    "jobTitle": "Artist",
+    "description": "${indexDescription}",
+    "nationality": {
+      "@type": "Country",
+      "name": "South Korea"
+    },
+    "birthDate": "1978",
+    "knowsAbout": ["art", "technology", "DIY engineering", "satellites", "performance art", "media art"]
   }
   </script>
 </head>
@@ -957,6 +1030,257 @@ function build() {
     console.log('Copying images for about...');
     copyDir(srcAboutImagesDir, destAboutImagesDir);
   }
+
+  // Generate robots.txt
+  console.log('Generating robots.txt...');
+  const robotsTxt = `User-agent: *
+Allow: /
+
+Sitemap: ${SITE_URL}/sitemap.xml
+`;
+  fs.writeFileSync(path.join(publicDir, 'robots.txt'), robotsTxt);
+
+  // Helper: strip image/video markdown, keep only text
+  function stripMediaMarkdown(text) {
+    if (!text) return '';
+    const t = Array.isArray(text) ? text.join('\n\n') : text;
+    return t
+      .split('\n')
+      .filter(line => {
+        const trimmed = line.trim();
+        if (trimmed.match(/^!\[/)) return false;  // images
+        if (trimmed.match(/^\[(youtube|vimeo|video|loop|embed)\]/i)) return false;  // media embeds
+        if (trimmed.match(/^\[(grid-2|grid-3|masonry)\]$/)) return false;  // grid start
+        if (trimmed.match(/^\[\/(grid|masonry)\]$/)) return false;  // grid end
+        return true;
+      })
+      .join('\n')
+      .replace(/\n{3,}/g, '\n\n')
+      .trim();
+  }
+
+  // Read artist bios
+  const bioEnPath = path.join(srcDir, '..', '..', 'hojunsong.md');
+  const bioKrPath = path.join(srcDir, '..', '..', 'hojunsong_KR.md');
+  let bioEn = '';
+  let bioKr = '';
+  if (fs.existsSync(bioEnPath)) {
+    bioEn = fs.readFileSync(bioEnPath, 'utf-8')
+      .replace(/^## Hojun Song.*\n/, '')  // remove header line with links
+      .trim();
+  }
+  if (fs.existsSync(bioKrPath)) {
+    bioKr = fs.readFileSync(bioKrPath, 'utf-8')
+      .replace(/^## 송호준.*\n/, '')  // remove header line with links
+      .trim();
+  }
+
+  // Korean metadata map from hojunsong_KR.md
+  const koreanMap = {
+    'open-source-satellite-initiative': {
+      title: '오픈소스 인공위성 프로젝트 (OSSI)',
+      description: '2013년 카자흐스탄 바이코누르에서 송호준이 발사한 OSSI-1 인공위성. 개인이 인공위성을 만들어 발사한 세계 최초의 사례다.',
+    },
+    'dont-compress-me': {
+      title: '압축하지마',
+      description: '참가자들이 10초간 움직여 비디오 압축 알고리즘에 저항하는 글로벌 대회. "인공지능의 예측에서 벗어나 살 수 있는 인간"을 찾는 프로젝트.',
+    },
+    'the-strongest-weapon-in-the-world': {
+      title: '세상에서 가장 강한 무기',
+      description: '파괴되지 않지만 공격하지 않는 무기를 만드는 시도. 망치로 내리치면 "사랑해"라고 말한다.',
+    },
+    'uranium-necklace': {
+      title: '우라늄 목걸이',
+      description: '자살을 고민하는 이들을 위한 우라늄 목걸이. 최종 결정 전에 죽음을 맛볼 수 있는 방사성 보석.',
+    },
+    'led-that-blinks-once-every-100-years': {
+      title: '100년에 한 번 깜빡이는 LED',
+      description: '100년에 한 번 깜빡이는 5mm LED. 1년에 한 번으로 바꾸라는 심사위원단의 요구를 거부한 끝에 탄생한 프로젝트. 2026년 1월 14일 첫 빛을 냈고, 다음 깜빡임은 2126년.',
+    },
+    'anti-ai-vocalization-techniques': {
+      title: '반인공지능 발성법',
+      description: 'AI 음성인식을 속이면서도 다른 인간에게는 이해 가능한 말하기 방식을 탐구하는 대회.',
+    },
+    'dssb': {
+      title: 'dssb (데스메탈 듀오)',
+      description: '송호준과 정진화의 데스메탈 듀오. 2014년 세월호 참사에 대한 응답으로 결성.',
+    },
+    'gold-and-silver': {
+      title: 'gold & silver (즉흥 듀오)',
+      description: '송호준과 최상백의 실험적 즉흥 연주 듀오. 마이너스 입장료를 부과해 자유롭게 실패할 수 있는 환경을 만든다.',
+    },
+    'future-school-food-foraging-seaweed': {
+      title: '미래학교 식량 채집 – 해조류 편',
+      description: '미역과 다시마는 전 세계에서 가장 침략적인 종으로 여겨지지만, 한국에서는 전통적인 산후 음식이다. 해초 문화를 기후변화, 디아스포라와 연결하는 프로젝트.',
+    },
+    'time-to-leave-the-land': {
+      title: '이제는 육지를 떠날 때',
+      description: '요트를 떠다니는 고립된 스튜디오로 삼아 근미래 이야기를 쓰는 프로젝트. 팬데믹과 가상현실 시대의 오프그리드 바다 생활을 탐구한다.',
+    },
+    'the-great-explosion': {
+      title: '위대한 폭발',
+      description: '참가자들의 목소리를 모아 폭발 시뮬레이션의 재료로 사용하는 프로젝트.',
+    },
+    'on-off-everything': {
+      title: 'On Off Everything',
+      description: '관객이 직접 전자 기기를 가져오는 프로젝트. 각 기기는 켜고 끌 때 고유한 타이밍, 빛, 소리를 가진다.',
+    },
+    'godled-electronics': {
+      title: 'GODLED 전자',
+      description: '신 모양의 LED 전자제품을 대량생산하는 송호준의 회사. 신과 전자부품의 결합.',
+    },
+    'for-humanity-einstein-merong': {
+      title: '인류를 위하여 – 아인슈타인 메롱',
+      description: '트리니티 핵실험 이후에도, 독일 항복 이후에도 맨해튼 프로젝트는 계속됐다. 천재들은 그것을 멈출 수 없었을까?',
+    },
+    'divided-we-stand-united-we-fall': {
+      title: '나뉘면 서고, 합치면 무너진다',
+      description: '영웅의 해체. 다양성을 위한 선언. 반인공지능.',
+    },
+    'poomba': {
+      title: '품바',
+      description: '2015년 일맥 아트프라이즈 수상전. 물리적 작품이 없는 전시. 품바는 한국의 풍자가, 광대, 거지, 거리의 승려였다.',
+    },
+    'hello-90': {
+      title: 'Hello 90 (직각인사)',
+      description: '한국에서 인사는 감사나 존경을 표현하지만, 극단적인 남성성과 결합하면 공포의 반응이 된다. 인터랙티브 영상 설치 작업.',
+    },
+    'prove-it-for-mankind': {
+      title: '증명해봐: 인류를 위하여',
+      description: '공기 구부리기 대 거대강입자충돌기(LHC). 왜 공기 구부리기에는 관심이 없으면서 CERN의 LHC에는 수십억을 쓰는가?',
+    },
+    'anti-climax': {
+      title: 'ANTI-Climax',
+      description: '국립현대미술관 서울관 개관 퍼포먼스. 기존 작품의 권위를 해체하여 새로운 작품을 만드는 과정을 탐구.',
+    },
+    'apple': {
+      title: '사과 (Apple)',
+      description: '관심을 받으면 익는 사과. 누군가 플래시를 터뜨리면 초록에서 빨강으로 변하며 기이한 소리를 낸다.',
+    },
+    'sync-o-light': {
+      title: 'Sync-O-Light',
+      description: 'Steven Strogatz의 책 SYNC에서 영감을 받아, 200개의 소리 반응 UV 조명 모듈로 동기화와 혼돈 사이를 오가는 인공 반딧불이를 만든 프로젝트.',
+    },
+  };
+
+  // Generate llms.txt
+  console.log('Generating llms.txt...');
+  const llmsTxt = `# Hojun Song / 송호준
+> Artist and engineer working at the intersection of art, technology, and social commentary.
+> 예술과 기술, 사회적 코멘터리의 교차점에서 작업하는 아티스트이자 엔지니어.
+
+## About / 소개
+Hojun Song (송호준, b. 1978, South Korea) creates absurd yet functional objects and systems that question how society constructs heroes, produces knowledge, and surrenders diversity to efficiency. Working across DIY engineering, performance, mass production, live streaming, and music.
+
+송호준(1978년생, 한국)은 사회가 영웅을 만들어내는 방식, 지식을 생산하는 방식, 다양성을 효율에 내어주는 방식에 질문을 던지는 작업을 한다. DIY 공학, 퍼포먼스, 대량생산, 라이브 스트리밍, 음악을 넘나든다.
+
+In 2013, he launched OSSI-1 from Baikonur, Kazakhstan—the first satellite ever built and launched by an individual.
+2013년 카자흐스탄 바이코누르에서 OSSI-1을 발사했다. 개인이 인공위성을 만들어 발사한 세계 최초의 사례.
+
+His work has been presented at the Venice Architecture Biennale, Poznan Mediations Biennale, Zero1 Biennial, Leeum Samsung Museum of Art, MMCA Seoul, and Art Sonje Center. Featured in BBC, Wired, New Scientist, and Reuters.
+베니스 건축 비엔날레, 포츠난 미디어 비엔날레, Zero1 비엔니얼, 리움삼성미술관, 국립현대미술관, 아트선재센터 등에서 작품을 발표. BBC, Wired, New Scientist, Reuters 등에 소개.
+
+## Website / 웹사이트
+- Homepage: ${SITE_URL}
+- Full content (bilingual EN/KR / 영한 전체 내용): ${SITE_URL}/llms-full.txt
+- About: ${SITE_URL}/about/
+- Works JSON data: ${SITE_URL}/data/works.json
+- Projects JSON data: ${SITE_URL}/data/projects.json
+
+## Works / 작품
+${works.map(w => {
+    const kr = koreanMap[w.slug] || {};
+    const krTitle = kr.title ? ` / ${kr.title}` : '';
+    const krDesc = kr.description ? `\n  ${kr.description}` : '';
+    return `- [${w.title}${krTitle}](${SITE_URL}/works/${w.slug}/): ${w.description}${krDesc} (${w.year})`;
+  }).join('\n')}
+
+## Projects / 프로젝트
+${projects.map(p => `- [${p.title}](${SITE_URL}/projects/${p.slug}/): ${p.description} (${p.year})`).join('\n')}
+
+## License / 라이선스
+All content is licensed under ${LICENSE.name} (${LICENSE.url}).
+이 콘텐츠는 크리에이티브 커먼즈 저작자표시 4.0 국제 라이선스에 따라 이용할 수 있습니다.
+
+## Contact / 연락처
+- Website: ${SITE_URL}
+- Instagram: https://www.instagram.com/hojunsong_studio
+- YouTube: https://www.youtube.com/@hojunsong
+`;
+  fs.writeFileSync(path.join(publicDir, 'llms.txt'), llmsTxt);
+
+  // Generate llms-full.txt (bilingual EN/KR, full content)
+  console.log('Generating llms-full.txt...');
+
+  // Build full content for each work
+  const worksFullContent = works.map(w => {
+    const kr = koreanMap[w.slug] || {};
+    const krTitle = kr.title || '';
+    const krDesc = kr.description || '';
+    const titleLine = krTitle ? `### ${w.title} / ${krTitle}` : `### ${w.title}`;
+    const overviewText = stripMediaMarkdown(w.overview);
+
+    let presentationsText = '';
+    if (w.presentations.length > 0) {
+      presentationsText = '\n\n**Presentations / 전시 이력:**\n' +
+        w.presentations.map(p => {
+          const presOverview = stripMediaMarkdown(p.overview);
+          let entry = `- ${p.event || p.type}, ${p.location}, ${p.year}`;
+          if (presOverview) {
+            entry += `\n  ${presOverview.split('\n').join('\n  ')}`;
+          }
+          return entry;
+        }).join('\n');
+    }
+
+    return `${titleLine}
+**Year / 연도:** ${w.year}
+**URL:** ${SITE_URL}/works/${w.slug}/
+
+${w.description}
+${krDesc ? `${krDesc}\n` : ''}
+${overviewText}${presentationsText}`;
+  }).join('\n\n---\n\n');
+
+  const llmsFullTxt = `# Hojun Song / 송호준
+> Artist and engineer working at the intersection of art, technology, and social commentary.
+> 예술과 기술, 사회적 코멘터리의 교차점에서 작업하는 아티스트이자 엔지니어.
+
+Website: ${SITE_URL}
+Machine-readable data: ${SITE_URL}/data/works.json
+License: ${LICENSE.name} (${LICENSE.url})
+
+---
+
+## Biography (English)
+
+${bioEn}
+
+---
+
+## 약력 (한국어)
+
+${bioKr}
+
+---
+
+## Works / 작품
+
+${worksFullContent}
+
+---
+
+## Contact / 연락처
+- Website: ${SITE_URL}
+- Instagram: https://www.instagram.com/hojunsong_studio
+- YouTube: https://www.youtube.com/@hojunsong
+
+## License / 라이선스
+All content is licensed under ${LICENSE.name} (${LICENSE.url}).
+Content can be freely shared and adapted with attribution to Hojun Song (송호준).
+이 콘텐츠는 크리에이티브 커먼즈 저작자표시 4.0 국제 라이선스에 따라 이용할 수 있습니다. 송호준을 출처로 표시하면 자유롭게 공유 및 변형할 수 있습니다.
+`;
+  fs.writeFileSync(path.join(publicDir, 'llms-full.txt'), llmsFullTxt);
 
   // Generate sitemap.xml
   console.log('Generating sitemap.xml...');
