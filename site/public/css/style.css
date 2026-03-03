@@ -255,3 +255,14 @@ blockquote {
   margin: 2rem 0 3rem 0;
   font-size: 1.2rem;
 }
+
+/* Language Toggle */
+[lang="ko"] { display: none; }
+html.ko [lang="ko"] { display: inline; }
+html.ko [lang="en"] { display: none; }
+
+.lang-toggle {
+  cursor: pointer;
+  text-decoration: underline;
+  text-decoration-color: blue;
+}

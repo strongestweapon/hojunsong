@@ -22,47 +22,47 @@ His work has been presented at the Venice Architecture Biennale, Poznan Mediatio
 
 ## Works / 작품
 - [Open Source Satellite Initiative / 오픈소스 인공위성 프로젝트 (OSSI)](https://hojunsong.com/works/open-source-satellite-initiative/): The OSSI-1 satellite was launched by Hojun Song in April 2013 at Baikonur, Kazakhstan—the first satellite ever built and launched by an individual.
-  2013년 카자흐스탄 바이코누르에서 송호준이 발사한 OSSI-1 인공위성. 개인이 인공위성을 만들어 발사한 세계 최초의 사례다. (2008–2018)
+  송호준 작가는 2013년 카자흐스탄 바이코누르에서 OSSI-1 인공위성을 발사하였다. 이 인공위성은 역사상 개인이 만들어 쏘아올린 세계 최초의 인공위성으로 주목받았으나, 작가는 이 상황을 과학에서의 영웅주의와 국가주의, 오늘날 아마추어의 역할, 민감한 기술의 공유 등을 풍자적으로 이야기하는 기회로 삼으려 하였다. (2008–2018)
 - [On Off Everything / On Off Everything](https://hojunsong.com/works/on-off-everything/): Audiences bring their own electronic devices to this project. Each device has its own timing, lights, and sounds when switching on and off.
-  관객이 직접 전자 기기를 가져오는 프로젝트. 각 기기는 켜고 끌 때 고유한 타이밍, 빛, 소리를 가진다. (2018–2019)
+  On Off Everything은 관객들이 가져온 전자장치들을 반복적으로 켜고 끄는 프로젝트이다. 전자장치는 다양한 부품들로 이뤄진 하나의 시스템이며 각각의 장치들마다 켜고 꺼지는 타이밍, 불빛과 소리들이 모두 다르다. 모든 장치들이 메인 전원에 연결되고 그 메인 전원을 주기적으로 켜고 끄기를 반복하면 연결된 장치들의 오디오 비주얼 조합은 예측 불가능한 새로운 형태가 된다. (2018–2019)
 - [Time To Leave The Land / 이제는 육지를 떠날 때](https://hojunsong.com/works/time-to-leave-the-land/): This project uses a sailboat as a floating, isolated studio for near-future storytelling. It explores off-grid ocean living in an era of pandemics and virtual reality.
-  요트를 떠다니는 고립된 스튜디오로 삼아 근미래 이야기를 쓰는 프로젝트. 팬데믹과 가상현실 시대의 오프그리드 바다 생활을 탐구한다. (2020–2022)
-- [Future School Food Foraging - Seaweed / 미래학교 식량 채집 – 해조류 편](https://hojunsong.com/works/future-school-food-foraging-seaweed/): Seaweeds like Miyeok and Dasima are now considered among the most invasive species globally, yet they are traditional postpartum food in Korea.
-  미역과 다시마는 전 세계에서 가장 침략적인 종으로 여겨지지만, 한국에서는 전통적인 산후 음식이다. 해초 문화를 기후변화, 디아스포라와 연결하는 프로젝트. (2021)
+  '이제는 육지를 떠날 때' 프로젝트는 부유하며 고립된 상황에서 근미래 스토리텔링 작업을 할 수 있는 스튜디오를 만들기 위해 세일 요트를 이용한다. 가상현실과 전염병 시대의 바다에서의 오프그리드한 삶을 주된 주제로 삼고, 과학자, 예술가, 음악가, 저술가 등과 먼 바다를 항해하며 공상과학 진(Zine)을 집필한다. (2020–2022)
+- [Future School Food Foraging - Seaweed / 미래학교 식량채집 - 해조류 편](https://hojunsong.com/works/future-school-food-foraging-seaweed/): Seaweeds like Miyeok and Dasima are now considered among the most invasive species globally, yet they are traditional postpartum food in Korea.
+  미역과 다시마와 같은 해조류의 포자들은 바다의 흐름에 맡겨져 떠내려 가다 정착할 뿐이다. 세계적으로 가장 침략적인 외래종으로 분류되어 있으나 한국에선 생명의 탄생과 함께하는 음식이기도 하다. 보잘것없다고 생각되는 해조류를 통해 미래식량, 기후위기, 탈식민, 그리고 디아스포라와 같은 국제사회의 여러 이슈를 다룰 수 있다. (2021)
 - [Don't Compress Me / 압축하지마](https://hojunsong.com/works/dont-compress-me/): Participants try to create movements for 10 seconds that resist video compression.
-  참가자들이 10초간 움직여 비디오 압축 알고리즘에 저항하는 글로벌 대회. "인공지능의 예측에서 벗어나 살 수 있는 인간"을 찾는 프로젝트. (2009–)
+  '압축하지마'는 동영상 압축 알고리즘에 나의 존재가 쉽게 압축당하지 않도록 10초 동안 최선을 다해 움직임을 만들어 내는 작업이다. 가장 압축이 덜 된 사람이 우승하는 방식이다. 무작위로 움직여 H.264와 같은 압축 코덱의 효율성을 방해해야 하지만 이를 의식하는 순간 랜덤이 아니게 되는 아이러니에 빠져든다. 참가자들은 작업을 통해 인공지능의 예측 범위에서 벗어날 수 있는 몸짓과 생각을 고민한다. (2009–)
 - [The Great Explosion / 위대한 폭발](https://hojunsong.com/works/the-great-explosion/): This project collects participants' voices as material for an explosion simulation.
-  참가자들의 목소리를 모아 폭발 시뮬레이션의 재료로 사용하는 프로젝트. (2020)
+  위대한 폭발 프로젝트는 사람들의 목소리를 재료로 사용한 폭발 시뮬레이션이다. 폭발에서 날아가는 수많은 입자들의 에너지와 경로를 사람들의 목소리에 매핑하여 응축시키고 폭발시킨다. 시뮬레이션된 재난과 코로나19와 같은 실재하는 재난 상황을 생각해본다. (2020)
 - [ANTI-A.I. Vocalization Techniques / 반인공지능 발성법](https://hojunsong.com/works/anti-ai-vocalization-techniques/): How can we fool A.I. speech recognition while remaining understandable to humans—without changing what we say?
-  AI 음성인식을 속이면서도 다른 인간에게는 이해 가능한 말하기 방식을 탐구하는 대회. (2018)
+  사람은 알아들을 수 있는데 인공지능 기반의 음성인식 시스템을 속일 수 있는 발성법에 대하여 연구하는 작업이다. 억양을 바꾸거나 음절 사이사이에 화이트 노이즈와 같은 소리를 집어넣어 발성한 후 구글의 음성인식 시스템을 속일 수 있었다. 인공지능은 다양성을 파괴한다. 인공지능이 만드는 편견을 거부하자. (2018)
 - [gold & silver / gold & silver (즉흥 듀오)](https://hojunsong.com/works/gold-and-silver/): gold & silver is a two-member experimental improvisation band: Hojun Song and Sangback Choe.
-  송호준과 최상백의 실험적 즉흥 연주 듀오. 마이너스 입장료를 부과해 자유롭게 실패할 수 있는 환경을 만든다. (2017–)
-- [GODLED Electronics / GODLED 전자](https://hojunsong.com/works/godled-electronics/): GODLED Electronics is Hojun Song's company for mass-producing God-shaped LED electronics.
-  신 모양의 LED 전자제품을 대량생산하는 송호준의 회사. 신과 전자부품의 결합. (2010–2016)
-- [For Humanity - Einstein Merong / 인류를 위하여 – 아인슈타인 메롱](https://hojunsong.com/works/for-humanity-einstein-merong/): Even after the Trinity test revealed the bomb's power, and even after Germany's defeat, the Manhattan Project continued. The question remains: couldn't these geniuses have stopped it?
-  트리니티 핵실험 이후에도, 독일 항복 이후에도 맨해튼 프로젝트는 계속됐다. 천재들은 그것을 멈출 수 없었을까? (2016)
-- [Divided We Stand, United We Fall / 나뉘면 서고, 합치면 무너진다](https://hojunsong.com/works/divided-we-stand-united-we-fall/): Divided We Stand, United We Fall. The deconstruction of a hero. A manifesto for diversity. ANTI-A.I.
-  영웅의 해체. 다양성을 위한 선언. 반인공지능. (2015)
+  gold & silver는 송호준과 최상백으로 구성된 즉흥 실험 음악 밴드이다. 무엇을 왜 어떻게 실험할지 관객들과 적극적으로 소통하는 친절한 실험 음악 공연 밴드이다. 실패에 대해 죄책감을 느끼지 않고 실험하기 위해 관객들에게 돈을 주는 공연을 해오고 있다. (2017–)
+- [GODLED Electronics / GODLED 일렉트로닉스](https://hojunsong.com/works/godled-electronics/): GODLED Electronics is Hojun Song's company for mass-producing God-shaped LED electronics.
+  GODLED 일렉트로닉스는 송호준 작가가 세운 신(神) 모양의 LED를 대량생산하는 회사이다. 현재 제품은 부처(LG-BUD-6036), 예수(LW-JES-7620), 마리아(LB-MAR-4125), 그리고 가네시(LR-GAN-6036)이다. (2010–2016)
+- [For Humanity - Einstein Merong / 인류를 위하여 - 아인슈타인 메롱](https://hojunsong.com/works/for-humanity-einstein-merong/): Even after the Trinity test revealed the bomb's power, and even after Germany's defeat, the Manhattan Project continued. The question remains: couldn't these geniuses have stopped it?
+  트리니티 실험을 통해 핵폭탄의 파괴력을 확인했고 독일이 항복했음에도 불구하고 맨해튼 프로젝트는 멈추지 않았고 일본에 2개의 핵폭탄을 투하하였다. 정말 그 수많은 천재들 중 한 명이라도 폭탄을 투하하기 전 프로젝트를 중단할 수 없었을까? (2016)
+- [Divided We Stand, United We Fall / 흩어지면 살고 뭉치면 죽는다](https://hojunsong.com/works/divided-we-stand-united-we-fall/): Divided We Stand, United We Fall. The deconstruction of a hero. A manifesto for diversity. ANTI-A.I.
+  흩어지면 살고 뭉치면 죽는다. 영웅의 해체. 다양성 선언. 반 인공지능. (2015)
 - [Poomba / 품바](https://hojunsong.com/works/poomba/): Winner of the Ilmac Art Prize 2015, Hojun Song's solo exhibition featured no physical artworks. The poomba was a Korean figure: satirist, clown, beggar, and street monk.
-  2015년 일맥 아트프라이즈 수상전. 물리적 작품이 없는 전시. 품바는 한국의 풍자가, 광대, 거지, 거리의 승려였다. (2015)
-- [LED That Blinks Once Every 100 Years / 100년에 한 번 깜빡이는 LED](https://hojunsong.com/works/led-that-blinks-once-every-100-years/): A small, cheap 5mm LED that blinks once every 100 years. The project was rejected after Hojun Song refused to make the LED blink every year instead.
-  100년에 한 번 깜빡이는 5mm LED. 1년에 한 번으로 바꾸라는 심사위원단의 요구를 거부한 끝에 탄생한 프로젝트. 2026년 1월 14일 첫 빛을 냈고, 다음 깜빡임은 2126년. (2010–2015, 2025)
+  2015년 일맥 아트 프라이즈 수상자로 선정된 송호준 작가의 개인전. 하지만 어떠한 물리적인 작업도 선보이지 않았다. '품바'는 한국 고려시대 말에 등장한 거지이기도 하지만 광대이며 존경받는 거리의 승려인 한 풍자 시인이다. 스스로를 낮추면서도 영웅들을 해체하는 영웅이 품바였다. (2015)
+- [LED That Blinks Once Every 100 Years / 100년에 한번 깜박이는 LED](https://hojunsong.com/works/led-that-blinks-once-every-100-years/): A small, cheap 5mm LED that blinks once every 100 years. The project was rejected after Hojun Song refused to make the LED blink every year instead.
+  작고 값싼 5mm 직경의 LED가 100년에 한 번 깜박인다. 100년간 동작할 전원으로 핵전지가 사용되고 열 시뮬레이션을 통해 패시브 냉각 시스템이 디자인되었다. 100년에 한 번 깜박이는 LED는 1년마다 한 번씩 켜달라는 공공조형물 심사위원단의 제안을 거절하여 최종 탈락하였다. (2010–2015, 2025)
 - [dssb / dssb (데스메탈 듀오)](https://hojunsong.com/works/dssb/): dssb is a death metal-inspired duo: Hojun Song and Jinhwa Jeong. The band formed in response to the Sewol ferry disaster in 2014.
-  송호준과 정진화의 데스메탈 듀오. 2014년 세월호 참사에 대한 응답으로 결성. (2014)
-- [Hello 90 / Hello 90 (직각인사)](https://hojunsong.com/works/hello-90/): In Korea, bowing expresses greeting or gratitude. But when combined with extreme machismo, it becomes a fear response. Hello 90 is an interactive video installation.
-  한국에서 인사는 감사나 존경을 표현하지만, 극단적인 남성성과 결합하면 공포의 반응이 된다. 인터랙티브 영상 설치 작업. (2014)
-- ["Prove It: For Mankind" / 증명해봐: 인류를 위하여](https://hojunsong.com/works/prove-it-for-mankind/): Air bending versus the Large Hadron Collider. Why do few care about air bending while nations spend billions on the LHC at CERN?
-  공기 구부리기 대 거대강입자충돌기(LHC). 왜 공기 구부리기에는 관심이 없으면서 CERN의 LHC에는 수십억을 쓰는가? (2014)
-- [ANTI-Climax / ANTI-Climax](https://hojunsong.com/works/anti-climax/): A performance at the opening of MMCA Seoul. The show explored deconstructing the authority of previous artworks to create new ones.
-  국립현대미술관 서울관 개관 퍼포먼스. 기존 작품의 권위를 해체하여 새로운 작품을 만드는 과정을 탐구. (2013)
-- [Apple / 사과 (Apple)](https://hojunsong.com/works/apple/): The apple ripens when it receives attention. When someone photographs it with a flash, it slowly turns from green to red and emits eerie sounds.
-  관심을 받으면 익는 사과. 누군가 플래시를 터뜨리면 초록에서 빨강으로 변하며 기이한 소리를 낸다. (2010–2018)
+  dssb는 송호준, 정진화로 구성된 데스메탈 같은 2인 밴드이다. 밴드는 2014년 세월호 사고와 무기력했던 한국 사회에 영향을 받아 시작되었다. (2014)
+- [Hello 90 / 안녕하십니까 90](https://hojunsong.com/works/hello-90/): In Korea, bowing expresses greeting or gratitude. But when combined with extreme machismo, it becomes a fear response. Hello 90 is an interactive video installation.
+  인사를 하거나 고마움을 표시할 때 한국에서는 고개를 숙인다. 하지만 이 고개 숙임은 한국의 극단적인 마초 문화와 연결되면 강자에 대한 두려움의 반응으로 해석할 수 있다. '안녕하십니까 90'은 공간에 설치된 센서가 인식되면 마주하고 있는 영상에서 큰 소리와 90도 안녕하십니까를 보여주는 인터랙티브 비디오 설치작업이다. (2014)
+- ["Prove It: For Mankind" / 인류를 위하여 증명하시오](https://hojunsong.com/works/prove-it-for-mankind/): Air bending versus the Large Hadron Collider. Why do few care about air bending while nations spend billions on the LHC at CERN?
+  장풍과 대형강입자충돌기. 수십조의 돈을 CERN의 LHC에 쓰면서 왜 아무도 장풍에 관심을 기울이지 않는가? 유사과학과 진짜 과학의 차이인가? 무엇이 세상을 더 좋게 만드는가에 대한 차이인가? (2014)
+- [ANTI-Climax / 용두사미 ANTI-Climax](https://hojunsong.com/works/anti-climax/): A performance at the opening of MMCA Seoul. The show explored deconstructing the authority of previous artworks to create new ones.
+  용두사미 ANTI-Climax는 서울 국립현대미술관의 개관과 함께 선보인 공연이다. 기존에 얻어진 자신의 권위를 해체할 때 새로운 창작의 기회가 마련된다라는 주제로 기획되었다. (2013)
+- [Apple / 사과](https://hojunsong.com/works/apple/): The apple ripens when it receives attention. When someone photographs it with a flash, it slowly turns from green to red and emits eerie sounds.
+  사람들의 관심을 받을수록 익어가는 사과. 관객들이 플래시를 이용해 사진을 찍으면 사과는 이상한 소리를 내며 점점 빨갛게 익어간다. 빛에 반응하는 400개의 사운드 프로세서로 만들어져 독립적이면서도 싱크가 맞는 상태를 보여준다. (2010–2018)
 - [Uranium Necklace / 우라늄 목걸이](https://hojunsong.com/works/uranium-necklace/): Uranium Necklace is for those contemplating suicide—a way to taste death before making a final decision.
-  자살을 고민하는 이들을 위한 우라늄 목걸이. 최종 결정 전에 죽음을 맛볼 수 있는 방사성 보석. (2010–2020)
-- [The Strongest Weapon In The World / 세상에서 가장 강한 무기](https://hojunsong.com/works/the-strongest-weapon-in-the-world/): A series of attempts to build an indestructible weapon that does NOT attack. When struck with a hammer, it says 'I love you.'
-  파괴되지 않지만 공격하지 않는 무기를 만드는 시도. 망치로 내리치면 "사랑해"라고 말한다. (2007–2010)
+  우라늄 목걸이는 자살하고 싶은 사람을 위한 작업이다. 최후의 결정을 내리기 전 죽음을 시음해 보자. 죽음을 시음하기 위해서는 좀 더 강한 물질이 필요하다. 마약 정도로는 충분하지 않다. (2010–2020)
+- [The Strongest Weapon In The World / 이 세상에서 가장 강력한 무기](https://hojunsong.com/works/the-strongest-weapon-in-the-world/): A series of attempts to build an indestructible weapon that does NOT attack. When struck with a hammer, it says 'I love you.'
+  이 세상에서 가장 강력한 무기 프로젝트는 상대방을 공격하지 않으면서 절대 파괴되지 않는 무기들을 만드는 시도들을 보여준다. 2010년 선보인 'I Love You' 무기는 두꺼운 SC45 강철로 만들어졌고 공사장 망치로 내려치게 되면 내려친 사람에게 사랑한다 말해준다. (2007–2010)
 - [Sync-O-Light / Sync-O-Light](https://hojunsong.com/works/sync-o-light/): Inspired by Steven Strogatz's book SYNC, this project creates artificial fireflies using 200 sound-reactive UV light modules that shift between synchronized and chaotic states.
-  Steven Strogatz의 책 SYNC에서 영감을 받아, 200개의 소리 반응 UV 조명 모듈로 동기화와 혼돈 사이를 오가는 인공 반딧불이를 만든 프로젝트. (2006–2017)
+  스티븐 스트로가츠의 책 『싱크』(2003)에 영감을 받아 만들어진 Sync-O-Light는 싱크와 카오스 상태를 반복하는 반딧불이들의 군집 반응을 표현하기 위해 서로 연결되지 않은 200여 개의 소형 프로세싱 시스템을 만들었다. 각 모듈은 소리에 반응하고 자외선 빛으로 표현한다. (2006–2017)
 
 ## Projects / 프로젝트
 

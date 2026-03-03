@@ -821,11 +821,15 @@ document.querySelectorAll('.video-player').forEach(p=>{
 }
 
 // Generate index HTML
-function generateIndexHtml(works) {
+function generateIndexHtml(works, koreanMap) {
   const worksList = works
-    .map(w => `    <div class="work">
-      <h2><a href="works/${w.slug}/">${escapeHtml(w.title)}, ${w.year}</a></h2>
-    </div>`)
+    .map(w => {
+      const kr = koreanMap[w.slug] || {};
+      const krTitle = kr.title || w.title;
+      return `    <div class="work">
+      <h2><a href="works/${w.slug}/"><span lang="en">${escapeHtml(w.title)}, ${w.year}</span><span lang="ko">${escapeHtml(krTitle)}, ${w.year}</span></a></h2>
+    </div>`;
+    })
     .join('\n');
 
   const indexDescription = 'Hojun Song is an artist working with technology, science, and social issues.';
@@ -861,16 +865,20 @@ function generateIndexHtml(works) {
 </head>
 <body>
 
-<h1>Hojun Song</h1>
+<h1><span lang="en">Hojun Song</span><span lang="ko">송호준</span></h1>
 
 <nav>
-  <a href="/">Works</a> | <a href="/projects/">Projects</a> | <a href="/about/">About</a>
+  <a href="/"><span lang="en">Works</span><span lang="ko">작품</span></a> | <a href="/projects/">Projects</a> | <a href="/about/"><span lang="en">About</span><span lang="ko">소개</span></a> | <span class="lang-toggle" onclick="toggleLang()"><span lang="en">한국어</span><span lang="ko">EN</span></span>
 </nav>
 
 <div id="workcontents">
 ${worksList}
 </div>
 
+<script>
+function toggleLang(){document.documentElement.classList.toggle('ko')}
+if(navigator.language.startsWith('ko'))document.documentElement.classList.add('ko');
+</script>
 </body>
 </html>
 `;
@@ -913,6 +921,9 @@ function build() {
   // Sort by order, then by title as fallback
   works.sort((a, b) => a.order - b.order || a.title.localeCompare(b.title));
   console.log(`Found ${works.length} works`);
+
+  // Korean metadata (titles + descriptions) - edit site/src/korean.json to modify
+  const koreanMap = JSON.parse(fs.readFileSync(path.join(srcDir, 'korean.json'), 'utf-8'));
 
   // Read projects from markdown
   console.log('Reading projects...');
@@ -957,7 +968,7 @@ function build() {
 
   // Generate index.html
   console.log('Generating index.html...');
-  fs.writeFileSync(path.join(publicDir, 'index.html'), generateIndexHtml(works));
+  fs.writeFileSync(path.join(publicDir, 'index.html'), generateIndexHtml(works, koreanMap));
 
   // Generate work pages and copy images
   works.forEach(work => {
@@ -1074,94 +1085,6 @@ Sitemap: ${SITE_URL}/sitemap.xml
       .replace(/^## 송호준.*\n/, '')  // remove header line with links
       .trim();
   }
-
-  // Korean metadata map from hojunsong_KR.md
-  const koreanMap = {
-    'open-source-satellite-initiative': {
-      title: '오픈소스 인공위성 프로젝트 (OSSI)',
-      description: '2013년 카자흐스탄 바이코누르에서 송호준이 발사한 OSSI-1 인공위성. 개인이 인공위성을 만들어 발사한 세계 최초의 사례다.',
-    },
-    'dont-compress-me': {
-      title: '압축하지마',
-      description: '참가자들이 10초간 움직여 비디오 압축 알고리즘에 저항하는 글로벌 대회. "인공지능의 예측에서 벗어나 살 수 있는 인간"을 찾는 프로젝트.',
-    },
-    'the-strongest-weapon-in-the-world': {
-      title: '세상에서 가장 강한 무기',
-      description: '파괴되지 않지만 공격하지 않는 무기를 만드는 시도. 망치로 내리치면 "사랑해"라고 말한다.',
-    },
-    'uranium-necklace': {
-      title: '우라늄 목걸이',
-      description: '자살을 고민하는 이들을 위한 우라늄 목걸이. 최종 결정 전에 죽음을 맛볼 수 있는 방사성 보석.',
-    },
-    'led-that-blinks-once-every-100-years': {
-      title: '100년에 한 번 깜빡이는 LED',
-      description: '100년에 한 번 깜빡이는 5mm LED. 1년에 한 번으로 바꾸라는 심사위원단의 요구를 거부한 끝에 탄생한 프로젝트. 2026년 1월 14일 첫 빛을 냈고, 다음 깜빡임은 2126년.',
-    },
-    'anti-ai-vocalization-techniques': {
-      title: '반인공지능 발성법',
-      description: 'AI 음성인식을 속이면서도 다른 인간에게는 이해 가능한 말하기 방식을 탐구하는 대회.',
-    },
-    'dssb': {
-      title: 'dssb (데스메탈 듀오)',
-      description: '송호준과 정진화의 데스메탈 듀오. 2014년 세월호 참사에 대한 응답으로 결성.',
-    },
-    'gold-and-silver': {
-      title: 'gold & silver (즉흥 듀오)',
-      description: '송호준과 최상백의 실험적 즉흥 연주 듀오. 마이너스 입장료를 부과해 자유롭게 실패할 수 있는 환경을 만든다.',
-    },
-    'future-school-food-foraging-seaweed': {
-      title: '미래학교 식량 채집 – 해조류 편',
-      description: '미역과 다시마는 전 세계에서 가장 침략적인 종으로 여겨지지만, 한국에서는 전통적인 산후 음식이다. 해초 문화를 기후변화, 디아스포라와 연결하는 프로젝트.',
-    },
-    'time-to-leave-the-land': {
-      title: '이제는 육지를 떠날 때',
-      description: '요트를 떠다니는 고립된 스튜디오로 삼아 근미래 이야기를 쓰는 프로젝트. 팬데믹과 가상현실 시대의 오프그리드 바다 생활을 탐구한다.',
-    },
-    'the-great-explosion': {
-      title: '위대한 폭발',
-      description: '참가자들의 목소리를 모아 폭발 시뮬레이션의 재료로 사용하는 프로젝트.',
-    },
-    'on-off-everything': {
-      title: 'On Off Everything',
-      description: '관객이 직접 전자 기기를 가져오는 프로젝트. 각 기기는 켜고 끌 때 고유한 타이밍, 빛, 소리를 가진다.',
-    },
-    'godled-electronics': {
-      title: 'GODLED 전자',
-      description: '신 모양의 LED 전자제품을 대량생산하는 송호준의 회사. 신과 전자부품의 결합.',
-    },
-    'for-humanity-einstein-merong': {
-      title: '인류를 위하여 – 아인슈타인 메롱',
-      description: '트리니티 핵실험 이후에도, 독일 항복 이후에도 맨해튼 프로젝트는 계속됐다. 천재들은 그것을 멈출 수 없었을까?',
-    },
-    'divided-we-stand-united-we-fall': {
-      title: '나뉘면 서고, 합치면 무너진다',
-      description: '영웅의 해체. 다양성을 위한 선언. 반인공지능.',
-    },
-    'poomba': {
-      title: '품바',
-      description: '2015년 일맥 아트프라이즈 수상전. 물리적 작품이 없는 전시. 품바는 한국의 풍자가, 광대, 거지, 거리의 승려였다.',
-    },
-    'hello-90': {
-      title: 'Hello 90 (직각인사)',
-      description: '한국에서 인사는 감사나 존경을 표현하지만, 극단적인 남성성과 결합하면 공포의 반응이 된다. 인터랙티브 영상 설치 작업.',
-    },
-    'prove-it-for-mankind': {
-      title: '증명해봐: 인류를 위하여',
-      description: '공기 구부리기 대 거대강입자충돌기(LHC). 왜 공기 구부리기에는 관심이 없으면서 CERN의 LHC에는 수십억을 쓰는가?',
-    },
-    'anti-climax': {
-      title: 'ANTI-Climax',
-      description: '국립현대미술관 서울관 개관 퍼포먼스. 기존 작품의 권위를 해체하여 새로운 작품을 만드는 과정을 탐구.',
-    },
-    'apple': {
-      title: '사과 (Apple)',
-      description: '관심을 받으면 익는 사과. 누군가 플래시를 터뜨리면 초록에서 빨강으로 변하며 기이한 소리를 낸다.',
-    },
-    'sync-o-light': {
-      title: 'Sync-O-Light',
-      description: 'Steven Strogatz의 책 SYNC에서 영감을 받아, 200개의 소리 반응 UV 조명 모듈로 동기화와 혼돈 사이를 오가는 인공 반딧불이를 만든 프로젝트.',
-    },
-  };
 
   // Generate llms.txt
   console.log('Generating llms.txt...');
