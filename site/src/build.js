@@ -1,7 +1,21 @@
 const fs = require('fs');
 const path = require('path');
+const crypto = require('crypto');
 
-const BUILD_VERSION = Date.now();
+// CSS 내용 해시를 캐시버스팅 버전으로 사용 → style.css가 실제로 바뀔 때만 버전 변경
+// (Date.now()를 쓰면 매 빌드마다 모든 HTML이 바뀌어 s3 sync가 전부 재업로드함)
+function cssVersion() {
+  const cssPath = path.join(__dirname, '..', 'public', 'css', 'style.css');
+  if (!fs.existsSync(cssPath)) return '1';
+  return crypto.createHash('md5').update(fs.readFileSync(cssPath)).digest('hex').slice(0, 12);
+}
+const BUILD_VERSION = cssVersion();
+
+// 내용이 바뀐 경우에만 파일을 쓴다 → mtime 보존, s3 sync 불필요 업로드 방지
+function writeIfChanged(filePath, content) {
+  if (fs.existsSync(filePath) && fs.readFileSync(filePath, 'utf8') === content) return;
+  fs.writeFileSync(filePath, content);
+}
 
 const SITE_URL = 'https://hojunsong.com';
 
@@ -957,7 +971,7 @@ function build() {
     license: LICENSE,
     works: cleanWorks
   };
-  fs.writeFileSync(path.join(dataDir, 'works.json'), JSON.stringify(worksJsonData, null, 2));
+  writeIfChanged(path.join(dataDir, 'works.json'), JSON.stringify(worksJsonData, null, 2));
 
   // Generate projects.json
   console.log('Generating projects.json...');
@@ -971,11 +985,11 @@ function build() {
     license: LICENSE,
     projects: cleanProjects
   };
-  fs.writeFileSync(path.join(dataDir, 'projects.json'), JSON.stringify(projectsJsonData, null, 2));
+  writeIfChanged(path.join(dataDir, 'projects.json'), JSON.stringify(projectsJsonData, null, 2));
 
   // Generate index.html
   console.log('Generating index.html...');
-  fs.writeFileSync(path.join(publicDir, 'index.html'), generateIndexHtml(works, koreanMap));
+  writeIfChanged(path.join(publicDir, 'index.html'), generateIndexHtml(works, koreanMap));
 
   // Generate work pages and copy images
   works.forEach(work => {
@@ -983,7 +997,7 @@ function build() {
     if (!fs.existsSync(workDir)) fs.mkdirSync(workDir, { recursive: true });
 
     console.log(`Generating works/${work.slug}/index.html...`);
-    fs.writeFileSync(path.join(workDir, 'index.html'), generateWorkHtml(work, works));
+    writeIfChanged(path.join(workDir, 'index.html'), generateWorkHtml(work, works));
 
     // Copy work images from images (use _folderName for source path)
     const srcImagesDir = path.join(contentDir, 'works', work._folderName, 'images');
@@ -999,7 +1013,7 @@ function build() {
       if (!fs.existsSync(presDir)) fs.mkdirSync(presDir, { recursive: true });
 
       console.log(`Generating works/${work.slug}/${presentation.slug}/index.html...`);
-      fs.writeFileSync(path.join(presDir, 'index.html'), generatePresentationHtml(work, presentation));
+      writeIfChanged(path.join(presDir, 'index.html'), generatePresentationHtml(work, presentation));
 
       // Copy presentation images from images folder
       const srcPresImagesDir = path.join(contentDir, 'works', work._folderName, presentation._folderName, 'images');
@@ -1013,7 +1027,7 @@ function build() {
 
   // Generate projects index
   console.log('Generating projects/index.html...');
-  fs.writeFileSync(path.join(projectsOutputDir, 'index.html'), generateProjectsIndexHtml(projects));
+  writeIfChanged(path.join(projectsOutputDir, 'index.html'), generateProjectsIndexHtml(projects));
 
   // Generate project pages and copy images
   projects.forEach(project => {
@@ -1021,7 +1035,7 @@ function build() {
     if (!fs.existsSync(projectDir)) fs.mkdirSync(projectDir, { recursive: true });
 
     console.log(`Generating projects/${project.slug}/index.html...`);
-    fs.writeFileSync(path.join(projectDir, 'index.html'), generateProjectHtml(project));
+    writeIfChanged(path.join(projectDir, 'index.html'), generateProjectHtml(project));
 
     // Copy project images from images
     const srcImagesDir = path.join(contentDir, 'projects', project._folderName, 'images');
@@ -1035,10 +1049,10 @@ function build() {
   // Generate about page
   console.log('Generating about/index.html...');
   if (about) {
-    fs.writeFileSync(path.join(aboutOutputDir, 'index.html'), generateAboutHtml(about));
+    writeIfChanged(path.join(aboutOutputDir, 'index.html'), generateAboutHtml(about));
   } else {
     // Create default about page if no about.md exists
-    fs.writeFileSync(path.join(aboutOutputDir, 'index.html'), generateAboutHtml({ title: 'About', content: '' }));
+    writeIfChanged(path.join(aboutOutputDir, 'index.html'), generateAboutHtml({ title: 'About', content: '' }));
   }
 
   // Copy about images
@@ -1056,7 +1070,7 @@ Allow: /
 
 Sitemap: ${SITE_URL}/sitemap.xml
 `;
-  fs.writeFileSync(path.join(publicDir, 'robots.txt'), robotsTxt);
+  writeIfChanged(path.join(publicDir, 'robots.txt'), robotsTxt);
 
   // Helper: strip image/video markdown, keep only text
   function stripMediaMarkdown(text) {
@@ -1137,7 +1151,7 @@ All content is licensed under ${LICENSE.name} (${LICENSE.url}).
 - Instagram: https://www.instagram.com/hojunsong_studio
 - YouTube: https://www.youtube.com/@hojunsong
 `;
-  fs.writeFileSync(path.join(publicDir, 'llms.txt'), llmsTxt);
+  writeIfChanged(path.join(publicDir, 'llms.txt'), llmsTxt);
 
   // Generate llms-full.txt (bilingual EN/KR, full content)
   console.log('Generating llms-full.txt...');
@@ -1210,7 +1224,7 @@ All content is licensed under ${LICENSE.name} (${LICENSE.url}).
 Content can be freely shared and adapted with attribution to Hojun Song (송호준).
 이 콘텐츠는 크리에이티브 커먼즈 저작자표시 4.0 국제 라이선스에 따라 이용할 수 있습니다. 송호준을 출처로 표시하면 자유롭게 공유 및 변형할 수 있습니다.
 `;
-  fs.writeFileSync(path.join(publicDir, 'llms-full.txt'), llmsFullTxt);
+  writeIfChanged(path.join(publicDir, 'llms-full.txt'), llmsFullTxt);
 
   // Generate sitemap.xml
   console.log('Generating sitemap.xml...');
@@ -1241,7 +1255,7 @@ ${sitemapUrls.map(url => `  <url>
   </url>`).join('\n')}
 </urlset>`;
 
-  fs.writeFileSync(path.join(publicDir, 'sitemap.xml'), sitemapXml);
+  writeIfChanged(path.join(publicDir, 'sitemap.xml'), sitemapXml);
 
   console.log('Build complete!');
 }
