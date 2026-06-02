@@ -514,7 +514,7 @@ Twelve years later in 2026, [the first version](/works/led-that-blinks-once-ever
 **Presentations / 전시 이력:**
 - Public Installation, Naju, 2014
 - Galaxy Corporation Collection, Seoul, 2025
-  > The LED blinks only once every 100 years. The first light was emitted at 8:00 PM on January 14, 2026. The next blink will occur at the same time on **January 14, 2126**.
+  > The LED blinks once every 100 years. The first light was emitted at 8:00 PM on January 14, 2026. The next blink will occur at the same time on **January 14, 2126**.
    The average data retention period of semiconductor electronics is merely 20 years. All our digital records could be lost in an instant.
   The most powerful thing in the world is a record that endures the longest. [The OSSI satellite](/works/open-source-satellite-initiative/) project and [The Strongest Weapon in the World](/works/the-strongest-weapon-in-the-world/) emerged from this belief.
 
