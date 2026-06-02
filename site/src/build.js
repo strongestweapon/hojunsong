@@ -89,11 +89,18 @@ function copyDir(src, dest) {
 
   const entries = fs.readdirSync(src, { withFileTypes: true });
   for (const entry of entries) {
+    if (entry.name === '.DS_Store') continue; // 잡파일 제외
     const srcPath = path.join(src, entry.name);
     const destPath = path.join(dest, entry.name);
     if (entry.isDirectory()) {
       copyDir(srcPath, destPath);
     } else {
+      // 이미 같은 파일이면(크기 동일 + dest가 src보다 최신) 건너뜀 → mtime 보존, s3 sync 불필요 업로드 방지
+      if (fs.existsSync(destPath)) {
+        const s = fs.statSync(srcPath);
+        const d = fs.statSync(destPath);
+        if (s.size === d.size && d.mtimeMs >= s.mtimeMs) continue;
+      }
       fs.copyFileSync(srcPath, destPath);
     }
   }
